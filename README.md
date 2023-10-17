@@ -91,6 +91,8 @@ The following TIPLOCs are removed from the dataset as a result of manual cleansi
 STANOX code is removed from rows with STANOX
 46245,87581
 
+The Railmap data contains a large number of records that are not TIPLOCs, but are level crossing and junction locations - these can be distinguished by being 9 characters long starting 'ELOC' e.g. ELOC02161 
+
 
 7)	OpenRailData:
 The following TIPLOCs are removed from the dataset as a result of manual cleansing 
