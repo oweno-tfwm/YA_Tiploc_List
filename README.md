@@ -13,37 +13,37 @@ What is different about this one ?
 The data has been tagged and is traceable through the cleansing process, so for error correction and licencing it is easier to attribute the data.
 (although there is some merging of multiple fields from multiple sources)
 
-================================================================================================================================================
+====================================================================================================================================
 
-Data source:	Url:	                               Licence:	                                                                            Rows
-------------   -----                                --------------------                                                                -----
-NAPTAN 	      https://beta-naptan.dft.gov.uk/      OGL3 https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/      2685
+Rows:	Data source:	Url:	                            Licence:
+------	------------   -----                                --------------------                                                          
+2685	NAPTAN 	      https://beta-naptan.dft.gov.uk/      OGL3 https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
 
-ATOC	        https://data.atoc.org/how-to        Creative Commons England and Wales Public Licence	                                    495
+495	ATOC	      https://data.atoc.org/how-to        Creative Commons England and Wales Public Licence
 
-TPS	          https://publicdatafeeds.networkrail.co.uk/ntrod/SupportingFileAuthenticate?type=TPS                                        15
+15	TPS	      https://publicdatafeeds.networkrail.co.uk/ntrod/SupportingFileAuthenticate?type=TPS
                                                   OGL3  https://www.networkrail.co.uk/who-we-are/transparency-and-ethics/transparency/open-data-feeds/network-rail-infrastructure-limited-data-feeds-licence
 
-BPLAN	        https://wiki.openraildata.com/index.php?title=BPLAN_Geography_Data                                                        695
-              https://wiki.openraildata.com/index.php?title=Network_Rail_API_Platform
+695	BPLAN	      https://wiki.openraildata.com/index.php?title=BPLAN_Geography_Data
+	              https://wiki.openraildata.com/index.php?title=Network_Rail_API_Platform
                                                   OGL3 https://www.networkrail.co.uk/who-we-are/transparency-and-ethics/transparency/open-data-feeds/network-rail-infrastructure-limited-data-feeds-licence
 
-CORPUS	      https://publicdatafeeds.networkrail.co.uk/ntrod/SupportingFileAuthenticate?type=CORPUS                                    208
-              https://wiki.openraildata.com/index.php?title=Reference_Data
+208	CORPUS	      https://publicdatafeeds.networkrail.co.uk/ntrod/SupportingFileAuthenticate?type=CORPUS
+              	      https://wiki.openraildata.com/index.php?title=Reference_Data
                                                   OGL3 https://www.networkrail.co.uk/who-we-are/transparency-and-ethics/transparency/open-data-feeds/network-rail-infrastructure-limited-data-feeds-licence
 
-woodpecker	 https://github.com/anisotropi4/woodpecker  Apache 2.0  https://github.com/anisotropi4/woodpecker/blob/main/LICENSE         5993
+5993	woodpecker 	https://github.com/anisotropi4/woodpecker  Apache 2.0  https://github.com/anisotropi4/woodpecker/blob/main/LICENSE
 
-railmap	     https://railmap.azurewebsites.net/Downloads    Creative Commons 4.0  http://creativecommons.org/licenses/by-sa/4.0/        4074
+4074	railmap	     	https://railmap.azurewebsites.net/Downloads    Creative Commons 4.0  http://creativecommons.org/licenses/by-sa/4.0/
 
-openRailData	https://wiki.openraildata.com/index.php/Identifying_Locations                                                             1075 
-              https://wiki.openraildata.com/index.php?title=File:TIPLOC_Eastings_and_Northings.xlsx.gz
+1075	openRailData	https://wiki.openraildata.com/index.php/Identifying_Locations
+              		https://wiki.openraildata.com/index.php?title=File:TIPLOC_Eastings_and_Northings.xlsx.gz
                                                             Creative Commons 4.0 https://creativecommons.org/licenses/by-sa/4.0/        
 
-UK2GTFS	      https://itsleeds.github.io/UK2GTFS/                                                                                        108
-              https://github.com/ITSLeeds/UK2GTFS-data    GPL3  https://www.r-project.org/Licenses/GPL-3
+108	UK2GTFS	      	https://itsleeds.github.io/UK2GTFS/
+              		https://github.com/ITSLeeds/UK2GTFS-data    GPL3  https://www.r-project.org/Licenses/GPL-3
 
-================================================================================================================================================
+==================================================================================================================================
 
 
 The outline of cleansing process is (some detail has been omitted for clarity) :-
