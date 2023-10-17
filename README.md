@@ -68,8 +68,8 @@ Hence we use the CRS code from the ATOC data, where there is only one CRS for wh
 We treat this as our definitive source of stations which have multiple TIPLOCs for a single CRS code.
 
 4)	TPS: Only a small number of rows in the public TPS data have any geometry. These are clipped to records on the GB mainland, which removes records floating somewhere in the North Sea, leaving 15 records remaining from this data set.
-
 For TIPLOC ‘ABTHA39’ alter Northing value from 766451 to 166451
+
 
 For all the remaining data sets a combination of manual cleansing and 3-way voting has been used.
 
@@ -90,6 +90,7 @@ The following TIPLOCs are removed from the dataset as a result of manual cleansi
 STANOX code is removed from rows with STANOX
 46245,87581
 
+
 7)	OpenRailData:
 The following TIPLOCs are removed from the dataset as a result of manual cleansing 
 GRTN,RBRTRPG,WROXHMR,GLNG26,CBOMDS,IVRNBLC,CHAT65,HITC672,IMNGLL7,KGMRUD1,ABRGS38,DRTW68,CRGNTPS,WLBCGBR,CARLNEC,HITC941,MRGMMID,NTHOPKJ,CRST423,WLWY182,LEED928,GRNGMRR,BLTCDRJ,BLTCWER,BESTGBR,BEST931,BESTRR,BESTHST,BEST918,SWNACFC,SWNAGE,SWNAHMC,SWNAHNH,SWNAMGF,SWNANDN,TESTSCR,HRGY419
@@ -100,8 +101,8 @@ These represent two clusters of TIPLOCs that had multiple identical values in th
 
 Row with TIPLOC ‘BEST344’ has the TIPLOC code removed.
 
-
 8)	For TIPLOCs present in all 3 data sets of Woodpecker, Railmap and OpenRailData, a 3 way vote takes place between then, with the two closest points being retained in the set, and the outlying point eliminated.
+
 
 9)	UK2GTFS: 
 TIPLOCS with long -3.94107, lat 58.25884 are removed
@@ -122,9 +123,10 @@ WANTMPL,AMNG488,THYMGBR,ALRSFRD
 The STANOX code is removed from the record.
 
 The remaining records are clipped to GB mainland (+ 1km buffer), and geography removed from records falling in the sea.
+
 12)	CORPUS
 These records do not contain any geography, so are purely used to add missing location codes.
-For rows where the STANOX code is 79801,87018 – the STANOX code is removed (resulting from manual cleansing)
+For rows where the STANOX code is 79801,87018 – the STANOX code is removed (arising from manual cleansing)
 
 Some records have a null TIPLOC, some records have a null STANOX. Some STANOX codes appear to be associated with more than one (nearby) TIPLOC location.
 
@@ -150,3 +152,12 @@ There appears to be a very small number of STANOX codes from multiple official s
 
 
 
+Licencing :-
+-------------
+We do not intend to add any additional licence restrictions to the use of this data - however the licence of the contributing sources must be respected.
+
+In terms of ability to commercially re-use this data, of the contributing data sources GPL3 appears to the best of our understanding to be the most restrictive, so we are publishing this data under GPL3 license terms.
+
+This dataset is partially comprised of public sector information licensed under the Open Government Licence v3.0.
+
+This is NOT an 'official' data set.
