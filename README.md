@@ -159,16 +159,15 @@ The main output file is in CSV format, (tiplocs-merged.csv)
 
 This file is a close approximation to a GTFS format stop location file, with some of the standard field names being used for slightly different purposes.
 
-"stop_code"					CRS code
-"stop_id"					TIPLOC code
-"stop_name"					Description / human friendly name
-"platform_code"				STANOX code
-"stop_url"					data source this record originated from (see list at top of this file)
-"easting"					GB national grid easting (EPSG:27700)
-"northing"					GB national grid northing (EPSG:27700)
-"stop_lon"					Longitude (WGS84)
-"stop_lat"					Latitude (WGS84)
-
+"stop_code"			CRS code
+"stop_id"			TIPLOC code
+"stop_name"			Description / human friendly name
+"platform_code"			STANOX code
+"stop_url"			data source this record originated from (see list at top of this file)
+"easting"			GB national grid easting (EPSG:27700)
+"northing"			GB national grid northing (EPSG:27700)
+"stop_lon"			Longitude (WGS84)
+"stop_lat"			Latitude (WGS84)
 
 
 CRS (co-ordinate referencing system)
