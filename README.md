@@ -17,36 +17,37 @@ The data has been tagged and is traceable through the cleansing process, so for 
 
 Rows:	Data source:	Url:	                            Licence:
 ------	------------   -----                                --------------------                                                          
-2685	NAPTAN 	      https://beta-naptan.dft.gov.uk/      OGL3 https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+2685	NAPTAN 	    https://beta-naptan.dft.gov.uk/    	OGL3 https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
 
-495	ATOC	      https://data.atoc.org/how-to        Creative Commons England and Wales Public Licence
+495		ATOC	    https://data.atoc.org/how-to        Creative Commons England and Wales Public Licence
 
-15	TPS	      https://publicdatafeeds.networkrail.co.uk/ntrod/SupportingFileAuthenticate?type=TPS
-                                                  OGL3  https://www.networkrail.co.uk/who-we-are/transparency-and-ethics/transparency/open-data-feeds/network-rail-infrastructure-limited-data-feeds-licence
+15		TPS	      	https://publicdatafeeds.networkrail.co.uk/ntrod/SupportingFileAuthenticate?type=TPS
+														OGL3  https://www.networkrail.co.uk/who-we-are/transparency-and-ethics/transparency/open-data-feeds/network-rail-infrastructure-limited-data-feeds-licence
 
-695	BPLAN	      https://wiki.openraildata.com/index.php?title=BPLAN_Geography_Data
-	              https://wiki.openraildata.com/index.php?title=Network_Rail_API_Platform
-                                                  OGL3 https://www.networkrail.co.uk/who-we-are/transparency-and-ethics/transparency/open-data-feeds/network-rail-infrastructure-limited-data-feeds-licence
+695		BPLAN	    https://wiki.openraildata.com/index.php?title=BPLAN_Geography_Data
+					https://wiki.openraildata.com/index.php?title=Network_Rail_API_Platform
+														OGL3 https://www.networkrail.co.uk/who-we-are/transparency-and-ethics/transparency/open-data-feeds/network-rail-infrastructure-limited-data-feeds-licence
 
-208	CORPUS	      https://publicdatafeeds.networkrail.co.uk/ntrod/SupportingFileAuthenticate?type=CORPUS
-              	      https://wiki.openraildata.com/index.php?title=Reference_Data
-                                                  OGL3 https://www.networkrail.co.uk/who-we-are/transparency-and-ethics/transparency/open-data-feeds/network-rail-infrastructure-limited-data-feeds-licence
+208		CORPUS	    https://publicdatafeeds.networkrail.co.uk/ntrod/SupportingFileAuthenticate?type=CORPUS
+              	    https://wiki.openraildata.com/index.php?title=Reference_Data
+														OGL3 https://www.networkrail.co.uk/who-we-are/transparency-and-ethics/transparency/open-data-feeds/network-rail-infrastructure-limited-data-feeds-licence
 
 5993	woodpecker 	https://github.com/anisotropi4/woodpecker  Apache 2.0  https://github.com/anisotropi4/woodpecker/blob/main/LICENSE
 
-4074	railmap	     	https://railmap.azurewebsites.net/Downloads    Creative Commons 4.0  http://creativecommons.org/licenses/by-sa/4.0/
+4074	railmap	    https://railmap.azurewebsites.net/Downloads    Creative Commons 4.0  http://creativecommons.org/licenses/by-sa/4.0/
 
-1075	openRailData	https://wiki.openraildata.com/index.php/Identifying_Locations
+1075	openRailData https://wiki.openraildata.com/index.php/Identifying_Locations
               		https://wiki.openraildata.com/index.php?title=File:TIPLOC_Eastings_and_Northings.xlsx.gz
-                                                            Creative Commons 4.0 https://creativecommons.org/licenses/by-sa/4.0/        
+                                                        Creative Commons 4.0 https://creativecommons.org/licenses/by-sa/4.0/        
 
-108	UK2GTFS	      	https://itsleeds.github.io/UK2GTFS/
-              		https://github.com/ITSLeeds/UK2GTFS-data    GPL3  https://www.r-project.org/Licenses/GPL-3
+108		UK2GTFS	    https://itsleeds.github.io/UK2GTFS/
+              		https://github.com/ITSLeeds/UK2GTFS-data   GPL3  https://www.r-project.org/Licenses/GPL-3
 
 ==================================================================================================================================
 
 
 The outline of cleansing process is (some detail has been omitted for clarity) :-
+
 1)	The process builds up a list of locations, adding new locations to the list at each step. If a location already exists in the list it is not added again 
 (TIPLOC code being treated as the primary key for this purpose)
 Where a tiploc is already present in the list, if a the list entry has a blank STANOX or CRS, and an entry from a subsequent dataset has a value for these fields – then the STANOX / CRS field values are added from the subsequent dataset.
@@ -124,6 +125,7 @@ The STANOX code is removed from the record.
 
 The remaining records are clipped to GB mainland (+ 1km buffer), and geography removed from records falling in the sea.
 
+
 12)	CORPUS
 These records do not contain any geography, so are purely used to add missing location codes.
 For rows where the STANOX code is 79801,87018 – the STANOX code is removed (arising from manual cleansing)
@@ -150,6 +152,34 @@ Finally:-
 If the circle size is >100km we flag this, and this is then used to manually spot outlying locations which are then manually added to the lists of excluded locations.
 There appears to be a very small number of STANOX codes from multiple official sources that are outliers – so the numbering scheme may not be applied to 100% of locations as expected.
 
+
+Output Files
+------------
+The main output file is in CSV format, (tiplocs-merged.csv)
+
+This file is a close approximation to a GTFS format stop location file, with some of the standard field names being used for slightly different purposes.
+
+"stop_code"					CRS code
+"stop_id"					TIPLOC code
+"stop_name"					Description / human friendly name
+"platform_code"				STANOX code
+"stop_url"					data source this record originated from (see list at top of this file)
+"easting"					GB national grid easting (EPSG:27700)
+"northing"					GB national grid northing (EPSG:27700)
+"stop_lon"					Longitude (WGS84)
+"stop_lat"					Latitude (WGS84)
+
+
+
+CRS (co-ordinate referencing system)
+-----------------------------------
+Geography is provided in both lat-long format (WGS84 / EPSG:4326) and also GB national grid (OSGB36 / EPSG:27700)
+
+a number of data points are on the island of Ireland where GB national grid is not a recommended projection system.
+https://www.gov.uk/guidance/uk-geospatial-data-standards-coordinate-reference-systems
+
+for locations on the island of Ireland it is recommended to re-project the data from WGS84 into a more appropriate projection system such as
+Irish National Grid TM75 (EPSG:29903) or preferably ITM (Irish Transverse Mercator EPSG:2157) 
 
 
 Licencing :-
