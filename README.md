@@ -32,11 +32,11 @@ Rows:	Data source:	Url:	                            Licence:
               	    https://wiki.openraildata.com/index.php?title=Reference_Data
 														OGL3 https://www.networkrail.co.uk/who-we-are/transparency-and-ethics/transparency/open-data-feeds/network-rail-infrastructure-limited-data-feeds-licence
 
-5993	woodpecker 	https://github.com/anisotropi4/woodpecker  Apache 2.0  https://github.com/anisotropi4/woodpecker/blob/main/LICENSE
+5994	woodpecker 	https://github.com/anisotropi4/woodpecker  Apache 2.0  https://github.com/anisotropi4/woodpecker/blob/main/LICENSE
 
 4074	railmap	    https://railmap.azurewebsites.net/Downloads    Creative Commons 4.0  http://creativecommons.org/licenses/by-sa/4.0/
 
-1075	openRailData https://wiki.openraildata.com/index.php/Identifying_Locations
+1074	openRailData https://wiki.openraildata.com/index.php/Identifying_Locations
               		https://wiki.openraildata.com/index.php?title=File:TIPLOC_Eastings_and_Northings.xlsx.gz
                                                         Creative Commons 4.0 https://creativecommons.org/licenses/by-sa/4.0/        
 
