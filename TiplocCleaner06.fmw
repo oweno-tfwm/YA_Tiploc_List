@@ -32,7 +32,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2021.2.5.0 (20220331 - Build 21816 - WIN64)"
-#!   LAST_SAVE_DATE="2023-10-18T23:09:11"
+#!   LAST_SAVE_DATE="2023-10-19T02:14:44"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -51,10 +51,10 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="4072.01 -6526.58"
+#!   VIEW_POSITION="9065.88 -2048.27"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
-#!   ZOOM_SCALE="66"
+#!   ZOOM_SCALE="57"
 #! >
 #! <DATASETS>
 #! </DATASETS>
@@ -496,7 +496,7 @@
 #!   BOUNDING_RECT="2055.1676104996345 -4873.6103472145842 8382.4367655441256 2486.4632535214223"
 #!   STICKY="true"
 #!   COLOUR="0.59215686274509804,0.8901960784313725,0.90980392156862744,1"
-#!   CONTENTS="925 971 225 324 331 194 977 192 329 979 193 973 985 323 165 259 197 214 986 987 974 226 306 328 228 972 314 322 231 976 237 195 330 196 325 975 978 216 258 996 988 992 230 261 262 224 227 994 969 327 326 995 316 257 982 928 991 221 260 970 233 929 980 213 166 990 927 256 263 "
+#!   CONTENTS="925 971 225 324 331 194 977 192 329 979 193 973 985 323 165 259 197 214 986 987 974 226 306 328 228 972 314 322 231 976 237 195 330 196 325 978 216 258 996 988 992 230 261 262 224 1023 1203 227 994 969 327 326 995 316 257 982 928 991 221 260 970 929 980 213 166 990 927 256 263 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -3347,8 +3347,8 @@
 #!   IDENTIFIER="193"
 #!   TYPE="FeatureWriter"
 #!   VERSION="0"
-#!   POSITION="8477.7005547833269 -5298.8477773666618"
-#!   BOUNDING_RECT="8477.7005547833269 -5298.8477773666618 430 71"
+#!   POSITION="9079.5462500079575 -5306.4236107007537"
+#!   BOUNDING_RECT="9079.5462500079575 -5306.4236107007537 430 71"
 #!   ORDER="500000000000621.5"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -3386,7 +3386,7 @@
 #!     <XFORM_PARM PARM_NAME="FEATURE_TYPE_LIST_ATTR" PARM_VALUE="_feature_types"/>
 #!     <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="CSV2"/>
 #!     <XFORM_PARM PARM_NAME="FORMAT_DIRECTIVES" PARM_VALUE="RUNTIME_MACROS,DATASET_GROUP&lt;comma&gt;&lt;comma&gt;EXTENSION&lt;comma&gt;csv&lt;comma&gt;EXISTING_FILE_HANDLING&lt;comma&gt;Yes&lt;comma&gt;FIELDS_GROUP&lt;comma&gt;&lt;comma&gt;DELIMITER&lt;comma&gt;&lt;lt&gt;comma&lt;gt&gt;&lt;comma&gt;WRITE_FIELD_NAMES&lt;comma&gt;firstrow&lt;comma&gt;ENCODING_GROUP&lt;comma&gt;&lt;comma&gt;ENCODING&lt;comma&gt;UTF-8&lt;comma&gt;WRITE_BOM_FOR_UNICODE&lt;comma&gt;Yes&lt;comma&gt;ADVANCED_GROUP&lt;comma&gt;FME_DISCLOSURE_OPEN&lt;comma&gt;QUALIFY_FIELD_NAMES&lt;comma&gt;yes&lt;comma&gt;QUALIFY_FIELD_VALUES&lt;comma&gt;yes&lt;comma&gt;UNQUALIFIED_FIELD_VALUE_HANDLING&lt;comma&gt;&lt;lt&gt;Unused&lt;gt&gt;&lt;comma&gt;TREAT_EMBEDDED_FIELD_QUALIFIERS_AS_UNSAFE&lt;comma&gt;Yes&lt;comma&gt;FIELD_QUALIFIER_CHARACTER&lt;comma&gt;&lt;lt&gt;quote&lt;gt&gt;&lt;comma&gt;FIELD_QUALIFIER_ESCAPE_CHARACTER&lt;comma&gt;&lt;lt&gt;quote&lt;gt&gt;&lt;comma&gt;ROW_TERMINATION&lt;comma&gt;System&lt;comma&gt;WRITE_SCHEMA_FILE&lt;comma&gt;NO&lt;comma&gt;EXISTING_SCHEMA_FILE_HANDLING&lt;comma&gt;&lt;lt&gt;Unused&lt;gt&gt;&lt;comma&gt;COORDINATE_SYSTEM_GRANULARITY&lt;comma&gt;FEATURE_TYPE,METAFILE,CSV2"/>
-#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="CSV2_TREAT_EMBEDDED_FIELD_QUALIFIERS_AS_UNSAFE,&quot;OPTIONAL CHOICE Yes%No&quot;,CSV2&lt;space&gt;Treat&lt;space&gt;Embedded&lt;space&gt;Field&lt;space&gt;Qualifiers&lt;space&gt;As&lt;space&gt;Unsafe:,CSV2_ENCODING,&quot;OPTIONAL STRING_OR_ENCODING fme-system%*&quot;,CSV2&lt;space&gt;Character&lt;space&gt;Encoding:,CSV2_WRITE_FIELD_NAMES,&quot;OPTIONAL LOOKUP_CHOICE If&lt;space&gt;Writing&lt;space&gt;First&lt;space&gt;Row,firstrow%Yes,yes%No,no&quot;,CSV2&lt;space&gt;Write&lt;space&gt;Field&lt;space&gt;Names&lt;space&gt;Row:,CSV2_QUALIFY_FIELD_NAMES,&quot;OPTIONAL LOOKUP_CHOICE Yes,yes%No,no%If&lt;space&gt;Needed,if_needed&quot;,CSV2&lt;space&gt;Qualify&lt;space&gt;Field&lt;space&gt;Names:,CSV2_EXISTING_FILE_HANDLING,&quot;OPTIONAL CHOICE Yes%No&quot;,CSV2&lt;space&gt;Overwrite&lt;space&gt;Existing&lt;space&gt;File:,CSV2_DELIMITER,&quot;OPTIONAL STRING_OR_CHOICE_ENCODED ,%;%|%space%tab&quot;,CSV2&lt;space&gt;Delimiter&lt;space&gt;Character:,CSV2_DATASET_GROUP,&quot;OPTIONAL DISCLOSUREGROUP FME_DISCLOSURE_OPEN%EXTENSION%EXISTING_FILE_HANDLING&quot;,CSV2&lt;space&gt;Dataset,CSV2_QUALIFY_FIELD_VALUES,&quot;OPTIONAL ACTIVECHOICE_LOOKUP Yes,yes,UNQUALIFIED_FIELD_VALUE_HANDLING%No,no%If&lt;space&gt;Needed,if_needed,UNQUALIFIED_FIELD_VALUE_HANDLING&quot;,CSV2&lt;space&gt;Qualify&lt;space&gt;Field&lt;space&gt;Values:,CSV2_ROW_TERMINATION,&quot;OPTIONAL CHOICE System%Windows%Unix%Macintosh&quot;,CSV2&lt;space&gt;Row&lt;space&gt;Termination:,CSV2_ENCODING_GROUP,&quot;OPTIONAL DISCLOSUREGROUP FME_DISCLOSURE_OPEN%ENCODING%WRITE_BOM_FOR_UNICODE&quot;,CSV2&lt;space&gt;Encoding,CSV2_WRITE_SCHEMA_FILE,&quot;OPTIONAL ACTIVEDISCLOSUREGROUP FME_DISCLOSURE_CLOSED%EXISTING_SCHEMA_FILE_HANDLING&quot;,CSV2&lt;space&gt;Write&lt;space&gt;Schema&lt;space&gt;Configuration&lt;space&gt;File,CSV2_FIELD_QUALIFIER_ESCAPE_CHARACTER,&quot;OPTIONAL STRING_ENCODED&quot;,CSV2&lt;space&gt;Field&lt;space&gt;Qualifier&lt;space&gt;Escape&lt;space&gt;Character:,CSV2_EXTENSION,&quot;OPTIONAL TEXT&quot;,CSV2&lt;space&gt;Extension:,CSV2_WRITE_BOM_FOR_UNICODE,&quot;OPTIONAL CHOICE Yes%No&quot;,CSV2&lt;space&gt;Write&lt;space&gt;Byte&lt;space&gt;Order&lt;space&gt;Mark&lt;space&gt;for&lt;space&gt;Unicode:,CSV2_COORDINATE_SYSTEM_GRANULARITY,&quot;OPTIONAL NO_EDIT TEXT&quot;,CSV2&lt;space&gt;,CSV2_ADVANCED_GROUP,&quot;OPTIONAL DISCLOSUREGROUP FME_DISCLOSURE_CLOSED%QUALIFY_FIELD_NAMES%QUALIFY_FIELD_VALUES%UNQUALIFIED_FIELD_VALUE_HANDLING%TREAT_EMBEDDED_FIELD_QUALIFIERS_AS_UNSAFE%FIELD_QUALIFIER_CHARACTER%FIELD_QUALIFIER_ESCAPE_CHARACTER%ROW_TERMINATION%WRITE_SCHEMA_FILE&quot;,CSV2&lt;space&gt;Advanced,CSV2_FIELDS_GROUP,&quot;OPTIONAL DISCLOSUREGROUP FME_DISCLOSURE_OPEN%DELIMITER%WRITE_FIELD_NAMES&quot;,CSV2&lt;space&gt;Fields,CSV2_FIELD_QUALIFIER_CHARACTER,&quot;OPTIONAL STRING_ENCODED&quot;,CSV2&lt;space&gt;Field&lt;space&gt;Qualifier&lt;space&gt;Character:"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="CSV2_ENCODING_GROUP,&quot;OPTIONAL DISCLOSUREGROUP FME_DISCLOSURE_OPEN%ENCODING%WRITE_BOM_FOR_UNICODE&quot;,CSV2&lt;space&gt;Encoding,CSV2_DATASET_GROUP,&quot;OPTIONAL DISCLOSUREGROUP FME_DISCLOSURE_OPEN%EXTENSION%EXISTING_FILE_HANDLING&quot;,CSV2&lt;space&gt;Dataset,CSV2_QUALIFY_FIELD_NAMES,&quot;OPTIONAL LOOKUP_CHOICE Yes,yes%No,no%If&lt;space&gt;Needed,if_needed&quot;,CSV2&lt;space&gt;Qualify&lt;space&gt;Field&lt;space&gt;Names:,CSV2_WRITE_BOM_FOR_UNICODE,&quot;OPTIONAL CHOICE Yes%No&quot;,CSV2&lt;space&gt;Write&lt;space&gt;Byte&lt;space&gt;Order&lt;space&gt;Mark&lt;space&gt;for&lt;space&gt;Unicode:,CSV2_FIELD_QUALIFIER_ESCAPE_CHARACTER,&quot;OPTIONAL STRING_ENCODED&quot;,CSV2&lt;space&gt;Field&lt;space&gt;Qualifier&lt;space&gt;Escape&lt;space&gt;Character:,CSV2_DELIMITER,&quot;OPTIONAL STRING_OR_CHOICE_ENCODED ,%;%|%space%tab&quot;,CSV2&lt;space&gt;Delimiter&lt;space&gt;Character:,CSV2_ADVANCED_GROUP,&quot;OPTIONAL DISCLOSUREGROUP FME_DISCLOSURE_CLOSED%QUALIFY_FIELD_NAMES%QUALIFY_FIELD_VALUES%UNQUALIFIED_FIELD_VALUE_HANDLING%TREAT_EMBEDDED_FIELD_QUALIFIERS_AS_UNSAFE%FIELD_QUALIFIER_CHARACTER%FIELD_QUALIFIER_ESCAPE_CHARACTER%ROW_TERMINATION%WRITE_SCHEMA_FILE&quot;,CSV2&lt;space&gt;Advanced,CSV2_WRITE_FIELD_NAMES,&quot;OPTIONAL LOOKUP_CHOICE If&lt;space&gt;Writing&lt;space&gt;First&lt;space&gt;Row,firstrow%Yes,yes%No,no&quot;,CSV2&lt;space&gt;Write&lt;space&gt;Field&lt;space&gt;Names&lt;space&gt;Row:,CSV2_ENCODING,&quot;OPTIONAL STRING_OR_ENCODING fme-system%*&quot;,CSV2&lt;space&gt;Character&lt;space&gt;Encoding:,CSV2_FIELD_QUALIFIER_CHARACTER,&quot;OPTIONAL STRING_ENCODED&quot;,CSV2&lt;space&gt;Field&lt;space&gt;Qualifier&lt;space&gt;Character:,CSV2_ROW_TERMINATION,&quot;OPTIONAL CHOICE System%Windows%Unix%Macintosh&quot;,CSV2&lt;space&gt;Row&lt;space&gt;Termination:,CSV2_QUALIFY_FIELD_VALUES,&quot;OPTIONAL ACTIVECHOICE_LOOKUP Yes,yes,UNQUALIFIED_FIELD_VALUE_HANDLING%No,no%If&lt;space&gt;Needed,if_needed,UNQUALIFIED_FIELD_VALUE_HANDLING&quot;,CSV2&lt;space&gt;Qualify&lt;space&gt;Field&lt;space&gt;Values:,CSV2_EXISTING_FILE_HANDLING,&quot;OPTIONAL CHOICE Yes%No&quot;,CSV2&lt;space&gt;Overwrite&lt;space&gt;Existing&lt;space&gt;File:,CSV2_COORDINATE_SYSTEM_GRANULARITY,&quot;OPTIONAL NO_EDIT TEXT&quot;,CSV2&lt;space&gt;,CSV2_WRITE_SCHEMA_FILE,&quot;OPTIONAL ACTIVEDISCLOSUREGROUP FME_DISCLOSURE_CLOSED%EXISTING_SCHEMA_FILE_HANDLING&quot;,CSV2&lt;space&gt;Write&lt;space&gt;Schema&lt;space&gt;Configuration&lt;space&gt;File,CSV2_EXTENSION,&quot;OPTIONAL TEXT&quot;,CSV2&lt;space&gt;Extension:,CSV2_FIELDS_GROUP,&quot;OPTIONAL DISCLOSUREGROUP FME_DISCLOSURE_OPEN%DELIMITER%WRITE_FIELD_NAMES&quot;,CSV2&lt;space&gt;Fields,CSV2_TREAT_EMBEDDED_FIELD_QUALIFIERS_AS_UNSAFE,&quot;OPTIONAL CHOICE Yes%No&quot;,CSV2&lt;space&gt;Treat&lt;space&gt;Embedded&lt;space&gt;Field&lt;space&gt;Qualifiers&lt;space&gt;As&lt;space&gt;Unsafe:"/>
 #!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="GROUP_BY_MODE" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="GROUP_PROCESSING_GROUP" PARM_VALUE="NO"/>
@@ -3401,7 +3401,7 @@
 #!     <XFORM_PARM PARM_NAME="TOTAL_FEATURES_WRITTEN_ATTR" PARM_VALUE="_total_features_written"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="WRITER_DIRECTIVES" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="WRITER_FEATURE_TYPE_PARAMS" PARM_VALUE="&lt;dollar&gt;&lt;openparen&gt;outputFile&lt;closeparen&gt;:Output,ftp_feature_type_name_exp,$(outputFile),ftp_writer,CSV2,ftp_dynamic_schema,no,ftp_dynamic_feature_type_name_type,DYN_SCHEMA_PROP_AUTO,ftp_dynamic_geometry_type,DYN_SCHEMA_PROP_AUTO,ftp_dynamic_schema_def_name_type,DYN_SCHEMA_PROP_AUTO,ftp_dynamic_schema_sources,&lt;lt&gt;lt&lt;gt&gt;Unused&lt;lt&gt;gt&lt;gt&gt;,ftp_attribute_source,0,ftp_user_attributes,stop_code&lt;comma&gt;varchar&lt;lt&gt;openparen&lt;gt&gt;4&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;stop_id&lt;comma&gt;varchar&lt;lt&gt;openparen&lt;gt&gt;8&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;stop_name&lt;comma&gt;varchar&lt;lt&gt;openparen&lt;gt&gt;27&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;platform_code&lt;comma&gt;uint32&lt;comma&gt;stop_url&lt;comma&gt;varchar&lt;lt&gt;openparen&lt;gt&gt;200&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;easting&lt;comma&gt;real64&lt;comma&gt;northing&lt;comma&gt;real64&lt;comma&gt;stop_lon&lt;comma&gt;real64&lt;comma&gt;stop_lat&lt;comma&gt;real64,ftp_user_attribute_values,&lt;comma&gt;&lt;comma&gt;&lt;comma&gt;&lt;comma&gt;&lt;comma&gt;&lt;comma&gt;&lt;comma&gt;&lt;comma&gt;,ftp_format_attributes,fme_color,ftp_format_parameters,csv_dataset_group&lt;comma&gt;&lt;comma&gt;csv_existing_file_handling&lt;comma&gt;Yes&lt;comma&gt;csv_fields_group&lt;comma&gt;&lt;comma&gt;csv_write_field_names&lt;comma&gt;firstrow&lt;comma&gt;csv_types_group&lt;comma&gt;&lt;comma&gt;csv_date_output_format&lt;comma&gt;ISO"/>
+#!     <XFORM_PARM PARM_NAME="WRITER_FEATURE_TYPE_PARAMS" PARM_VALUE="&lt;dollar&gt;&lt;openparen&gt;outputFile&lt;closeparen&gt;:Output,ftp_feature_type_name_exp,$(outputFile),ftp_writer,CSV2,ftp_dynamic_schema,no,ftp_dynamic_feature_type_name_type,DYN_SCHEMA_PROP_AUTO,ftp_dynamic_geometry_type,DYN_SCHEMA_PROP_AUTO,ftp_dynamic_schema_def_name_type,DYN_SCHEMA_PROP_AUTO,ftp_dynamic_schema_sources,&lt;lt&gt;lt&lt;gt&gt;Unused&lt;lt&gt;gt&lt;gt&gt;,ftp_attribute_source,1,ftp_user_attributes,stop_id&lt;comma&gt;varchar&lt;lt&gt;openparen&lt;gt&gt;16&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;stop_code&lt;comma&gt;varchar&lt;lt&gt;openparen&lt;gt&gt;4&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;stop_name&lt;comma&gt;varchar&lt;lt&gt;openparen&lt;gt&gt;64&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;platform_code&lt;comma&gt;varchar&lt;lt&gt;openparen&lt;gt&gt;200&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;stop_url&lt;comma&gt;varchar&lt;lt&gt;openparen&lt;gt&gt;200&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;stop_lon&lt;comma&gt;real64&lt;comma&gt;stop_lat&lt;comma&gt;real64&lt;comma&gt;easting&lt;comma&gt;real64&lt;comma&gt;northing&lt;comma&gt;real64,ftp_user_attribute_values,&lt;comma&gt;&lt;comma&gt;&lt;comma&gt;&lt;comma&gt;&lt;comma&gt;&lt;comma&gt;&lt;comma&gt;&lt;comma&gt;,ftp_format_attributes,fme_color,ftp_format_parameters,csv_dataset_group&lt;comma&gt;&lt;comma&gt;csv_existing_file_handling&lt;comma&gt;Yes&lt;comma&gt;csv_fields_group&lt;comma&gt;&lt;comma&gt;csv_write_field_names&lt;comma&gt;firstrow&lt;comma&gt;csv_types_group&lt;comma&gt;&lt;comma&gt;csv_date_output_format&lt;comma&gt;ISO"/>
 #!     <XFORM_PARM PARM_NAME="WRITER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="WRITER_METAFILE" PARM_VALUE="ATTRIBUTE_CASE,ANY,ATTRIBUTE_INVALID_CHARS,&lt;quote&gt;*&lt;opencurly&gt;&lt;closecurly&gt;&lt;dollar&gt;,ATTRIBUTE_LENGTH,255,ATTR_TYPE_MAP,string&lt;comma&gt;fme_buffer&lt;comma&gt;string&lt;comma&gt;fme_binarybuffer&lt;comma&gt;string&lt;comma&gt;fme_xml&lt;comma&gt;string&lt;comma&gt;fme_json&lt;comma&gt;varchar&lt;openparen&gt;width&lt;closeparen&gt;&lt;comma&gt;fme_varchar&lt;openparen&gt;width&lt;closeparen&gt;&lt;comma&gt;varchar&lt;openparen&gt;width&lt;closeparen&gt;&lt;comma&gt;fme_varbinary&lt;openparen&gt;width&lt;closeparen&gt;&lt;comma&gt;varchar&lt;openparen&gt;width&lt;closeparen&gt;&lt;comma&gt;fme_char&lt;openparen&gt;width&lt;closeparen&gt;&lt;comma&gt;varchar&lt;openparen&gt;width&lt;closeparen&gt;&lt;comma&gt;fme_binary&lt;openparen&gt;width&lt;closeparen&gt;&lt;comma&gt;datetime&lt;comma&gt;fme_datetime&lt;comma&gt;time&lt;comma&gt;fme_time&lt;comma&gt;date&lt;comma&gt;fme_date&lt;comma&gt;string&lt;comma&gt;fme_real64&lt;comma&gt;real64&lt;comma&gt;fme_real64&lt;comma&gt;x_coordinate&lt;comma&gt;fme_real64&lt;comma&gt;y_coordinate&lt;comma&gt;fme_real64&lt;comma&gt;z_coordinate&lt;comma&gt;fme_real64&lt;comma&gt;string&lt;comma&gt;fme_real32&lt;comma&gt;real32&lt;comma&gt;fme_real32&lt;comma&gt;string&lt;comma&gt;fme_int64&lt;comma&gt;int64&lt;comma&gt;fme_int64&lt;comma&gt;string&lt;comma&gt;fme_int32&lt;comma&gt;int32&lt;comma&gt;fme_int32&lt;comma&gt;string&lt;comma&gt;fme_int16&lt;comma&gt;int16&lt;comma&gt;fme_int16&lt;comma&gt;string&lt;comma&gt;fme_int8&lt;comma&gt;int8&lt;comma&gt;fme_int8&lt;comma&gt;string&lt;comma&gt;fme_uint64&lt;comma&gt;uint64&lt;comma&gt;fme_uint64&lt;comma&gt;string&lt;comma&gt;fme_uint32&lt;comma&gt;uint32&lt;comma&gt;fme_uint32&lt;comma&gt;string&lt;comma&gt;fme_uint16&lt;comma&gt;uint16&lt;comma&gt;fme_uint16&lt;comma&gt;string&lt;comma&gt;fme_uint8&lt;comma&gt;uint8&lt;comma&gt;fme_uint8&lt;comma&gt;string&lt;comma&gt;fme_boolean&lt;comma&gt;boolean&lt;comma&gt;fme_boolean&lt;comma&gt;&lt;quote&gt;number&lt;openparen&gt;width&lt;comma&gt;decimal&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;quote&gt;fme_decimal&lt;openparen&gt;width&lt;comma&gt;decimal&lt;closeparen&gt;&lt;quote&gt;,DEST_ILLEGAL_ATTR_LIST,,FEATURE_TYPE_CASE,ANY,FEATURE_TYPE_INVALID_CHARS,&lt;solidus&gt;&lt;quote&gt;:?*&lt;lt&gt;&lt;gt&gt;|,FEATURE_TYPE_LENGTH,0,FEATURE_TYPE_LENGTH_INCLUDES_PREFIX,false,FEATURE_TYPE_RESERVED_WORDS,,FORMAT_METAFILE,$(FME_HOME_ENCODED)metafile&lt;backslash&gt;CSV2.fmf,FORMAT_NAME,CSV2,GEOM_MAP,csv_feature_table&lt;comma&gt;fme_feature_table&lt;comma&gt;csv_none&lt;comma&gt;fme_no_geom&lt;comma&gt;csv_point&lt;comma&gt;fme_point&lt;comma&gt;csv_none&lt;comma&gt;fme_line&lt;comma&gt;csv_none&lt;comma&gt;fme_polygon&lt;comma&gt;csv_none&lt;comma&gt;fme_text&lt;comma&gt;csv_none&lt;comma&gt;fme_ellipse&lt;comma&gt;csv_none&lt;comma&gt;fme_arc&lt;comma&gt;csv_none&lt;comma&gt;fme_rectangle&lt;comma&gt;csv_none&lt;comma&gt;fme_rounded_rectangle&lt;comma&gt;fme_no_map&lt;comma&gt;fme_no_geom&lt;comma&gt;fme_no_map&lt;comma&gt;fme_no_map&lt;comma&gt;csv_none&lt;comma&gt;fme_collection&lt;comma&gt;csv_none&lt;comma&gt;fme_raster&lt;comma&gt;csv_none&lt;comma&gt;fme_surface&lt;comma&gt;csv_none&lt;comma&gt;fme_solid&lt;comma&gt;csv_none&lt;comma&gt;fme_point_cloud&lt;comma&gt;csv_none&lt;comma&gt;fme_voxel_grid,READER_ATTR_INDEX_TYPES,,READER_FORMAT_TYPE,DYNAMIC,READER_USES_DEF,yes,SOURCE,no,SUPPORTS_FEAT_TYPE_FANOUT,yes,SUPPORTS_MULTI_GEOM,yes,WORKBENCH_CANNED_SCHEMA,,WRITER,CSV2,WRITER_ATTR_INDEX_TYPES,,WRITER_DEFLINE_PARMS,&lt;quote&gt;GUI&lt;space&gt;NAMEDGROUP&lt;space&gt;csv_dataset_group&lt;space&gt;csv_existing_file_handling&lt;space&gt;Dataset&lt;quote&gt;&lt;comma&gt;&lt;comma&gt;&lt;quote&gt;GUI&lt;space&gt;CHOICE&lt;space&gt;csv_existing_file_handling&lt;space&gt;Yes%No&lt;space&gt;Overwrite&lt;space&gt;Existing&lt;space&gt;File&lt;quote&gt;&lt;comma&gt;Yes&lt;comma&gt;&lt;quote&gt;GUI&lt;space&gt;NAMEDGROUP&lt;space&gt;csv_fields_group&lt;space&gt;csv_write_field_names&lt;space&gt;Fields&lt;quote&gt;&lt;comma&gt;&lt;comma&gt;&lt;quote&gt;GUI&lt;space&gt;LOOKUP_CHOICE&lt;space&gt;csv_write_field_names&lt;space&gt;If&lt;lt&gt;space&lt;gt&gt;Writing&lt;lt&gt;space&lt;gt&gt;First&lt;lt&gt;space&lt;gt&gt;Row&lt;comma&gt;firstrow%Yes&lt;comma&gt;yes%No&lt;comma&gt;no&lt;space&gt;Write&lt;space&gt;Field&lt;space&gt;Names&lt;space&gt;Row&lt;quote&gt;&lt;comma&gt;firstrow&lt;comma&gt;&lt;quote&gt;GUI&lt;space&gt;NAMEDGROUP&lt;space&gt;csv_types_group&lt;space&gt;csv_date_output_format&lt;space&gt;Types&lt;quote&gt;&lt;comma&gt;&lt;comma&gt;&lt;quote&gt;GUI&lt;space&gt;STRING_OR_LOOKUP_CHOICE_ENCODED&lt;space&gt;csv_date_output_format&lt;space&gt;&lt;quote&gt;&lt;quote&gt;&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;FME&lt;lt&gt;space&lt;gt&gt;&lt;lt&gt;openparen&lt;gt&gt;auto&lt;lt&gt;space&lt;gt&gt;format&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;FME&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;ISO&lt;lt&gt;space&lt;gt&gt;&lt;lt&gt;openparen&lt;gt&gt;auto&lt;lt&gt;space&lt;gt&gt;format&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;ISO&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%Y%m%d&lt;lt&gt;space&lt;gt&gt;&lt;lt&gt;openparen&lt;gt&gt;FME&lt;lt&gt;space&lt;gt&gt;date&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;%Y%m%d&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%H%M%S&lt;lt&gt;space&lt;gt&gt;&lt;lt&gt;openparen&lt;gt&gt;FME&lt;lt&gt;space&lt;gt&gt;time&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;%H%M%S&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%H%M%S%z&lt;lt&gt;space&lt;gt&gt;&lt;lt&gt;openparen&lt;gt&gt;FME&lt;lt&gt;space&lt;gt&gt;time&lt;lt&gt;space&lt;gt&gt;with&lt;lt&gt;space&lt;gt&gt;offset&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;%H%M%S%z&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%Y%m%d%H%M%S&lt;lt&gt;space&lt;gt&gt;&lt;lt&gt;openparen&lt;gt&gt;FME&lt;lt&gt;space&lt;gt&gt;datetime&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;%Y%m%d%H%M%S&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%Y%m%d%H%M%S%z&lt;lt&gt;space&lt;gt&gt;&lt;lt&gt;openparen&lt;gt&gt;FME&lt;lt&gt;space&lt;gt&gt;datetime&lt;lt&gt;space&lt;gt&gt;with&lt;lt&gt;space&lt;gt&gt;offset&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;%Y%m%d%H%M%S%z&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%Y-%m-%d&lt;lt&gt;space&lt;gt&gt;&lt;lt&gt;openparen&lt;gt&gt;ISO&lt;lt&gt;space&lt;gt&gt;date&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;%Y-%m-%d&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%H:%M:%S&lt;lt&gt;space&lt;gt&gt;&lt;lt&gt;openparen&lt;gt&gt;ISO&lt;lt&gt;space&lt;gt&gt;time&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;%H:%M:%S&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%H:%M:%S%Ez&lt;lt&gt;space&lt;gt&gt;&lt;lt&gt;openparen&lt;gt&gt;ISO&lt;lt&gt;space&lt;gt&gt;time&lt;lt&gt;space&lt;gt&gt;with&lt;lt&gt;space&lt;gt&gt;offset&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;%H:%M:%S%Ez&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%Y-%m-%dT%H:%M:%S&lt;lt&gt;space&lt;gt&gt;&lt;lt&gt;openparen&lt;gt&gt;ISO&lt;lt&gt;space&lt;gt&gt;datetime&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;%Y-%m-%dT%H:%M:%S&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%Y-%m-%dT%H:%M:%S%Ez&lt;lt&gt;space&lt;gt&gt;&lt;lt&gt;openparen&lt;gt&gt;ISO&lt;lt&gt;space&lt;gt&gt;datetime&lt;lt&gt;space&lt;gt&gt;with&lt;lt&gt;space&lt;gt&gt;offset&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;%Y-%m-%dT%H:%M:%S%Ez&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%Y-W%W-%u&lt;lt&gt;space&lt;gt&gt;&lt;lt&gt;openparen&lt;gt&gt;ISO&lt;lt&gt;space&lt;gt&gt;week&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;%Y-W%W-%u&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%Y-%j&lt;lt&gt;space&lt;gt&gt;&lt;lt&gt;openparen&lt;gt&gt;ISO&lt;lt&gt;space&lt;gt&gt;ordinal&lt;lt&gt;space&lt;gt&gt;date&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;%Y-%j&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%Y:%m:%d&lt;lt&gt;space&lt;gt&gt;%H:%M:%S&lt;lt&gt;space&lt;gt&gt;&lt;lt&gt;openparen&lt;gt&gt;Exif&lt;lt&gt;space&lt;gt&gt;datetime&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;%Y:%m:%d%H:%M:%S&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%d&lt;solidus&gt;%m&lt;solidus&gt;%Y&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%d.%m.%Y&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%B&lt;lt&gt;space&lt;gt&gt;%e&lt;lt&gt;comma&lt;gt&gt;&lt;lt&gt;space&lt;gt&gt;%Y&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%b-%e-%Y&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%I:%M:%S%p&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%s&lt;lt&gt;space&lt;gt&gt;&lt;lt&gt;openparen&lt;gt&gt;Epoch&lt;lt&gt;space&lt;gt&gt;Time&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;%s&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%Es&lt;lt&gt;space&lt;gt&gt;&lt;lt&gt;openparen&lt;gt&gt;Unzoned&lt;lt&gt;space&lt;gt&gt;Epoch&lt;lt&gt;space&lt;gt&gt;Time&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;%Es&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;&lt;quote&gt;&lt;quote&gt;&lt;space&gt;Date&lt;space&gt;Output&lt;space&gt;Format&lt;quote&gt;&lt;comma&gt;FME,WRITER_DEF_LINE_TEMPLATE,&lt;opencurly&gt;FME_GEN_GROUP_NAME&lt;closecurly&gt;&lt;comma&gt;csv_existing_file_handling&lt;comma&gt;Yes&lt;comma&gt;csv_write_field_names&lt;comma&gt;firstrow&lt;comma&gt;csv_date_output_format&lt;comma&gt;FME,WRITER_FORMAT_PARAMETER,ADVANCED_PARMS&lt;comma&gt;&lt;quote&gt;CSV2_OUT_QUALIFY_FIELD_NAMES&lt;space&gt;CSV2_OUT_QUALIFY_FIELD_VALUES&lt;space&gt;CSV2_OUT_FIELD_QUALIFIER_CHARACTER&lt;space&gt;CSV2_OUT_FIELD_QUALIFIER_ESCAPE_CHARACTER&lt;space&gt;CSV2_OUT_ROW_TERMINATION&lt;space&gt;CSV2_OUT_WRITE_SCHEMA_FILE&lt;space&gt;CSV2_OUT_EXISTING_SCHEMA_FILE_HANDLING&lt;quote&gt;&lt;comma&gt;DEFAULT_ATTR_TYPE&lt;comma&gt;string&lt;comma&gt;DATASET_NAME&lt;comma&gt;&lt;quote&gt;csv&lt;space&gt;file&lt;quote&gt;&lt;comma&gt;FEATURE_TYPE_NAME&lt;comma&gt;&lt;quote&gt;CSV&lt;space&gt;File&lt;quote&gt;&lt;comma&gt;FEATURE_TYPE_DEFAULT_NAME&lt;comma&gt;File1&lt;comma&gt;READER_DATASET_HINT&lt;comma&gt;&lt;quote&gt;Select&lt;space&gt;the&lt;space&gt;CSV&lt;space&gt;file&lt;openparen&gt;s&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;WRITER_DATASET_HINT&lt;comma&gt;&lt;quote&gt;Specify&lt;space&gt;a&lt;space&gt;folder&lt;space&gt;for&lt;space&gt;the&lt;space&gt;CSV&lt;space&gt;file&lt;quote&gt;&lt;comma&gt;ATTRIBUTE_READING&lt;comma&gt;DEFLINE,WRITER_FORMAT_TYPE,DYNAMIC,WRITER_HAS_DEFLINE_ATTRS,yes,WRITER_USES_DEF,yes"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureWriter"/>
@@ -4086,7 +4086,7 @@
 #!     <XFORM_PARM PARM_NAME="FEATURE_TYPE_LIST_ATTR" PARM_VALUE="_feature_types"/>
 #!     <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="CSV2"/>
 #!     <XFORM_PARM PARM_NAME="FORMAT_DIRECTIVES" PARM_VALUE="RUNTIME_MACROS,DATASET_GROUP&lt;comma&gt;&lt;comma&gt;EXTENSION&lt;comma&gt;csv&lt;comma&gt;EXISTING_FILE_HANDLING&lt;comma&gt;Yes&lt;comma&gt;FIELDS_GROUP&lt;comma&gt;&lt;comma&gt;DELIMITER&lt;comma&gt;&lt;lt&gt;comma&lt;gt&gt;&lt;comma&gt;WRITE_FIELD_NAMES&lt;comma&gt;firstrow&lt;comma&gt;ENCODING_GROUP&lt;comma&gt;&lt;comma&gt;ENCODING&lt;comma&gt;UTF-8&lt;comma&gt;WRITE_BOM_FOR_UNICODE&lt;comma&gt;Yes&lt;comma&gt;ADVANCED_GROUP&lt;comma&gt;FME_DISCLOSURE_OPEN&lt;comma&gt;QUALIFY_FIELD_NAMES&lt;comma&gt;yes&lt;comma&gt;QUALIFY_FIELD_VALUES&lt;comma&gt;yes&lt;comma&gt;UNQUALIFIED_FIELD_VALUE_HANDLING&lt;comma&gt;&lt;lt&gt;Unused&lt;gt&gt;&lt;comma&gt;TREAT_EMBEDDED_FIELD_QUALIFIERS_AS_UNSAFE&lt;comma&gt;Yes&lt;comma&gt;FIELD_QUALIFIER_CHARACTER&lt;comma&gt;&lt;lt&gt;quote&lt;gt&gt;&lt;comma&gt;FIELD_QUALIFIER_ESCAPE_CHARACTER&lt;comma&gt;&lt;lt&gt;quote&lt;gt&gt;&lt;comma&gt;ROW_TERMINATION&lt;comma&gt;System&lt;comma&gt;WRITE_SCHEMA_FILE&lt;comma&gt;NO&lt;comma&gt;EXISTING_SCHEMA_FILE_HANDLING&lt;comma&gt;&lt;lt&gt;Unused&lt;gt&gt;&lt;comma&gt;COORDINATE_SYSTEM_GRANULARITY&lt;comma&gt;FEATURE_TYPE,METAFILE,CSV2"/>
-#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="CSV2_ROW_TERMINATION,&quot;OPTIONAL CHOICE System%Windows%Unix%Macintosh&quot;,CSV2&lt;space&gt;Row&lt;space&gt;Termination:,CSV2_WRITE_FIELD_NAMES,&quot;OPTIONAL LOOKUP_CHOICE If&lt;space&gt;Writing&lt;space&gt;First&lt;space&gt;Row,firstrow%Yes,yes%No,no&quot;,CSV2&lt;space&gt;Write&lt;space&gt;Field&lt;space&gt;Names&lt;space&gt;Row:,CSV2_FIELD_QUALIFIER_CHARACTER,&quot;OPTIONAL STRING_ENCODED&quot;,CSV2&lt;space&gt;Field&lt;space&gt;Qualifier&lt;space&gt;Character:,CSV2_DELIMITER,&quot;OPTIONAL STRING_OR_CHOICE_ENCODED ,%;%|%space%tab&quot;,CSV2&lt;space&gt;Delimiter&lt;space&gt;Character:,CSV2_FIELD_QUALIFIER_ESCAPE_CHARACTER,&quot;OPTIONAL STRING_ENCODED&quot;,CSV2&lt;space&gt;Field&lt;space&gt;Qualifier&lt;space&gt;Escape&lt;space&gt;Character:,CSV2_WRITE_BOM_FOR_UNICODE,&quot;OPTIONAL CHOICE Yes%No&quot;,CSV2&lt;space&gt;Write&lt;space&gt;Byte&lt;space&gt;Order&lt;space&gt;Mark&lt;space&gt;for&lt;space&gt;Unicode:,CSV2_DATASET_GROUP,&quot;OPTIONAL DISCLOSUREGROUP FME_DISCLOSURE_OPEN%EXTENSION%EXISTING_FILE_HANDLING&quot;,CSV2&lt;space&gt;Dataset,CSV2_EXISTING_FILE_HANDLING,&quot;OPTIONAL CHOICE Yes%No&quot;,CSV2&lt;space&gt;Overwrite&lt;space&gt;Existing&lt;space&gt;File:,CSV2_WRITE_SCHEMA_FILE,&quot;OPTIONAL ACTIVEDISCLOSUREGROUP FME_DISCLOSURE_CLOSED%EXISTING_SCHEMA_FILE_HANDLING&quot;,CSV2&lt;space&gt;Write&lt;space&gt;Schema&lt;space&gt;Configuration&lt;space&gt;File,CSV2_QUALIFY_FIELD_VALUES,&quot;OPTIONAL ACTIVECHOICE_LOOKUP Yes,yes,UNQUALIFIED_FIELD_VALUE_HANDLING%No,no%If&lt;space&gt;Needed,if_needed,UNQUALIFIED_FIELD_VALUE_HANDLING&quot;,CSV2&lt;space&gt;Qualify&lt;space&gt;Field&lt;space&gt;Values:,CSV2_FIELDS_GROUP,&quot;OPTIONAL DISCLOSUREGROUP FME_DISCLOSURE_OPEN%DELIMITER%WRITE_FIELD_NAMES&quot;,CSV2&lt;space&gt;Fields,CSV2_ENCODING_GROUP,&quot;OPTIONAL DISCLOSUREGROUP FME_DISCLOSURE_OPEN%ENCODING%WRITE_BOM_FOR_UNICODE&quot;,CSV2&lt;space&gt;Encoding,CSV2_TREAT_EMBEDDED_FIELD_QUALIFIERS_AS_UNSAFE,&quot;OPTIONAL CHOICE Yes%No&quot;,CSV2&lt;space&gt;Treat&lt;space&gt;Embedded&lt;space&gt;Field&lt;space&gt;Qualifiers&lt;space&gt;As&lt;space&gt;Unsafe:,CSV2_ADVANCED_GROUP,&quot;OPTIONAL DISCLOSUREGROUP FME_DISCLOSURE_CLOSED%QUALIFY_FIELD_NAMES%QUALIFY_FIELD_VALUES%UNQUALIFIED_FIELD_VALUE_HANDLING%TREAT_EMBEDDED_FIELD_QUALIFIERS_AS_UNSAFE%FIELD_QUALIFIER_CHARACTER%FIELD_QUALIFIER_ESCAPE_CHARACTER%ROW_TERMINATION%WRITE_SCHEMA_FILE&quot;,CSV2&lt;space&gt;Advanced,CSV2_COORDINATE_SYSTEM_GRANULARITY,&quot;OPTIONAL NO_EDIT TEXT&quot;,CSV2&lt;space&gt;,CSV2_QUALIFY_FIELD_NAMES,&quot;OPTIONAL LOOKUP_CHOICE Yes,yes%No,no%If&lt;space&gt;Needed,if_needed&quot;,CSV2&lt;space&gt;Qualify&lt;space&gt;Field&lt;space&gt;Names:,CSV2_EXTENSION,&quot;OPTIONAL TEXT&quot;,CSV2&lt;space&gt;Extension:,CSV2_ENCODING,&quot;OPTIONAL STRING_OR_ENCODING fme-system%*&quot;,CSV2&lt;space&gt;Character&lt;space&gt;Encoding:"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="CSV2_ENCODING_GROUP,&quot;OPTIONAL DISCLOSUREGROUP FME_DISCLOSURE_OPEN%ENCODING%WRITE_BOM_FOR_UNICODE&quot;,CSV2&lt;space&gt;Encoding,CSV2_DATASET_GROUP,&quot;OPTIONAL DISCLOSUREGROUP FME_DISCLOSURE_OPEN%EXTENSION%EXISTING_FILE_HANDLING&quot;,CSV2&lt;space&gt;Dataset,CSV2_QUALIFY_FIELD_NAMES,&quot;OPTIONAL LOOKUP_CHOICE Yes,yes%No,no%If&lt;space&gt;Needed,if_needed&quot;,CSV2&lt;space&gt;Qualify&lt;space&gt;Field&lt;space&gt;Names:,CSV2_WRITE_BOM_FOR_UNICODE,&quot;OPTIONAL CHOICE Yes%No&quot;,CSV2&lt;space&gt;Write&lt;space&gt;Byte&lt;space&gt;Order&lt;space&gt;Mark&lt;space&gt;for&lt;space&gt;Unicode:,CSV2_FIELD_QUALIFIER_ESCAPE_CHARACTER,&quot;OPTIONAL STRING_ENCODED&quot;,CSV2&lt;space&gt;Field&lt;space&gt;Qualifier&lt;space&gt;Escape&lt;space&gt;Character:,CSV2_DELIMITER,&quot;OPTIONAL STRING_OR_CHOICE_ENCODED ,%;%|%space%tab&quot;,CSV2&lt;space&gt;Delimiter&lt;space&gt;Character:,CSV2_ADVANCED_GROUP,&quot;OPTIONAL DISCLOSUREGROUP FME_DISCLOSURE_CLOSED%QUALIFY_FIELD_NAMES%QUALIFY_FIELD_VALUES%UNQUALIFIED_FIELD_VALUE_HANDLING%TREAT_EMBEDDED_FIELD_QUALIFIERS_AS_UNSAFE%FIELD_QUALIFIER_CHARACTER%FIELD_QUALIFIER_ESCAPE_CHARACTER%ROW_TERMINATION%WRITE_SCHEMA_FILE&quot;,CSV2&lt;space&gt;Advanced,CSV2_WRITE_FIELD_NAMES,&quot;OPTIONAL LOOKUP_CHOICE If&lt;space&gt;Writing&lt;space&gt;First&lt;space&gt;Row,firstrow%Yes,yes%No,no&quot;,CSV2&lt;space&gt;Write&lt;space&gt;Field&lt;space&gt;Names&lt;space&gt;Row:,CSV2_FIELD_QUALIFIER_CHARACTER,&quot;OPTIONAL STRING_ENCODED&quot;,CSV2&lt;space&gt;Field&lt;space&gt;Qualifier&lt;space&gt;Character:,CSV2_ROW_TERMINATION,&quot;OPTIONAL CHOICE System%Windows%Unix%Macintosh&quot;,CSV2&lt;space&gt;Row&lt;space&gt;Termination:,CSV2_ENCODING,&quot;OPTIONAL STRING_OR_ENCODING fme-system%*&quot;,CSV2&lt;space&gt;Character&lt;space&gt;Encoding:,CSV2_QUALIFY_FIELD_VALUES,&quot;OPTIONAL ACTIVECHOICE_LOOKUP Yes,yes,UNQUALIFIED_FIELD_VALUE_HANDLING%No,no%If&lt;space&gt;Needed,if_needed,UNQUALIFIED_FIELD_VALUE_HANDLING&quot;,CSV2&lt;space&gt;Qualify&lt;space&gt;Field&lt;space&gt;Values:,CSV2_EXISTING_FILE_HANDLING,&quot;OPTIONAL CHOICE Yes%No&quot;,CSV2&lt;space&gt;Overwrite&lt;space&gt;Existing&lt;space&gt;File:,CSV2_COORDINATE_SYSTEM_GRANULARITY,&quot;OPTIONAL NO_EDIT TEXT&quot;,CSV2&lt;space&gt;,CSV2_WRITE_SCHEMA_FILE,&quot;OPTIONAL ACTIVEDISCLOSUREGROUP FME_DISCLOSURE_CLOSED%EXISTING_SCHEMA_FILE_HANDLING&quot;,CSV2&lt;space&gt;Write&lt;space&gt;Schema&lt;space&gt;Configuration&lt;space&gt;File,CSV2_EXTENSION,&quot;OPTIONAL TEXT&quot;,CSV2&lt;space&gt;Extension:,CSV2_FIELDS_GROUP,&quot;OPTIONAL DISCLOSUREGROUP FME_DISCLOSURE_OPEN%DELIMITER%WRITE_FIELD_NAMES&quot;,CSV2&lt;space&gt;Fields,CSV2_TREAT_EMBEDDED_FIELD_QUALIFIERS_AS_UNSAFE,&quot;OPTIONAL CHOICE Yes%No&quot;,CSV2&lt;space&gt;Treat&lt;space&gt;Embedded&lt;space&gt;Field&lt;space&gt;Qualifiers&lt;space&gt;As&lt;space&gt;Unsafe:"/>
 #!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="GROUP_BY_MODE" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="GROUP_PROCESSING_GROUP" PARM_VALUE="NO"/>
@@ -4101,7 +4101,7 @@
 #!     <XFORM_PARM PARM_NAME="TOTAL_FEATURES_WRITTEN_ATTR" PARM_VALUE="_total_features_written"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="WRITER_DIRECTIVES" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="WRITER_FEATURE_TYPE_PARAMS" PARM_VALUE="&lt;dollar&gt;&lt;openparen&gt;outputFile&lt;closeparen&gt;-stanox:Output,ftp_feature_type_name_exp,$(outputFile)-stanox,ftp_writer,CSV2,ftp_dynamic_schema,no,ftp_dynamic_feature_type_name_type,DYN_SCHEMA_PROP_AUTO,ftp_dynamic_geometry_type,DYN_SCHEMA_PROP_AUTO,ftp_dynamic_schema_def_name_type,DYN_SCHEMA_PROP_AUTO,ftp_dynamic_schema_sources,&lt;lt&gt;lt&lt;gt&gt;Unused&lt;lt&gt;gt&lt;gt&gt;,ftp_attribute_source,0,ftp_user_attributes,dataSource&lt;comma&gt;varchar&lt;lt&gt;openparen&lt;gt&gt;200&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;TIPLOC&lt;comma&gt;varchar&lt;lt&gt;openparen&lt;gt&gt;8&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;Description&lt;comma&gt;varchar&lt;lt&gt;openparen&lt;gt&gt;27&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;STANOX&lt;comma&gt;uint32&lt;comma&gt;CRS&lt;comma&gt;varchar&lt;lt&gt;openparen&lt;gt&gt;4&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;easting&lt;comma&gt;real64&lt;comma&gt;northing&lt;comma&gt;real64&lt;comma&gt;stop_lon&lt;comma&gt;real64&lt;comma&gt;stop_lat&lt;comma&gt;real64,ftp_user_attribute_values,&lt;comma&gt;&lt;comma&gt;&lt;comma&gt;&lt;comma&gt;&lt;comma&gt;&lt;comma&gt;&lt;comma&gt;&lt;comma&gt;,ftp_format_attributes,fme_color,ftp_format_parameters,csv_dataset_group&lt;comma&gt;&lt;comma&gt;csv_existing_file_handling&lt;comma&gt;Yes&lt;comma&gt;csv_fields_group&lt;comma&gt;&lt;comma&gt;csv_write_field_names&lt;comma&gt;firstrow&lt;comma&gt;csv_types_group&lt;comma&gt;&lt;comma&gt;csv_date_output_format&lt;comma&gt;ISO"/>
+#!     <XFORM_PARM PARM_NAME="WRITER_FEATURE_TYPE_PARAMS" PARM_VALUE="&lt;dollar&gt;&lt;openparen&gt;outputFile&lt;closeparen&gt;-stanox:Output,ftp_feature_type_name_exp,$(outputFile)-stanox,ftp_writer,CSV2,ftp_dynamic_schema,no,ftp_dynamic_feature_type_name_type,DYN_SCHEMA_PROP_AUTO,ftp_dynamic_geometry_type,DYN_SCHEMA_PROP_AUTO,ftp_dynamic_schema_def_name_type,DYN_SCHEMA_PROP_AUTO,ftp_dynamic_schema_sources,&lt;lt&gt;lt&lt;gt&gt;Unused&lt;lt&gt;gt&lt;gt&gt;,ftp_attribute_source,1,ftp_user_attributes,STANOX&lt;comma&gt;varchar&lt;lt&gt;openparen&lt;gt&gt;200&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;TIPLOC&lt;comma&gt;varchar&lt;lt&gt;openparen&lt;gt&gt;16&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;CRS&lt;comma&gt;varchar&lt;lt&gt;openparen&lt;gt&gt;4&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;Description&lt;comma&gt;varchar&lt;lt&gt;openparen&lt;gt&gt;64&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;dataSource&lt;comma&gt;varchar&lt;lt&gt;openparen&lt;gt&gt;200&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;stop_lon&lt;comma&gt;real64&lt;comma&gt;stop_lat&lt;comma&gt;real64&lt;comma&gt;easting&lt;comma&gt;real64&lt;comma&gt;northing&lt;comma&gt;real64,ftp_user_attribute_values,&lt;comma&gt;&lt;comma&gt;&lt;comma&gt;&lt;comma&gt;&lt;comma&gt;&lt;comma&gt;&lt;comma&gt;&lt;comma&gt;,ftp_format_attributes,fme_color,ftp_format_parameters,csv_dataset_group&lt;comma&gt;&lt;comma&gt;csv_existing_file_handling&lt;comma&gt;Yes&lt;comma&gt;csv_fields_group&lt;comma&gt;&lt;comma&gt;csv_write_field_names&lt;comma&gt;firstrow&lt;comma&gt;csv_types_group&lt;comma&gt;&lt;comma&gt;csv_date_output_format&lt;comma&gt;ISO"/>
 #!     <XFORM_PARM PARM_NAME="WRITER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="WRITER_METAFILE" PARM_VALUE="ATTRIBUTE_CASE,ANY,ATTRIBUTE_INVALID_CHARS,&lt;quote&gt;*&lt;opencurly&gt;&lt;closecurly&gt;&lt;dollar&gt;,ATTRIBUTE_LENGTH,255,ATTR_TYPE_MAP,string&lt;comma&gt;fme_buffer&lt;comma&gt;string&lt;comma&gt;fme_binarybuffer&lt;comma&gt;string&lt;comma&gt;fme_xml&lt;comma&gt;string&lt;comma&gt;fme_json&lt;comma&gt;varchar&lt;openparen&gt;width&lt;closeparen&gt;&lt;comma&gt;fme_varchar&lt;openparen&gt;width&lt;closeparen&gt;&lt;comma&gt;varchar&lt;openparen&gt;width&lt;closeparen&gt;&lt;comma&gt;fme_varbinary&lt;openparen&gt;width&lt;closeparen&gt;&lt;comma&gt;varchar&lt;openparen&gt;width&lt;closeparen&gt;&lt;comma&gt;fme_char&lt;openparen&gt;width&lt;closeparen&gt;&lt;comma&gt;varchar&lt;openparen&gt;width&lt;closeparen&gt;&lt;comma&gt;fme_binary&lt;openparen&gt;width&lt;closeparen&gt;&lt;comma&gt;datetime&lt;comma&gt;fme_datetime&lt;comma&gt;time&lt;comma&gt;fme_time&lt;comma&gt;date&lt;comma&gt;fme_date&lt;comma&gt;string&lt;comma&gt;fme_real64&lt;comma&gt;real64&lt;comma&gt;fme_real64&lt;comma&gt;x_coordinate&lt;comma&gt;fme_real64&lt;comma&gt;y_coordinate&lt;comma&gt;fme_real64&lt;comma&gt;z_coordinate&lt;comma&gt;fme_real64&lt;comma&gt;string&lt;comma&gt;fme_real32&lt;comma&gt;real32&lt;comma&gt;fme_real32&lt;comma&gt;string&lt;comma&gt;fme_int64&lt;comma&gt;int64&lt;comma&gt;fme_int64&lt;comma&gt;string&lt;comma&gt;fme_int32&lt;comma&gt;int32&lt;comma&gt;fme_int32&lt;comma&gt;string&lt;comma&gt;fme_int16&lt;comma&gt;int16&lt;comma&gt;fme_int16&lt;comma&gt;string&lt;comma&gt;fme_int8&lt;comma&gt;int8&lt;comma&gt;fme_int8&lt;comma&gt;string&lt;comma&gt;fme_uint64&lt;comma&gt;uint64&lt;comma&gt;fme_uint64&lt;comma&gt;string&lt;comma&gt;fme_uint32&lt;comma&gt;uint32&lt;comma&gt;fme_uint32&lt;comma&gt;string&lt;comma&gt;fme_uint16&lt;comma&gt;uint16&lt;comma&gt;fme_uint16&lt;comma&gt;string&lt;comma&gt;fme_uint8&lt;comma&gt;uint8&lt;comma&gt;fme_uint8&lt;comma&gt;string&lt;comma&gt;fme_boolean&lt;comma&gt;boolean&lt;comma&gt;fme_boolean&lt;comma&gt;&lt;quote&gt;number&lt;openparen&gt;width&lt;comma&gt;decimal&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;quote&gt;fme_decimal&lt;openparen&gt;width&lt;comma&gt;decimal&lt;closeparen&gt;&lt;quote&gt;,DEST_ILLEGAL_ATTR_LIST,,FEATURE_TYPE_CASE,ANY,FEATURE_TYPE_INVALID_CHARS,&lt;solidus&gt;&lt;quote&gt;:?*&lt;lt&gt;&lt;gt&gt;|,FEATURE_TYPE_LENGTH,0,FEATURE_TYPE_LENGTH_INCLUDES_PREFIX,false,FEATURE_TYPE_RESERVED_WORDS,,FORMAT_METAFILE,$(FME_HOME_ENCODED)metafile&lt;backslash&gt;CSV2.fmf,FORMAT_NAME,CSV2,GEOM_MAP,csv_feature_table&lt;comma&gt;fme_feature_table&lt;comma&gt;csv_none&lt;comma&gt;fme_no_geom&lt;comma&gt;csv_point&lt;comma&gt;fme_point&lt;comma&gt;csv_none&lt;comma&gt;fme_line&lt;comma&gt;csv_none&lt;comma&gt;fme_polygon&lt;comma&gt;csv_none&lt;comma&gt;fme_text&lt;comma&gt;csv_none&lt;comma&gt;fme_ellipse&lt;comma&gt;csv_none&lt;comma&gt;fme_arc&lt;comma&gt;csv_none&lt;comma&gt;fme_rectangle&lt;comma&gt;csv_none&lt;comma&gt;fme_rounded_rectangle&lt;comma&gt;fme_no_map&lt;comma&gt;fme_no_geom&lt;comma&gt;fme_no_map&lt;comma&gt;fme_no_map&lt;comma&gt;csv_none&lt;comma&gt;fme_collection&lt;comma&gt;csv_none&lt;comma&gt;fme_raster&lt;comma&gt;csv_none&lt;comma&gt;fme_surface&lt;comma&gt;csv_none&lt;comma&gt;fme_solid&lt;comma&gt;csv_none&lt;comma&gt;fme_point_cloud&lt;comma&gt;csv_none&lt;comma&gt;fme_voxel_grid,READER_ATTR_INDEX_TYPES,,READER_FORMAT_TYPE,DYNAMIC,READER_USES_DEF,yes,SOURCE,no,SUPPORTS_FEAT_TYPE_FANOUT,yes,SUPPORTS_MULTI_GEOM,yes,WORKBENCH_CANNED_SCHEMA,,WRITER,CSV2,WRITER_ATTR_INDEX_TYPES,,WRITER_DEFLINE_PARMS,&lt;quote&gt;GUI&lt;space&gt;NAMEDGROUP&lt;space&gt;csv_dataset_group&lt;space&gt;csv_existing_file_handling&lt;space&gt;Dataset&lt;quote&gt;&lt;comma&gt;&lt;comma&gt;&lt;quote&gt;GUI&lt;space&gt;CHOICE&lt;space&gt;csv_existing_file_handling&lt;space&gt;Yes%No&lt;space&gt;Overwrite&lt;space&gt;Existing&lt;space&gt;File&lt;quote&gt;&lt;comma&gt;Yes&lt;comma&gt;&lt;quote&gt;GUI&lt;space&gt;NAMEDGROUP&lt;space&gt;csv_fields_group&lt;space&gt;csv_write_field_names&lt;space&gt;Fields&lt;quote&gt;&lt;comma&gt;&lt;comma&gt;&lt;quote&gt;GUI&lt;space&gt;LOOKUP_CHOICE&lt;space&gt;csv_write_field_names&lt;space&gt;If&lt;lt&gt;space&lt;gt&gt;Writing&lt;lt&gt;space&lt;gt&gt;First&lt;lt&gt;space&lt;gt&gt;Row&lt;comma&gt;firstrow%Yes&lt;comma&gt;yes%No&lt;comma&gt;no&lt;space&gt;Write&lt;space&gt;Field&lt;space&gt;Names&lt;space&gt;Row&lt;quote&gt;&lt;comma&gt;firstrow&lt;comma&gt;&lt;quote&gt;GUI&lt;space&gt;NAMEDGROUP&lt;space&gt;csv_types_group&lt;space&gt;csv_date_output_format&lt;space&gt;Types&lt;quote&gt;&lt;comma&gt;&lt;comma&gt;&lt;quote&gt;GUI&lt;space&gt;STRING_OR_LOOKUP_CHOICE_ENCODED&lt;space&gt;csv_date_output_format&lt;space&gt;&lt;quote&gt;&lt;quote&gt;&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;FME&lt;lt&gt;space&lt;gt&gt;&lt;lt&gt;openparen&lt;gt&gt;auto&lt;lt&gt;space&lt;gt&gt;format&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;FME&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;ISO&lt;lt&gt;space&lt;gt&gt;&lt;lt&gt;openparen&lt;gt&gt;auto&lt;lt&gt;space&lt;gt&gt;format&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;ISO&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%Y%m%d&lt;lt&gt;space&lt;gt&gt;&lt;lt&gt;openparen&lt;gt&gt;FME&lt;lt&gt;space&lt;gt&gt;date&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;%Y%m%d&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%H%M%S&lt;lt&gt;space&lt;gt&gt;&lt;lt&gt;openparen&lt;gt&gt;FME&lt;lt&gt;space&lt;gt&gt;time&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;%H%M%S&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%H%M%S%z&lt;lt&gt;space&lt;gt&gt;&lt;lt&gt;openparen&lt;gt&gt;FME&lt;lt&gt;space&lt;gt&gt;time&lt;lt&gt;space&lt;gt&gt;with&lt;lt&gt;space&lt;gt&gt;offset&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;%H%M%S%z&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%Y%m%d%H%M%S&lt;lt&gt;space&lt;gt&gt;&lt;lt&gt;openparen&lt;gt&gt;FME&lt;lt&gt;space&lt;gt&gt;datetime&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;%Y%m%d%H%M%S&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%Y%m%d%H%M%S%z&lt;lt&gt;space&lt;gt&gt;&lt;lt&gt;openparen&lt;gt&gt;FME&lt;lt&gt;space&lt;gt&gt;datetime&lt;lt&gt;space&lt;gt&gt;with&lt;lt&gt;space&lt;gt&gt;offset&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;%Y%m%d%H%M%S%z&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%Y-%m-%d&lt;lt&gt;space&lt;gt&gt;&lt;lt&gt;openparen&lt;gt&gt;ISO&lt;lt&gt;space&lt;gt&gt;date&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;%Y-%m-%d&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%H:%M:%S&lt;lt&gt;space&lt;gt&gt;&lt;lt&gt;openparen&lt;gt&gt;ISO&lt;lt&gt;space&lt;gt&gt;time&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;%H:%M:%S&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%H:%M:%S%Ez&lt;lt&gt;space&lt;gt&gt;&lt;lt&gt;openparen&lt;gt&gt;ISO&lt;lt&gt;space&lt;gt&gt;time&lt;lt&gt;space&lt;gt&gt;with&lt;lt&gt;space&lt;gt&gt;offset&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;%H:%M:%S%Ez&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%Y-%m-%dT%H:%M:%S&lt;lt&gt;space&lt;gt&gt;&lt;lt&gt;openparen&lt;gt&gt;ISO&lt;lt&gt;space&lt;gt&gt;datetime&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;%Y-%m-%dT%H:%M:%S&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%Y-%m-%dT%H:%M:%S%Ez&lt;lt&gt;space&lt;gt&gt;&lt;lt&gt;openparen&lt;gt&gt;ISO&lt;lt&gt;space&lt;gt&gt;datetime&lt;lt&gt;space&lt;gt&gt;with&lt;lt&gt;space&lt;gt&gt;offset&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;%Y-%m-%dT%H:%M:%S%Ez&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%Y-W%W-%u&lt;lt&gt;space&lt;gt&gt;&lt;lt&gt;openparen&lt;gt&gt;ISO&lt;lt&gt;space&lt;gt&gt;week&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;%Y-W%W-%u&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%Y-%j&lt;lt&gt;space&lt;gt&gt;&lt;lt&gt;openparen&lt;gt&gt;ISO&lt;lt&gt;space&lt;gt&gt;ordinal&lt;lt&gt;space&lt;gt&gt;date&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;%Y-%j&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%Y:%m:%d&lt;lt&gt;space&lt;gt&gt;%H:%M:%S&lt;lt&gt;space&lt;gt&gt;&lt;lt&gt;openparen&lt;gt&gt;Exif&lt;lt&gt;space&lt;gt&gt;datetime&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;%Y:%m:%d%H:%M:%S&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%d&lt;solidus&gt;%m&lt;solidus&gt;%Y&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%d.%m.%Y&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%B&lt;lt&gt;space&lt;gt&gt;%e&lt;lt&gt;comma&lt;gt&gt;&lt;lt&gt;space&lt;gt&gt;%Y&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%b-%e-%Y&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%I:%M:%S%p&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%s&lt;lt&gt;space&lt;gt&gt;&lt;lt&gt;openparen&lt;gt&gt;Epoch&lt;lt&gt;space&lt;gt&gt;Time&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;%s&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;%Es&lt;lt&gt;space&lt;gt&gt;&lt;lt&gt;openparen&lt;gt&gt;Unzoned&lt;lt&gt;space&lt;gt&gt;Epoch&lt;lt&gt;space&lt;gt&gt;Time&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;%Es&lt;backslash&gt;&lt;quote&gt;&lt;quote&gt;&lt;quote&gt;&lt;quote&gt;&lt;space&gt;Date&lt;space&gt;Output&lt;space&gt;Format&lt;quote&gt;&lt;comma&gt;FME,WRITER_DEF_LINE_TEMPLATE,&lt;opencurly&gt;FME_GEN_GROUP_NAME&lt;closecurly&gt;&lt;comma&gt;csv_existing_file_handling&lt;comma&gt;Yes&lt;comma&gt;csv_write_field_names&lt;comma&gt;firstrow&lt;comma&gt;csv_date_output_format&lt;comma&gt;FME,WRITER_FORMAT_PARAMETER,ADVANCED_PARMS&lt;comma&gt;&lt;quote&gt;CSV2_OUT_QUALIFY_FIELD_NAMES&lt;space&gt;CSV2_OUT_QUALIFY_FIELD_VALUES&lt;space&gt;CSV2_OUT_FIELD_QUALIFIER_CHARACTER&lt;space&gt;CSV2_OUT_FIELD_QUALIFIER_ESCAPE_CHARACTER&lt;space&gt;CSV2_OUT_ROW_TERMINATION&lt;space&gt;CSV2_OUT_WRITE_SCHEMA_FILE&lt;space&gt;CSV2_OUT_EXISTING_SCHEMA_FILE_HANDLING&lt;quote&gt;&lt;comma&gt;DEFAULT_ATTR_TYPE&lt;comma&gt;string&lt;comma&gt;DATASET_NAME&lt;comma&gt;&lt;quote&gt;csv&lt;space&gt;file&lt;quote&gt;&lt;comma&gt;FEATURE_TYPE_NAME&lt;comma&gt;&lt;quote&gt;CSV&lt;space&gt;File&lt;quote&gt;&lt;comma&gt;FEATURE_TYPE_DEFAULT_NAME&lt;comma&gt;File1&lt;comma&gt;READER_DATASET_HINT&lt;comma&gt;&lt;quote&gt;Select&lt;space&gt;the&lt;space&gt;CSV&lt;space&gt;file&lt;openparen&gt;s&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;WRITER_DATASET_HINT&lt;comma&gt;&lt;quote&gt;Specify&lt;space&gt;a&lt;space&gt;folder&lt;space&gt;for&lt;space&gt;the&lt;space&gt;CSV&lt;space&gt;file&lt;quote&gt;&lt;comma&gt;ATTRIBUTE_READING&lt;comma&gt;DEFLINE,WRITER_FORMAT_TYPE,DYNAMIC,WRITER_HAS_DEFLINE_ATTRS,yes,WRITER_USES_DEF,yes"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureWriter_2"/>
@@ -6290,7 +6290,7 @@
 #!     <XFORM_PARM PARM_NAME="DEFAULT_VALUE" PARM_VALUE="ok"/>
 #!     <XFORM_PARM PARM_NAME="PRESERVE_FEATURE_ORDER" PARM_VALUE="Per Output Port"/>
 #!     <XFORM_PARM PARM_NAME="TESTLISTGRP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE="&quot;BOOL_OP,AND,COMPOSITE_TEST,&quot;&quot;&quot;&quot;&quot;&quot;1 AND 2&quot;&quot;&quot;&quot;&quot;&quot;,TEST_CLAUSE,NUM_TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;EASTING&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;=&lt;space&gt;286200&lt;lf&gt;NUM_TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;NORTHING&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;=&lt;space&gt;931659&quot;,bad,&quot;BOOL_OP,AND,COMPOSITE_TEST,&quot;&quot;&quot;&quot;&quot;&quot;1 AND 2&quot;&quot;&quot;&quot;&quot;&quot;,TEST_CLAUSE,NUM_TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;EASTING&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;=&lt;space&gt;260885&lt;lf&gt;NUM_TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;NORTHING&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;=&lt;space&gt;667397&quot;,bad,&quot;BOOL_OP,OR,COMPOSITE_TEST,&quot;&quot;&quot;&quot;&quot;&quot;1&quot;&quot;&quot;&quot;&quot;&quot;,TEST_CLAUSE,CASE_INSENSITIVE_TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;TIPLOC&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;IN&lt;space&gt;GRTN&lt;lt&gt;comma&lt;gt&gt;RBRTRPG&lt;lt&gt;comma&lt;gt&gt;WROXHMR&lt;lt&gt;comma&lt;gt&gt;GLNG26&lt;lt&gt;comma&lt;gt&gt;CBOMDS&lt;lt&gt;comma&lt;gt&gt;IVRNBLC&lt;lt&gt;comma&lt;gt&gt;CHAT65&lt;lt&gt;comma&lt;gt&gt;HITC672&lt;lt&gt;comma&lt;gt&gt;IMNGLL7&lt;lt&gt;comma&lt;gt&gt;KGMRUD1&lt;lt&gt;comma&lt;gt&gt;ABRGS38&lt;lt&gt;comma&lt;gt&gt;DRTW68&lt;lt&gt;comma&lt;gt&gt;CRGNTPS&lt;lt&gt;comma&lt;gt&gt;WLBCGBR&lt;lt&gt;comma&lt;gt&gt;CARLNEC&lt;lt&gt;comma&lt;gt&gt;HITC941&lt;lt&gt;comma&lt;gt&gt;MRGMMID&lt;lt&gt;comma&lt;gt&gt;NTHOPKJ&lt;lt&gt;comma&lt;gt&gt;CRST423&lt;lt&gt;comma&lt;gt&gt;WLWY182&lt;lt&gt;comma&lt;gt&gt;LEED928&lt;lt&gt;comma&lt;gt&gt;GRNGMRR&lt;lt&gt;comma&lt;gt&gt;BLTCDRJ&lt;lt&gt;comma&lt;gt&gt;BLTCWER&lt;lt&gt;comma&lt;gt&gt;BESTGBR&lt;lt&gt;comma&lt;gt&gt;BEST931&lt;lt&gt;comma&lt;gt&gt;BESTRR&lt;lt&gt;comma&lt;gt&gt;BESTHST&lt;lt&gt;comma&lt;gt&gt;BEST918&lt;lt&gt;comma&lt;gt&gt;SWNACFC&lt;lt&gt;comma&lt;gt&gt;SWNAGE&lt;lt&gt;comma&lt;gt&gt;SWNAHMC&lt;lt&gt;comma&lt;gt&gt;SWNAHNH&lt;lt&gt;comma&lt;gt&gt;SWNAMGF&lt;lt&gt;comma&lt;gt&gt;SWNANDN&lt;lt&gt;comma&lt;gt&gt;TESTSCR&lt;lt&gt;comma&lt;gt&gt;HRGY419&lt;lt&gt;comma&lt;gt&gt;ALRSFRD&quot;,bad"/>
+#!     <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE="&quot;BOOL_OP,AND,COMPOSITE_TEST,&quot;&quot;&quot;&quot;&quot;&quot;1 AND 2&quot;&quot;&quot;&quot;&quot;&quot;,TEST_CLAUSE,NUM_TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;EASTING&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;=&lt;space&gt;286200&lt;lf&gt;NUM_TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;NORTHING&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;=&lt;space&gt;931659&quot;,bad,&quot;BOOL_OP,AND,COMPOSITE_TEST,&quot;&quot;&quot;&quot;&quot;&quot;1 AND 2&quot;&quot;&quot;&quot;&quot;&quot;,TEST_CLAUSE,NUM_TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;EASTING&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;=&lt;space&gt;260885&lt;lf&gt;NUM_TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;NORTHING&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;=&lt;space&gt;667397&quot;,bad,&quot;BOOL_OP,OR,COMPOSITE_TEST,&quot;&quot;&quot;&quot;&quot;&quot;1&quot;&quot;&quot;&quot;&quot;&quot;,TEST_CLAUSE,CASE_INSENSITIVE_TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;TIPLOC&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;IN&lt;space&gt;GRTN&lt;lt&gt;comma&lt;gt&gt;RBRTRPG&lt;lt&gt;comma&lt;gt&gt;WROXHMR&lt;lt&gt;comma&lt;gt&gt;GLNG26&lt;lt&gt;comma&lt;gt&gt;CBOMDS&lt;lt&gt;comma&lt;gt&gt;IVRNBLC&lt;lt&gt;comma&lt;gt&gt;CHAT65&lt;lt&gt;comma&lt;gt&gt;HITC672&lt;lt&gt;comma&lt;gt&gt;IMNGLL7&lt;lt&gt;comma&lt;gt&gt;KGMRUD1&lt;lt&gt;comma&lt;gt&gt;ABRGS38&lt;lt&gt;comma&lt;gt&gt;DRTW68&lt;lt&gt;comma&lt;gt&gt;CRGNTPS&lt;lt&gt;comma&lt;gt&gt;WLBCGBR&lt;lt&gt;comma&lt;gt&gt;CARLNEC&lt;lt&gt;comma&lt;gt&gt;HITC941&lt;lt&gt;comma&lt;gt&gt;MRGMMID&lt;lt&gt;comma&lt;gt&gt;NTHOPKJ&lt;lt&gt;comma&lt;gt&gt;CRST423&lt;lt&gt;comma&lt;gt&gt;WLWY182&lt;lt&gt;comma&lt;gt&gt;LEED928&lt;lt&gt;comma&lt;gt&gt;GRNGMRR&lt;lt&gt;comma&lt;gt&gt;BLTCDRJ&lt;lt&gt;comma&lt;gt&gt;BLTCWER&lt;lt&gt;comma&lt;gt&gt;BESTGBR&lt;lt&gt;comma&lt;gt&gt;BEST931&lt;lt&gt;comma&lt;gt&gt;BESTRR&lt;lt&gt;comma&lt;gt&gt;BESTHST&lt;lt&gt;comma&lt;gt&gt;BEST918&lt;lt&gt;comma&lt;gt&gt;SWNACFC&lt;lt&gt;comma&lt;gt&gt;SWNAGE&lt;lt&gt;comma&lt;gt&gt;SWNAHMC&lt;lt&gt;comma&lt;gt&gt;SWNAHNH&lt;lt&gt;comma&lt;gt&gt;SWNAMGF&lt;lt&gt;comma&lt;gt&gt;SWNANDN&lt;lt&gt;comma&lt;gt&gt;TESTSCR&lt;lt&gt;comma&lt;gt&gt;HRGY419&lt;lt&gt;comma&lt;gt&gt;ALRSFRD&lt;lt&gt;comma&lt;gt&gt;GODALBN&lt;lt&gt;comma&lt;gt&gt;LEAGSDG&lt;lt&gt;comma&lt;gt&gt;SWNLMD&lt;lt&gt;comma&lt;gt&gt;HIGHBYE&lt;lt&gt;comma&lt;gt&gt;DONC108&lt;lt&gt;comma&lt;gt&gt;CLCH033&lt;lt&gt;comma&lt;gt&gt;CLCH072&lt;lt&gt;comma&lt;gt&gt;HOTH343&lt;lt&gt;comma&lt;gt&gt;BORN421&lt;lt&gt;comma&lt;gt&gt;BORN419&lt;lt&gt;comma&lt;gt&gt;BORN412&lt;lt&gt;comma&lt;gt&gt;BORN414&lt;lt&gt;comma&lt;gt&gt;ONIBURY&lt;lt&gt;comma&lt;gt&gt;HIGHBYA&lt;lt&gt;comma&lt;gt&gt;WHMP236&lt;lt&gt;comma&lt;gt&gt;WHMP617&lt;lt&gt;comma&lt;gt&gt;REDHLS&quot;,bad"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="badDataFilter_3"/>
 #! </TRANSFORMER>
@@ -6561,10 +6561,10 @@
 #!   IDENTIFIER="419"
 #!   TYPE="Inspector"
 #!   VERSION="5"
-#!   POSITION="17304.140259819644 -3059.2722874519309"
-#!   BOUNDING_RECT="17304.140259819644 -3059.2722874519309 454 71"
+#!   POSITION="17299.754251047274 -3059.2722874519313"
+#!   BOUNDING_RECT="17299.754251047274 -3059.2722874519313 454 71"
 #!   ORDER="500000000000695.5"
-#!   PARMS_EDITED="false"
+#!   PARMS_EDITED="true"
 #!   ENABLED="true"
 #!   LAST_PARM_EDIT="21816"
 #! >
@@ -7507,7 +7507,7 @@
 #!   POSITION="3668.8104524830051 -1432.9682594869678"
 #!   BOUNDING_RECT="3668.8104524830051 -1432.9682594869678 516.00106825772946 71"
 #!   ORDER="500000000000699.5"
-#!   PARMS_EDITED="false"
+#!   PARMS_EDITED="true"
 #!   ENABLED="true"
 #!   LAST_PARM_EDIT="21816"
 #! >
@@ -7581,6 +7581,7 @@
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="TIPLOC" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_color" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Junction_5"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
@@ -7599,13 +7600,14 @@
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="TIPLOC" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="CRS" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_color" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="CRS" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="UNJOINED_LEFT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="TIPLOC" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_color" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <OUTPUT_FEAT NAME="UNJOINED_RIGHT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="2"/>
 #!     <XFORM_ATTR ATTR_NAME="CRS" IS_USER_CREATED="false" FEAT_INDEX="2" />
@@ -7618,8 +7620,8 @@
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="TIPLOC" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="CRS" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="fme_color" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="CRS" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="fme_rejection_message" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="Use Left"/>
@@ -7656,8 +7658,8 @@
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="TIPLOC" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="CRS" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_color" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="CRS" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="LINE"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
 #!     <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -7669,8 +7671,8 @@
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="TIPLOC" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="CRS" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme_color" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="CRS" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <OUTPUT_FEAT NAME="POLYGON"/>
 #!     <FEAT_COLLAPSED COLLAPSED="2"/>
 #!     <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="2" />
@@ -7682,8 +7684,8 @@
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="TIPLOC" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="CRS" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="fme_color" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="CRS" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="3"/>
 #!     <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="3" />
@@ -7695,8 +7697,8 @@
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="TIPLOC" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="CRS" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="fme_color" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="CRS" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_PARM PARM_NAME="ACCUM_INPUT_ATTRS" PARM_VALUE="Use Attributes From One Feature"/>
 #!     <XFORM_PARM PARM_NAME="GENERATE_LIST_GROUP" PARM_VALUE="NO"/>
@@ -7733,8 +7735,8 @@
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="TIPLOC" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="CRS" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_color" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="CRS" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_lengthRY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="DIM" PARM_VALUE="2"/>
 #!     <XFORM_PARM PARM_NAME="LEN_ATTR" PARM_VALUE="_lengthRY"/>
@@ -7765,8 +7767,8 @@
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="TIPLOC" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="CRS" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_color" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="CRS" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_lengthRY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="GROUP_BY_MODE" PARM_VALUE="&lt;Unused&gt;"/>
@@ -7827,8 +7829,8 @@
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="TIPLOC" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="CRS" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_color" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="CRS" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="DEFAULT_Z_VALUE" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="VertexExtractor_4"/>
@@ -7856,8 +7858,8 @@
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="TIPLOC" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="CRS" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_color" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="CRS" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="EPSG:27700"/>
 #!     <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
@@ -8010,6 +8012,7 @@
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="TIPLOC" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_color" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="LIST_ATTRS" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="REMOVE_ATTRS" PARM_VALUE="Codes,Details.BPlan_TimingPoint,Details.CRS,Details.CompulsoryStop,Details.ForceLPB,Details.Nalco,Details.OffNetwork,Details.TPS_StationCategory,Details.TPS_StationType,Details.UIC,Details.Zone,Elevation.Google,Elevation.OpenElevation,Elevation.OrdnanceSurvey5,Elevation.OrdnanceSurvey50,InBPlan,InTPS,Latitude,Longitude,NodeId,Stanox,_element_index,fme_fill_color"/>
@@ -8051,7 +8054,7 @@
 #!     <XFORM_PARM PARM_NAME="DEFAULT_VALUE" PARM_VALUE="ok"/>
 #!     <XFORM_PARM PARM_NAME="PRESERVE_FEATURE_ORDER" PARM_VALUE="Per Output Port"/>
 #!     <XFORM_PARM PARM_NAME="TESTLISTGRP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE="&quot;BOOL_OP,AND,COMPOSITE_TEST,&quot;&quot;&quot;&quot;&quot;&quot;1 AND 2&quot;&quot;&quot;&quot;&quot;&quot;,TEST_CLAUSE,NUM_TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;stop_lon&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;=&lt;space&gt;-3.94107&lt;lf&gt;NUM_TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;stop_lat&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;=&lt;space&gt;58.25884&quot;,bad,&quot;BOOL_OP,AND,COMPOSITE_TEST,&quot;&quot;&quot;&quot;&quot;&quot;1 AND 2&quot;&quot;&quot;&quot;&quot;&quot;,TEST_CLAUSE,NUM_TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;stop_lon&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;=&lt;space&gt;-4.22536&lt;lf&gt;NUM_TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;stop_lat&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;=&lt;space&gt;55.87958&quot;,bad,&quot;BOOL_OP,OR,COMPOSITE_TEST,&quot;&quot;&quot;&quot;&quot;&quot;1&quot;&quot;&quot;&quot;&quot;&quot;,TEST_CLAUSE,CASE_INSENSITIVE_TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;TIPLOC&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;IN&lt;space&gt;&lt;quote&gt;&lt;quote&gt;&quot;,bad"/>
+#!     <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE="&quot;BOOL_OP,AND,COMPOSITE_TEST,&quot;&quot;&quot;&quot;&quot;&quot;1 AND 2&quot;&quot;&quot;&quot;&quot;&quot;,TEST_CLAUSE,NUM_TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;stop_lon&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;=&lt;space&gt;-3.94107&lt;lf&gt;NUM_TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;stop_lat&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;=&lt;space&gt;58.25884&quot;,bad,&quot;BOOL_OP,AND,COMPOSITE_TEST,&quot;&quot;&quot;&quot;&quot;&quot;1 AND 2&quot;&quot;&quot;&quot;&quot;&quot;,TEST_CLAUSE,NUM_TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;stop_lon&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;=&lt;space&gt;-4.22536&lt;lf&gt;NUM_TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;stop_lat&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;=&lt;space&gt;55.87958&quot;,bad,&quot;BOOL_OP,OR,COMPOSITE_TEST,&quot;&quot;&quot;&quot;&quot;&quot;1&quot;&quot;&quot;&quot;&quot;&quot;,TEST_CLAUSE,CASE_INSENSITIVE_TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;TIPLOC&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;IN&lt;space&gt;YSTRDMS&lt;lt&gt;comma&lt;gt&gt;RBRTRPG&lt;lt&gt;comma&lt;gt&gt;HOTH343&lt;lt&gt;comma&lt;gt&gt;SWNLMD&lt;lt&gt;comma&lt;gt&gt;BEST918&lt;lt&gt;comma&lt;gt&gt;BEST931&lt;lt&gt;comma&lt;gt&gt;BESTGBR&lt;lt&gt;comma&lt;gt&gt;BESTHST&lt;lt&gt;comma&lt;gt&gt;CLCH033&lt;lt&gt;comma&lt;gt&gt;CLCH072&lt;lt&gt;comma&lt;gt&gt;BESTRR&lt;lt&gt;comma&lt;gt&gt;BESTTSB&lt;lt&gt;comma&lt;gt&gt;WHMP236&lt;lt&gt;comma&lt;gt&gt;WHMP617&lt;lt&gt;comma&lt;gt&gt;BORN421&lt;lt&gt;comma&lt;gt&gt;BORN419&lt;lt&gt;comma&lt;gt&gt;BORN412&lt;lt&gt;comma&lt;gt&gt;BORN414&lt;lt&gt;comma&lt;gt&gt;WHMP236&lt;lt&gt;comma&lt;gt&gt;WHMP617&quot;,bad"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="badDataFilter_4"/>
 #! </TRANSFORMER>
@@ -8716,7 +8719,7 @@
 #!     <XFORM_ATTR ATTR_NAME="fme_color" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="LIST_ATTRS" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="REMOVE_ATTRS" PARM_VALUE="STANOX,STANOXwp,Stanox,fme_fill_color,fme_rejection_message,fme_rejection_code,CRS,Details.CRS"/>
+#!     <XFORM_PARM PARM_NAME="REMOVE_ATTRS" PARM_VALUE="CRS"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRemover_12"/>
 #! </TRANSFORMER>
@@ -8765,12 +8768,14 @@
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="TIPLOC" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_color" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="&lt;lt&gt;UNFILTERED&lt;gt&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
 #!     <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="TIPLOC" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_color" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_PARM PARM_NAME="ADVANCED_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="DEFAULT_VALUE" PARM_VALUE="&lt;lt&gt;UNFILTERED&lt;gt&gt;"/>
 #!     <XFORM_PARM PARM_NAME="PRESERVE_FEATURE_ORDER" PARM_VALUE="Per Output Port"/>
@@ -8795,6 +8800,7 @@
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="TIPLOC" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_color" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Junction_15"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
@@ -8813,21 +8819,25 @@
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="TIPLOC" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_color" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="UNJOINED_LEFT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="TIPLOC" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_color" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <OUTPUT_FEAT NAME="UNJOINED_RIGHT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="2"/>
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="TIPLOC" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="fme_color" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="3"/>
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="TIPLOC" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="fme_color" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="fme_rejection_message" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="Use Left"/>
@@ -8864,6 +8874,7 @@
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="TIPLOC" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_color" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="LINE"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
 #!     <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -8875,6 +8886,7 @@
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="TIPLOC" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_color" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <OUTPUT_FEAT NAME="POLYGON"/>
 #!     <FEAT_COLLAPSED COLLAPSED="2"/>
 #!     <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="2" />
@@ -8886,6 +8898,7 @@
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="TIPLOC" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="fme_color" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="3"/>
 #!     <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="3" />
@@ -8897,6 +8910,7 @@
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="TIPLOC" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="fme_color" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_PARM PARM_NAME="ACCUM_INPUT_ATTRS" PARM_VALUE="Use Attributes From One Feature"/>
 #!     <XFORM_PARM PARM_NAME="GENERATE_LIST_GROUP" PARM_VALUE="NO"/>
@@ -8933,6 +8947,7 @@
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="TIPLOC" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_color" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_lengthRB" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="DIM" PARM_VALUE="2"/>
 #!     <XFORM_PARM PARM_NAME="LEN_ATTR" PARM_VALUE="_lengthRB"/>
@@ -8963,6 +8978,7 @@
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="TIPLOC" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_color" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_lengthRB" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="GROUP_BY_MODE" PARM_VALUE="&lt;Unused&gt;"/>
@@ -9023,6 +9039,7 @@
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="TIPLOC" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_color" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="EPSG:27700"/>
 #!     <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
@@ -9078,6 +9095,7 @@
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="TIPLOC" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_color" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="CREATE_BULK_MODE_FEATURES" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="KEEP_ATTRS" PARM_VALUE="Description,DisplayName,dataSource,TIPLOC,fme_color,EASTING,NORTHING"/>
 #!     <XFORM_PARM PARM_NAME="KEEP_LIST" PARM_VALUE=""/>
@@ -9141,7 +9159,7 @@
 #!   POSITION="14380.519912505059 -5039.523717864733"
 #!   BOUNDING_RECT="14380.519912505059 -5039.523717864733 454 71"
 #!   ORDER="500000000000703.5"
-#!   PARMS_EDITED="false"
+#!   PARMS_EDITED="true"
 #!   ENABLED="true"
 #!   LAST_PARM_EDIT="21816"
 #! >
@@ -9150,9 +9168,10 @@
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="TIPLOC" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_color" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="LIST_ATTRS" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="REMOVE_ATTRS" PARM_VALUE="fme_fill_color,EASTING,NORTHING"/>
+#!     <XFORM_PARM PARM_NAME="REMOVE_ATTRS" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRemover_13"/>
 #! </TRANSFORMER>
@@ -9163,7 +9182,7 @@
 #!   POSITION="14380.519912505059 -4889.523717864733"
 #!   BOUNDING_RECT="14380.519912505059 -4889.523717864733 454 71"
 #!   ORDER="500000000000703.5"
-#!   PARMS_EDITED="false"
+#!   PARMS_EDITED="true"
 #!   ENABLED="true"
 #!   LAST_PARM_EDIT="21816"
 #! >
@@ -9172,9 +9191,10 @@
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="TIPLOC" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_color" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="LIST_ATTRS" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="REMOVE_ATTRS" PARM_VALUE="Codes,Details.BPlan_TimingPoint,Details.CRS,Details.CompulsoryStop,Details.ForceLPB,Details.Nalco,Details.OffNetwork,Details.TPS_StationCategory,Details.TPS_StationType,Details.UIC,Details.Zone,Elevation.Google,Elevation.OpenElevation,Elevation.OrdnanceSurvey5,Elevation.OrdnanceSurvey50,InBPlan,InTPS,Latitude,Longitude,NodeId,Stanox,_element_index,fme_fill_color"/>
+#!     <XFORM_PARM PARM_NAME="REMOVE_ATTRS" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRemover_14"/>
 #! </TRANSFORMER>
@@ -9194,13 +9214,14 @@
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="TIPLOC" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="CRS" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_color" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="CRS" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="UNJOINED_LEFT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="TIPLOC" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_color" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <OUTPUT_FEAT NAME="UNJOINED_RIGHT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="2"/>
 #!     <XFORM_ATTR ATTR_NAME="CRS" IS_USER_CREATED="false" FEAT_INDEX="2" />
@@ -9213,8 +9234,8 @@
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="TIPLOC" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="CRS" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="fme_color" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="CRS" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="fme_rejection_message" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="Use Left"/>
@@ -9251,8 +9272,8 @@
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="TIPLOC" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="CRS" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_color" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="CRS" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="LINE"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
 #!     <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -9264,8 +9285,8 @@
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="TIPLOC" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="CRS" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme_color" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="CRS" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <OUTPUT_FEAT NAME="POLYGON"/>
 #!     <FEAT_COLLAPSED COLLAPSED="2"/>
 #!     <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="2" />
@@ -9277,8 +9298,8 @@
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="TIPLOC" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="CRS" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="fme_color" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="CRS" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="3"/>
 #!     <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="3" />
@@ -9290,8 +9311,8 @@
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="TIPLOC" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="CRS" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="fme_color" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="CRS" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_PARM PARM_NAME="ACCUM_INPUT_ATTRS" PARM_VALUE="Use Attributes From One Feature"/>
 #!     <XFORM_PARM PARM_NAME="GENERATE_LIST_GROUP" PARM_VALUE="NO"/>
@@ -9328,8 +9349,8 @@
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="TIPLOC" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="CRS" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_color" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="CRS" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_lengthBY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="DIM" PARM_VALUE="2"/>
 #!     <XFORM_PARM PARM_NAME="LEN_ATTR" PARM_VALUE="_lengthBY"/>
@@ -9360,8 +9381,8 @@
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="TIPLOC" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="CRS" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_color" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="CRS" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_lengthBY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="GROUP_BY_MODE" PARM_VALUE="&lt;Unused&gt;"/>
@@ -9422,8 +9443,8 @@
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="TIPLOC" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="CRS" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_color" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="CRS" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="DEFAULT_Z_VALUE" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="VertexExtractor_7"/>
@@ -9451,8 +9472,8 @@
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="TIPLOC" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="CRS" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_color" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="CRS" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="EPSG:27700"/>
 #!     <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
@@ -9605,6 +9626,7 @@
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="TIPLOC" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_color" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="LIST_ATTRS" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="REMOVE_ATTRS" PARM_VALUE="Codes,Details.BPlan_TimingPoint,Details.CRS,Details.CompulsoryStop,Details.ForceLPB,Details.Nalco,Details.OffNetwork,Details.TPS_StationCategory,Details.TPS_StationType,Details.UIC,Details.Zone,Elevation.Google,Elevation.OpenElevation,Elevation.OrdnanceSurvey5,Elevation.OrdnanceSurvey50,InBPlan,InTPS,Latitude,Longitude,NodeId,Stanox,_element_index,fme_fill_color"/>
@@ -10133,7 +10155,7 @@
 #!     <XFORM_ATTR ATTR_NAME="fme_color" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="Description Description  NO_OP CRS CRS  REMOVE dataSource dataSource  NO_OP TIPLOC TIPLOC  NO_OP STANOX STANOX  REMOVE STANOXwp STANOXwp  REMOVE fme_color fme_color  NO_OP fme_fill_color fme_fill_color  REMOVE fme_rejection_code fme_rejection_code  REMOVE fme_rejection_message fme_rejection_message  REMOVE"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="Description Description  NO_OP CRS CRS  REMOVE dataSource dataSource  NO_OP TIPLOC TIPLOC  NO_OP STANOX STANOX  REMOVE fme_color fme_color  NO_OP fme_fill_color fme_fill_color  REMOVE fme_rejection_code fme_rejection_code  REMOVE fme_rejection_message fme_rejection_message  REMOVE"/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
@@ -10219,8 +10241,9 @@
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="TIPLOC" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_color" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="CREATE_BULK_MODE_FEATURES" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="KEEP_ATTRS" PARM_VALUE="_part_number,dataSource,Description,TIPLOC"/>
+#!     <XFORM_PARM PARM_NAME="KEEP_ATTRS" PARM_VALUE="_part_number,dataSource,Description,TIPLOC,fme_color"/>
 #!     <XFORM_PARM PARM_NAME="KEEP_LIST" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="OUTPUT_ON_ATTRIBUTE_CHANGE" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
@@ -10310,6 +10333,7 @@
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="TIPLOC" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_color" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="LIST_ATTRS" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="REMOVE_ATTRS" PARM_VALUE="_part_number"/>
@@ -10323,7 +10347,7 @@
 #!   POSITION="20427.123347143137 -3891.3508299460368"
 #!   BOUNDING_RECT="20427.123347143137 -3891.3508299460368 460.00106825772946 71"
 #!   ORDER="500000000000775.5"
-#!   PARMS_EDITED="false"
+#!   PARMS_EDITED="true"
 #!   ENABLED="true"
 #!   LAST_PARM_EDIT="21816"
 #! >
@@ -10332,6 +10356,7 @@
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="TIPLOC" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_color" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="LIST_ATTRS" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="REMOVE_ATTRS" PARM_VALUE="_part_number"/>
@@ -10356,7 +10381,7 @@
 #!     <XFORM_ATTR ATTR_NAME="fme_color" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="Description Description  REMOVE CRS CRS  REMOVE dataSource dataSource  NO_OP TIPLOC TIPLOC  NO_OP STANOX STANOX  REMOVE STANOXwp STANOXwp  REMOVE fme_color fme_color  NO_OP fme_fill_color fme_fill_color  REMOVE"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="Description Description  REMOVE CRS CRS  REMOVE dataSource dataSource  NO_OP TIPLOC TIPLOC  NO_OP STANOX STANOX  REMOVE fme_color fme_color  NO_OP fme_fill_color fme_fill_color  REMOVE"/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
@@ -11688,6 +11713,7 @@
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="TIPLOC" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_color" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="DEFAULT_Z_VALUE" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="VertexExtractor_6"/>
@@ -16988,6 +17014,68 @@
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="TestFilter_9"/>
 #! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="1023"
+#!   TYPE="Sorter"
+#!   VERSION="3"
+#!   POSITION="8454.6300008454655 -5310.6591671977321"
+#!   BOUNDING_RECT="8454.6300008454655 -5310.6591671977321 454 71"
+#!   ORDER="500000000000907.5"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="21816"
+#! >
+#!     <OUTPUT_FEAT NAME="SORTED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="stop_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="stop_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="stop_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="platform_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="stop_url" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="easting" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="northing" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_color" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="stop_lon" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="stop_lat" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY_MODE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="GROUP_PROCESSING_GROUP" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="SORT_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SORT_PARM" PARM_VALUE="stop_id ALPHA ASCENDING platform_code NUMERIC ASCENDING"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Sorter_9"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="1203"
+#!   TYPE="Sorter"
+#!   VERSION="3"
+#!   POSITION="7859.9270841193247 -5700"
+#!   BOUNDING_RECT="7859.9270841193247 -5700 454 71"
+#!   ORDER="500000000000908.5"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="21816"
+#! >
+#!     <OUTPUT_FEAT NAME="SORTED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="STANOX" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="easting" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="northing" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="TIPLOC" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="CRS" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="stop_lon" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="stop_lat" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_color" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY_MODE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="GROUP_PROCESSING_GROUP" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="SORT_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SORT_PARM" PARM_VALUE="STANOX NUMERIC ASCENDING TIPLOC ALPHA ASCENDING"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Sorter_10"/>
+#! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
 #! <FEAT_LINK
@@ -17906,11 +17994,11 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="233"
+#!   IDENTIFIER="1201"
 #!   SOURCE_NODE="228"
-#!   TARGET_NODE="193"
+#!   TARGET_NODE="1023"
 #!   SOURCE_PORT_DESC="fo 0 OUTPUT"
-#!   TARGET_PORT_DESC="fi 0 Output"
+#!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
@@ -21476,11 +21564,11 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="959"
+#!   IDENTIFIER="975"
 #!   SOURCE_NODE="955"
-#!   TARGET_NODE="231"
+#!   TARGET_NODE="1203"
 #!   SOURCE_PORT_DESC="fo 0 Output"
-#!   TARGET_PORT_DESC="fi 0 Output"
+#!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
@@ -21858,6 +21946,21 @@
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="1"
+#!   HIDDEN="false"
+#!   COLOUR="0,0,0,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="1202"
+#!   SOURCE_NODE="1023"
+#!   TARGET_NODE="193"
+#!   SOURCE_PORT_DESC="fo 0 SORTED"
+#!   TARGET_PORT_DESC="fi 0 Output"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
 #!   COLOUR="0,0,0,1"
 #!   PEN_WIDTH="4"
@@ -22591,6 +22694,21 @@
 #!   TARGET_NODE="1022"
 #!   SOURCE_PORT_DESC="fo 1 &lt;lt&gt;lt&lt;gt&gt;UNFILTERED&lt;lt&gt;gt&lt;gt&gt;"
 #!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0,0,0,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="1205"
+#!   SOURCE_NODE="1203"
+#!   TARGET_NODE="231"
+#!   SOURCE_PORT_DESC="fo 0 SORTED"
+#!   TARGET_PORT_DESC="fi 0 Output"
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
@@ -23471,11 +23589,11 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="975"
+#!   IDENTIFIER="1204"
 #!   SOURCE_NODE="927"
-#!   TARGET_NODE="231"
+#!   TARGET_NODE="1203"
 #!   SOURCE_PORT_DESC="fo 1 UNMATCHED_BASE"
-#!   TARGET_PORT_DESC="fi 0 Output"
+#!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
@@ -25283,7 +25401,7 @@ MACRO OUTPUT_NULL_FTYPE GeometryFilter_2_NULL
 MACRO OUTPUT_INSTANCE_FTYPE not_selected
 Lookup GeometryFilter_2_RouterTable   ""  "not_selected"   fme_no_geom $(OUTPUT_NULL_FTYPE)
 # Create a FME_UUID_SAFE from the FME_UUID so we can use it for Tcl identifiers (FMEDESKTOP-11308)
-INCLUDE [ FME_CleanseFMEUUID {GeometryFilter_2_672563c6_627f_4316_b34e_c0e1bb223a4219} ]
+INCLUDE [ FME_CleanseFMEUUID {GeometryFilter_2_672563c6_627f_4316_b34e_c0e1bb223a4232} ]
 MACRO COLLECTION_HANDLING NOT_THIS_TIME
 MACRO INSTANCE_FILTERING *
 INCLUDE [    if 0 {       puts "MACRO COLLECTION_HANDLING *";       if <Unused> {          puts "MACRO INSTANCE_FILTERING NOT_THIS_TIME";       };    };    if {{$(OUTPUT_INSTANCE_FTYPE)} == "not_selected"} {       puts "MACRO INSTANCE_FILTERING NOT_THIS_TIME";    }; ]
@@ -25458,7 +25576,7 @@ FACTORY_DEF * TeeFactory FACTORY_NAME colourBlue-openRailData_2_<Rejected> INPUT
 FACTORY_DEF {*} TeeFactory    FACTORY_NAME { badDataFilter_3 }    INPUT  FEATURE_TYPE colourBlue-openRailData_2_COLORED    OUTPUT FEATURE_TYPE badDataFilter_3_TESTFILTERINPUTLINE_0
 FACTORY_DEF {*} TestFactory FACTORY_NAME badDataFilter_3_Condition_1 INPUT FEATURE_TYPE badDataFilter_3_TESTFILTERINPUTLINE_0 NUM_TEST { @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>EASTING<closeparen>,badDataFilter_3) = 286200 ENCODED } NUM_TEST { @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>NORTHING<closeparen>,badDataFilter_3) = 931659 ENCODED } BOOLEAN_OPERATOR AND COMPOSITE_TEST_EXPR "1 AND 2" FEATURE_TABLE_SHIM_SUPPORT Yes PRESERVE_FEATURE_ORDER PER_OUTPUT_PORT OUTPUT PASSED FEATURE_TYPE badDataFilter_3_bad OUTPUT FAILED FEATURE_TYPE badDataFilter_3_TESTFILTERINPUTLINE_1
 FACTORY_DEF {*} TestFactory FACTORY_NAME badDataFilter_3_Condition_2 INPUT FEATURE_TYPE badDataFilter_3_TESTFILTERINPUTLINE_1 NUM_TEST { @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>EASTING<closeparen>,badDataFilter_3) = 260885 ENCODED } NUM_TEST { @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>NORTHING<closeparen>,badDataFilter_3) = 667397 ENCODED } BOOLEAN_OPERATOR AND COMPOSITE_TEST_EXPR "1 AND 2" FEATURE_TABLE_SHIM_SUPPORT Yes PRESERVE_FEATURE_ORDER PER_OUTPUT_PORT OUTPUT PASSED FEATURE_TYPE badDataFilter_3_bad OUTPUT FAILED FEATURE_TYPE badDataFilter_3_TESTFILTERINPUTLINE_2
-FACTORY_DEF {*} TestFactory FACTORY_NAME badDataFilter_3_Condition_3 INPUT FEATURE_TYPE badDataFilter_3_TESTFILTERINPUTLINE_2 CASE_INSENSITIVE_TEST { @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>TIPLOC<closeparen>,badDataFilter_3) IN GRTN<comma>RBRTRPG<comma>WROXHMR<comma>GLNG26<comma>CBOMDS<comma>IVRNBLC<comma>CHAT65<comma>HITC672<comma>IMNGLL7<comma>KGMRUD1<comma>ABRGS38<comma>DRTW68<comma>CRGNTPS<comma>WLBCGBR<comma>CARLNEC<comma>HITC941<comma>MRGMMID<comma>NTHOPKJ<comma>CRST423<comma>WLWY182<comma>LEED928<comma>GRNGMRR<comma>BLTCDRJ<comma>BLTCWER<comma>BESTGBR<comma>BEST931<comma>BESTRR<comma>BESTHST<comma>BEST918<comma>SWNACFC<comma>SWNAGE<comma>SWNAHMC<comma>SWNAHNH<comma>SWNAMGF<comma>SWNANDN<comma>TESTSCR<comma>HRGY419<comma>ALRSFRD ENCODED } BOOLEAN_OPERATOR OR COMPOSITE_TEST_EXPR "1" FEATURE_TABLE_SHIM_SUPPORT Yes PRESERVE_FEATURE_ORDER PER_OUTPUT_PORT OUTPUT PASSED FEATURE_TYPE badDataFilter_3_bad OUTPUT FAILED FEATURE_TYPE badDataFilter_3_TESTFILTERINPUTLINE_3
+FACTORY_DEF {*} TestFactory FACTORY_NAME badDataFilter_3_Condition_3 INPUT FEATURE_TYPE badDataFilter_3_TESTFILTERINPUTLINE_2 CASE_INSENSITIVE_TEST { @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>TIPLOC<closeparen>,badDataFilter_3) IN GRTN<comma>RBRTRPG<comma>WROXHMR<comma>GLNG26<comma>CBOMDS<comma>IVRNBLC<comma>CHAT65<comma>HITC672<comma>IMNGLL7<comma>KGMRUD1<comma>ABRGS38<comma>DRTW68<comma>CRGNTPS<comma>WLBCGBR<comma>CARLNEC<comma>HITC941<comma>MRGMMID<comma>NTHOPKJ<comma>CRST423<comma>WLWY182<comma>LEED928<comma>GRNGMRR<comma>BLTCDRJ<comma>BLTCWER<comma>BESTGBR<comma>BEST931<comma>BESTRR<comma>BESTHST<comma>BEST918<comma>SWNACFC<comma>SWNAGE<comma>SWNAHMC<comma>SWNAHNH<comma>SWNAMGF<comma>SWNANDN<comma>TESTSCR<comma>HRGY419<comma>ALRSFRD<comma>GODALBN<comma>LEAGSDG<comma>SWNLMD<comma>HIGHBYE<comma>DONC108<comma>CLCH033<comma>CLCH072<comma>HOTH343<comma>BORN421<comma>BORN419<comma>BORN412<comma>BORN414<comma>ONIBURY<comma>HIGHBYA<comma>WHMP236<comma>WHMP617<comma>REDHLS ENCODED } BOOLEAN_OPERATOR OR COMPOSITE_TEST_EXPR "1" FEATURE_TABLE_SHIM_SUPPORT Yes PRESERVE_FEATURE_ORDER PER_OUTPUT_PORT OUTPUT PASSED FEATURE_TYPE badDataFilter_3_bad OUTPUT FAILED FEATURE_TYPE badDataFilter_3_TESTFILTERINPUTLINE_3
 FACTORY_DEF * TeeFactory FACTORY_NAME badDataFilter_3_ok INPUT FEATURE_TYPE badDataFilter_3_TESTFILTERINPUTLINE_3 OUTPUT FEATURE_TYPE badDataFilter_3_ok
 FACTORY_DEF * TeeFactory   FACTORY_NAME "badDataFilter_3 bad Transformer Output Nuker"   INPUT FEATURE_TYPE badDataFilter_3_bad
 # -------------------------------------------------------------------------
@@ -25491,7 +25609,7 @@ FACTORY_DEF * TeeFactory   FACTORY_NAME "DuplicateFilter_11 UNIQUE Splitter"   I
 # -------------------------------------------------------------------------
 FACTORY_DEF {*} FeatureJoinerFactory    FACTORY_NAME { FeatureJoiner_32 }    FLUSH_WHEN_GROUPS_CHANGE { <Unused> }    INPUT LEFT FEATURE_TYPE DuplicateFilter_11_UNIQUE_0_QYJr7nfmssM=    INPUT RIGHT FEATURE_TYPE Junction_18_Output_1_aLVl0hNPU9g=    JOIN_MODE { Inner }    JOIN_KEYS { TIPLOC TIPLOC STRING }    ATTR_CONFLICT_RES { USE_RIGHT }    GEOMETRY_HANDLING { USE_RIGHT }    OUTPUT { JOINED FEATURE_TYPE FeatureJoiner_32_JOINED        }    OUTPUT { <REJECTED> FEATURE_TYPE FeatureJoiner_32_<REJECTED>        }
 # -------------------------------------------------------------------------
-FACTORY_DEF {*} AttrSetFactory    COMMAND_PARM_EVALUATION SINGLE_PASS    FACTORY_NAME { AttributeManager_4 }    INPUT  FEATURE_TYPE FeatureJoiner_32_JOINED    MULTI_FEATURE_MODE { NO }    NULL_ATTR_MODE { NO_OP }    ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 3    DEF_VAL_COLUMN 2    MISSING_INPUT_ATTR_HANDLING RENAME_SET_VALUE REMOVE    ATTR_ACTION { "Description" "Description" "" "REMOVE" }      ATTR_ACTION { "CRS" "CRS" "" "REMOVE" }      ATTR_ACTION { "STANOX" "STANOX" "" "REMOVE" }      ATTR_ACTION { "STANOXwp" "STANOXwp" "" "REMOVE" }      ATTR_ACTION { "fme_fill_color" "fme_fill_color" "" "REMOVE" }    OUTPUT { OUTPUT FEATURE_TYPE AttributeManager_4_OUTPUT        }
+FACTORY_DEF {*} AttrSetFactory    COMMAND_PARM_EVALUATION SINGLE_PASS    FACTORY_NAME { AttributeManager_4 }    INPUT  FEATURE_TYPE FeatureJoiner_32_JOINED    MULTI_FEATURE_MODE { NO }    NULL_ATTR_MODE { NO_OP }    ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 3    DEF_VAL_COLUMN 2    MISSING_INPUT_ATTR_HANDLING RENAME_SET_VALUE REMOVE    ATTR_ACTION { "Description" "Description" "" "REMOVE" }      ATTR_ACTION { "CRS" "CRS" "" "REMOVE" }      ATTR_ACTION { "STANOX" "STANOX" "" "REMOVE" }      ATTR_ACTION { "fme_fill_color" "fme_fill_color" "" "REMOVE" }    OUTPUT { OUTPUT FEATURE_TYPE AttributeManager_4_OUTPUT        }
 FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeManager_4 OUTPUT Splitter"   INPUT FEATURE_TYPE AttributeManager_4_OUTPUT   OUTPUT FEATURE_TYPE AttributeManager_4_OUTPUT_0_2puYrnDr/0I=   OUTPUT FEATURE_TYPE AttributeManager_4_OUTPUT_1_tgtLiFo+roA=   OUTPUT FEATURE_TYPE AttributeManager_4_OUTPUT_2_lro4LYNVkH8=   OUTPUT FEATURE_TYPE AttributeManager_4_OUTPUT_3_nPWKNmne0w4=
 # -------------------------------------------------------------------------
 # Build the List removal function and regular expression if there was any list attributes to be removed.
@@ -25761,7 +25879,7 @@ FACTORY_DEF * TeeFactory FACTORY_NAME colourYellow-UK2GTFS_<Rejected> INPUT FEAT
 FACTORY_DEF {*} TeeFactory    FACTORY_NAME { badDataFilter_4 }    INPUT  FEATURE_TYPE colourYellow-UK2GTFS_COLORED    OUTPUT FEATURE_TYPE badDataFilter_4_TESTFILTERINPUTLINE_0
 FACTORY_DEF {*} TestFactory FACTORY_NAME badDataFilter_4_Condition_1 INPUT FEATURE_TYPE badDataFilter_4_TESTFILTERINPUTLINE_0 NUM_TEST { @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>stop_lon<closeparen>,badDataFilter_4) = -3.94107 ENCODED } NUM_TEST { @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>stop_lat<closeparen>,badDataFilter_4) = 58.25884 ENCODED } BOOLEAN_OPERATOR AND COMPOSITE_TEST_EXPR "1 AND 2" FEATURE_TABLE_SHIM_SUPPORT Yes PRESERVE_FEATURE_ORDER PER_OUTPUT_PORT OUTPUT PASSED FEATURE_TYPE badDataFilter_4_bad OUTPUT FAILED FEATURE_TYPE badDataFilter_4_TESTFILTERINPUTLINE_1
 FACTORY_DEF {*} TestFactory FACTORY_NAME badDataFilter_4_Condition_2 INPUT FEATURE_TYPE badDataFilter_4_TESTFILTERINPUTLINE_1 NUM_TEST { @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>stop_lon<closeparen>,badDataFilter_4) = -4.22536 ENCODED } NUM_TEST { @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>stop_lat<closeparen>,badDataFilter_4) = 55.87958 ENCODED } BOOLEAN_OPERATOR AND COMPOSITE_TEST_EXPR "1 AND 2" FEATURE_TABLE_SHIM_SUPPORT Yes PRESERVE_FEATURE_ORDER PER_OUTPUT_PORT OUTPUT PASSED FEATURE_TYPE badDataFilter_4_bad OUTPUT FAILED FEATURE_TYPE badDataFilter_4_TESTFILTERINPUTLINE_2
-FACTORY_DEF {*} TestFactory FACTORY_NAME badDataFilter_4_Condition_3 INPUT FEATURE_TYPE badDataFilter_4_TESTFILTERINPUTLINE_2 CASE_INSENSITIVE_TEST { @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>TIPLOC<closeparen>,badDataFilter_4) IN "" ENCODED } BOOLEAN_OPERATOR OR COMPOSITE_TEST_EXPR "1" FEATURE_TABLE_SHIM_SUPPORT Yes PRESERVE_FEATURE_ORDER PER_OUTPUT_PORT OUTPUT PASSED FEATURE_TYPE badDataFilter_4_bad OUTPUT FAILED FEATURE_TYPE badDataFilter_4_TESTFILTERINPUTLINE_3
+FACTORY_DEF {*} TestFactory FACTORY_NAME badDataFilter_4_Condition_3 INPUT FEATURE_TYPE badDataFilter_4_TESTFILTERINPUTLINE_2 CASE_INSENSITIVE_TEST { @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>TIPLOC<closeparen>,badDataFilter_4) IN YSTRDMS<comma>RBRTRPG<comma>HOTH343<comma>SWNLMD<comma>BEST918<comma>BEST931<comma>BESTGBR<comma>BESTHST<comma>CLCH033<comma>CLCH072<comma>BESTRR<comma>BESTTSB<comma>WHMP236<comma>WHMP617<comma>BORN421<comma>BORN419<comma>BORN412<comma>BORN414<comma>WHMP236<comma>WHMP617 ENCODED } BOOLEAN_OPERATOR OR COMPOSITE_TEST_EXPR "1" FEATURE_TABLE_SHIM_SUPPORT Yes PRESERVE_FEATURE_ORDER PER_OUTPUT_PORT OUTPUT PASSED FEATURE_TYPE badDataFilter_4_bad OUTPUT FAILED FEATURE_TYPE badDataFilter_4_TESTFILTERINPUTLINE_3
 FACTORY_DEF * TeeFactory FACTORY_NAME badDataFilter_4_ok INPUT FEATURE_TYPE badDataFilter_4_TESTFILTERINPUTLINE_3 OUTPUT FEATURE_TYPE badDataFilter_4_ok
 FACTORY_DEF * TeeFactory   FACTORY_NAME "badDataFilter_4 bad Transformer Output Nuker"   INPUT FEATURE_TYPE badDataFilter_4_bad
 # -------------------------------------------------------------------------
@@ -25813,7 +25931,7 @@ FACTORY_DEF * TeeFactory   FACTORY_NAME "Junction_7 Output Splitter"   INPUT FEA
 # -------------------------------------------------------------------------
 FACTORY_DEF {*} FeatureJoinerFactory    FACTORY_NAME { FeatureJoiner_30 }    FLUSH_WHEN_GROUPS_CHANGE { <Unused> }    INPUT LEFT FEATURE_TYPE Junction_9_Output_1_JR29HYZpaaM=    INPUT RIGHT FEATURE_TYPE Junction_3_Output_2_FUtaHq9L6Is=    JOIN_MODE { Inner }    JOIN_KEYS { TIPLOC TIPLOC STRING }    ATTR_CONFLICT_RES { USE_LEFT }    GEOMETRY_HANDLING { USE_LEFT }    OUTPUT { JOINED FEATURE_TYPE FeatureJoiner_30_JOINED        }    OUTPUT { <REJECTED> FEATURE_TYPE FeatureJoiner_30_<REJECTED>        }
 # -------------------------------------------------------------------------
-FACTORY_DEF {*} AttrSetFactory    COMMAND_PARM_EVALUATION SINGLE_PASS    FACTORY_NAME { AttributeManager }    INPUT  FEATURE_TYPE FeatureJoiner_30_JOINED    MULTI_FEATURE_MODE { NO }    NULL_ATTR_MODE { NO_OP }    ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 3    DEF_VAL_COLUMN 2    MISSING_INPUT_ATTR_HANDLING RENAME_SET_VALUE REMOVE    ATTR_ACTION { "CRS" "CRS" "" "REMOVE" }      ATTR_ACTION { "STANOX" "STANOX" "" "REMOVE" }      ATTR_ACTION { "STANOXwp" "STANOXwp" "" "REMOVE" }      ATTR_ACTION { "fme_fill_color" "fme_fill_color" "" "REMOVE" }      ATTR_ACTION { "fme_rejection_code" "fme_rejection_code" "" "REMOVE" }      ATTR_ACTION { "fme_rejection_message" "fme_rejection_message" "" "REMOVE" }    OUTPUT { OUTPUT FEATURE_TYPE AttributeManager_OUTPUT        }
+FACTORY_DEF {*} AttrSetFactory    COMMAND_PARM_EVALUATION SINGLE_PASS    FACTORY_NAME { AttributeManager }    INPUT  FEATURE_TYPE FeatureJoiner_30_JOINED    MULTI_FEATURE_MODE { NO }    NULL_ATTR_MODE { NO_OP }    ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 3    DEF_VAL_COLUMN 2    MISSING_INPUT_ATTR_HANDLING RENAME_SET_VALUE REMOVE    ATTR_ACTION { "CRS" "CRS" "" "REMOVE" }      ATTR_ACTION { "STANOX" "STANOX" "" "REMOVE" }      ATTR_ACTION { "fme_fill_color" "fme_fill_color" "" "REMOVE" }      ATTR_ACTION { "fme_rejection_code" "fme_rejection_code" "" "REMOVE" }      ATTR_ACTION { "fme_rejection_message" "fme_rejection_message" "" "REMOVE" }    OUTPUT { OUTPUT FEATURE_TYPE AttributeManager_OUTPUT        }
 # -------------------------------------------------------------------------
 FACTORY_DEF {*} TeeFactory    FACTORY_NAME { Junction_6 }    INPUT  FEATURE_TYPE AttributeManager_OUTPUT    OUTPUT { FEATURE_TYPE Junction_6_Output         }
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Junction_6 Output Splitter"   INPUT FEATURE_TYPE Junction_6_Output   OUTPUT FEATURE_TYPE Junction_6_Output_0_dQfsL8uZtdU=   OUTPUT FEATURE_TYPE Junction_6_Output_1_Jj+X+iM3/TU=
@@ -25851,7 +25969,7 @@ FACTORY_DEF {*} TeeFactory    FACTORY_NAME { Junction_14 }    INPUT  FEATURE_TYP
 # normal, non-list removal especially when in Bulk Mode.  Note that this computation of the regular expressions is done
 # once during mapping file parse time.
 INCLUDE [    set listAttributeRemoveRegexps {};    set anyList {no};    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append listAttributeRemoveRegexps ",^$attr$";       set anyList {yes};    };    if { ${anyList} == {no} } {        puts {MACRO AttributeRemover_12_LIST_FUNC }    } else {        puts "MACRO AttributeRemover_12_LIST_FUNC @RemoveAttributes(fme_pcre_match\"$listAttributeRemoveRegexps\")"    }; ]
-FACTORY_DEF {*} TeeFactory    FACTORY_NAME { AttributeRemover_12 }    INPUT  FEATURE_TYPE Junction_13_Output    INPUT  FEATURE_TYPE Junction_14_Output    OUTPUT { FEATURE_TYPE AttributeRemover_12_OUTPUT        @RemoveAttributes(fme_encoded,STANOX,STANOXwp,Stanox,fme_fill_color,fme_rejection_message,fme_rejection_code,CRS,Details.CRS)        $(AttributeRemover_12_LIST_FUNC)         }
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME { AttributeRemover_12 }    INPUT  FEATURE_TYPE Junction_13_Output    INPUT  FEATURE_TYPE Junction_14_Output    OUTPUT { FEATURE_TYPE AttributeRemover_12_OUTPUT        @RemoveAttributes(fme_encoded,CRS)        $(AttributeRemover_12_LIST_FUNC)         }
 FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeRemover_12 OUTPUT Splitter"   INPUT FEATURE_TYPE AttributeRemover_12_OUTPUT   OUTPUT FEATURE_TYPE AttributeRemover_12_OUTPUT_0_0Ccbx6lX7xw=   OUTPUT FEATURE_TYPE AttributeRemover_12_OUTPUT_1_bRlE5ZhPBfw=
 # -------------------------------------------------------------------------
 FACTORY_DEF {*} DuplicateRemoverFactory    FACTORY_NAME { DuplicateFilter_4 }    COMMAND_PARM_EVALUATION SINGLE_PASS    SUPPORTS_FEATURE_TABLES    INPUT  FEATURE_TYPE AttributeRemover_12_OUTPUT_0_0Ccbx6lX7xw=    KEY_ATTRIBUTES { TIPLOC }    INPUT_IS_ORDERED { NO }    PRESERVE_FEATURE_ORDER { PER_OUTPUT_PORT }    OUTPUT { UNIQUE FEATURE_TYPE DuplicateFilter_4_UNIQUE         }
@@ -25865,7 +25983,7 @@ MACRO $(VertexExtractor_WORKSPACE_NAME)_DEFAULT_Z_VALUE
 INCLUDE_CUSTOM_TRANSFORMER_VER VertexExtractor:4
 FACTORY_DEF * TeeFactory   FACTORY_NAME "VertexExtractor_5 Point Output Renamer/Nuker"   INPUT FEATURE_TYPE VertexExtractor_5_Point   OUTPUT FEATURE_TYPE VertexExtractor_5_Point
 # -------------------------------------------------------------------------
-FACTORY_DEF {*} AttributeKeeperFactory    FACTORY_NAME { AttributeKeeper_28 }    INPUT  FEATURE_TYPE VertexExtractor_5_Point    KEEP_ATTRS { _part_number,dataSource,Description,TIPLOC }    KEEP_LISTS {  }    KEEP_FME_ATTRIBUTES Yes    BUILD_FEATURE_TABLES { NO }    OUTPUT_ON_ATTRIBUTE_CHANGE { <Unused> }    OUTPUT { OUTPUT FEATURE_TYPE AttributeKeeper_28_OUTPUT        }
+FACTORY_DEF {*} AttributeKeeperFactory    FACTORY_NAME { AttributeKeeper_28 }    INPUT  FEATURE_TYPE VertexExtractor_5_Point    KEEP_ATTRS { _part_number,dataSource,Description,TIPLOC,fme_color }    KEEP_LISTS {  }    KEEP_FME_ATTRIBUTES Yes    BUILD_FEATURE_TABLES { NO }    OUTPUT_ON_ATTRIBUTE_CHANGE { <Unused> }    OUTPUT { OUTPUT FEATURE_TYPE AttributeKeeper_28_OUTPUT        }
 # -------------------------------------------------------------------------
 FACTORY_DEF {*} TeeFactory    FACTORY_NAME { splitPartNumber }    INPUT  FEATURE_TYPE AttributeKeeper_28_OUTPUT    OUTPUT FEATURE_TYPE splitPartNumber_TESTFILTERINPUTLINE_0
 FACTORY_DEF {*} TestFactory FACTORY_NAME splitPartNumber_Condition_1 INPUT FEATURE_TYPE splitPartNumber_TESTFILTERINPUTLINE_0 NUM_TEST { @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_part_number<closeparen>,splitPartNumber) = 0 ENCODED } BOOLEAN_OPERATOR OR COMPOSITE_TEST_EXPR "1" FEATURE_TABLE_SHIM_SUPPORT Yes PRESERVE_FEATURE_ORDER PER_OUTPUT_PORT OUTPUT PASSED FEATURE_TYPE splitPartNumber_0 OUTPUT FAILED FEATURE_TYPE splitPartNumber_TESTFILTERINPUTLINE_1
@@ -25886,7 +26004,7 @@ FACTORY_DEF * TeeFactory   FACTORY_NAME "Junction_15 Output Splitter"   INPUT FE
 # normal, non-list removal especially when in Bulk Mode.  Note that this computation of the regular expressions is done
 # once during mapping file parse time.
 INCLUDE [    set listAttributeRemoveRegexps {};    set anyList {no};    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append listAttributeRemoveRegexps ",^$attr$";       set anyList {yes};    };    if { ${anyList} == {no} } {        puts {MACRO AttributeRemover_14_LIST_FUNC }    } else {        puts "MACRO AttributeRemover_14_LIST_FUNC @RemoveAttributes(fme_pcre_match\"$listAttributeRemoveRegexps\")"    }; ]
-FACTORY_DEF {*} TeeFactory    FACTORY_NAME { AttributeRemover_14 }    INPUT  FEATURE_TYPE Junction_15_Output_0_XGE8OW0BxYY=    OUTPUT { FEATURE_TYPE AttributeRemover_14_OUTPUT        @RemoveAttributes(fme_encoded,Codes,Details.BPlan_TimingPoint,Details.CRS,Details.CompulsoryStop,Details.ForceLPB,Details.Nalco,Details.OffNetwork,Details.TPS_StationCategory,Details.TPS_StationType,Details.UIC,Details.Zone,Elevation.Google,Elevation.OpenElevation,Elevation.OrdnanceSurvey5,Elevation.OrdnanceSurvey50,InBPlan,InTPS,Latitude,Longitude,NodeId,Stanox,_element_index,fme_fill_color)        $(AttributeRemover_14_LIST_FUNC)         }
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME { AttributeRemover_14 }    INPUT  FEATURE_TYPE Junction_15_Output_0_XGE8OW0BxYY=    OUTPUT { FEATURE_TYPE AttributeRemover_14_OUTPUT        @RemoveAttributes(fme_encoded,)        $(AttributeRemover_14_LIST_FUNC)         }
 FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeRemover_14 OUTPUT Splitter"   INPUT FEATURE_TYPE AttributeRemover_14_OUTPUT   OUTPUT FEATURE_TYPE AttributeRemover_14_OUTPUT_0_xAiWKig34cg=   OUTPUT FEATURE_TYPE AttributeRemover_14_OUTPUT_1_176b4XVDuP8=
 # -------------------------------------------------------------------------
 # Build the List removal function and regular expression if there was any list attributes to be removed.
@@ -26012,7 +26130,7 @@ FACTORY_DEF * TeeFactory   FACTORY_NAME "Inspector_8 (Disabled) Nuker"   INPUT F
 # normal, non-list removal especially when in Bulk Mode.  Note that this computation of the regular expressions is done
 # once during mapping file parse time.
 INCLUDE [    set listAttributeRemoveRegexps {};    set anyList {no};    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append listAttributeRemoveRegexps ",^$attr$";       set anyList {yes};    };    if { ${anyList} == {no} } {        puts {MACRO AttributeRemover_13_LIST_FUNC }    } else {        puts "MACRO AttributeRemover_13_LIST_FUNC @RemoveAttributes(fme_pcre_match\"$listAttributeRemoveRegexps\")"    }; ]
-FACTORY_DEF {*} TeeFactory    FACTORY_NAME { AttributeRemover_13 }    INPUT  FEATURE_TYPE Junction_5_Output_1_YDsYC/UHHjA=    OUTPUT { FEATURE_TYPE AttributeRemover_13_OUTPUT        @RemoveAttributes(fme_encoded,fme_fill_color,EASTING,NORTHING)        $(AttributeRemover_13_LIST_FUNC)         }
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME { AttributeRemover_13 }    INPUT  FEATURE_TYPE Junction_5_Output_1_YDsYC/UHHjA=    OUTPUT { FEATURE_TYPE AttributeRemover_13_OUTPUT        @RemoveAttributes(fme_encoded,)        $(AttributeRemover_13_LIST_FUNC)         }
 FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeRemover_13 OUTPUT Splitter"   INPUT FEATURE_TYPE AttributeRemover_13_OUTPUT   OUTPUT FEATURE_TYPE AttributeRemover_13_OUTPUT_0_9gNmM7qs7VI=   OUTPUT FEATURE_TYPE AttributeRemover_13_OUTPUT_1_Ym0ED6C3/Dg=
 # -------------------------------------------------------------------------
 FACTORY_DEF {*} AttributeKeeperFactory    FACTORY_NAME { AttributeKeeper_17 }    INPUT  FEATURE_TYPE AttributeRemover_13_OUTPUT_0_9gNmM7qs7VI=    INPUT  FEATURE_TYPE AttributeRemover_14_OUTPUT_0_xAiWKig34cg=    KEEP_ATTRS { Description,DisplayName,dataSource,TIPLOC,fme_color,EASTING,NORTHING }    KEEP_LISTS {  }    KEEP_FME_ATTRIBUTES Yes    BUILD_FEATURE_TABLES { NO }    OUTPUT_ON_ATTRIBUTE_CHANGE { <Unused> }    OUTPUT { OUTPUT FEATURE_TYPE AttributeKeeper_17_OUTPUT        }
@@ -26054,7 +26172,7 @@ DEFAULT_MACRO VISUALIZER_CREATE_SPATIAL_INDEX NO
 # [PR#45549] The Data Inspector will limit the maximum number of features
 # it reads on WIN32, so we will correspondingly limit the number of
 # features we record here using the MAX_FEATURES_TO_RECORD directive.
-FACTORY_DEF {*} RecorderFactory    FACTORY_NAME { Inspector_12_Recorder }    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT FEATURE_TYPE __viewme__       _wb_termination_feature Yes       @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__       @FeatureType(@Value(__inspector_feature_type_attr__))       @RemoveAttributes(__inspector_feature_type_attr__)    FEATURE_FILE { "$(VISUALIZER_FEATURE_FILE)" }    STORE_SCANNED_SCHEMA YES    NORMALIZE_LIST_ATTRIBUTES_ON_SCHEMA YES    CREATE_SPATIAL_INDEX { "$(VISUALIZER_CREATE_SPATIAL_INDEX)" }    INSPECTOR { "$(VISUALIZER_CREATE_SPATIAL_INDEX)" }    FSC_SCHEMA { Description,buffer,dataSource,varchar<openparen>200<closeparen>,TIPLOC,buffer }    MODE RECORD    STORE_SCANNED_METADATA    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
+FACTORY_DEF {*} RecorderFactory    FACTORY_NAME { Inspector_12_Recorder }    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT FEATURE_TYPE __viewme__       _wb_termination_feature Yes       @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__       @FeatureType(@Value(__inspector_feature_type_attr__))       @RemoveAttributes(__inspector_feature_type_attr__)    FEATURE_FILE { "$(VISUALIZER_FEATURE_FILE)" }    STORE_SCANNED_SCHEMA YES    NORMALIZE_LIST_ATTRIBUTES_ON_SCHEMA YES    CREATE_SPATIAL_INDEX { "$(VISUALIZER_CREATE_SPATIAL_INDEX)" }    INSPECTOR { "$(VISUALIZER_CREATE_SPATIAL_INDEX)" }    FSC_SCHEMA { Description,buffer,dataSource,varchar<openparen>200<closeparen>,TIPLOC,buffer,fme_color,buffer }    MODE RECORD    STORE_SCANNED_METADATA    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
 # -------------------------------------------------------------------------
 FACTORY_DEF {*} AttributeKeeperFactory    FACTORY_NAME { AttributeKeeper_RB }    INPUT  FEATURE_TYPE LengthCalculator_5_OUTPUT_1_vRUsvfQ4/s4=    KEEP_ATTRS { dataSource,Description,TIPLOC,_lengthRB }    KEEP_LISTS {  }    KEEP_FME_ATTRIBUTES Yes    BUILD_FEATURE_TABLES { NO }    OUTPUT_ON_ATTRIBUTE_CHANGE { <Unused> }    OUTPUT { OUTPUT FEATURE_TYPE AttributeKeeper_RB_OUTPUT        }
 FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeKeeper_RB OUTPUT Splitter"   INPUT FEATURE_TYPE AttributeKeeper_RB_OUTPUT   OUTPUT FEATURE_TYPE AttributeKeeper_RB_OUTPUT_0_gsYSvd2XuKc=   OUTPUT FEATURE_TYPE AttributeKeeper_RB_OUTPUT_1_58yXzjuXnBI=
@@ -26291,7 +26409,7 @@ MACRO OUTPUT_NULL_FTYPE GeometryFilter_3_NULL
 MACRO OUTPUT_INSTANCE_FTYPE not_selected
 Lookup GeometryFilter_3_RouterTable   ""  "not_selected"   fme_no_geom $(OUTPUT_NULL_FTYPE)
 # Create a FME_UUID_SAFE from the FME_UUID so we can use it for Tcl identifiers (FMEDESKTOP-11308)
-INCLUDE [ FME_CleanseFMEUUID {GeometryFilter_3_e5f2aab1_2b1e_459b_b44f_e36953b68e8219} ]
+INCLUDE [ FME_CleanseFMEUUID {GeometryFilter_3_e5f2aab1_2b1e_459b_b44f_e36953b68e8232} ]
 MACRO COLLECTION_HANDLING NOT_THIS_TIME
 MACRO INSTANCE_FILTERING *
 INCLUDE [    if 0 {       puts "MACRO COLLECTION_HANDLING *";       if <Unused> {          puts "MACRO INSTANCE_FILTERING NOT_THIS_TIME";       };    };    if {{$(OUTPUT_INSTANCE_FTYPE)} == "not_selected"} {       puts "MACRO INSTANCE_FILTERING NOT_THIS_TIME";    }; ]
@@ -26338,7 +26456,7 @@ MACRO OUTPUT_NULL_FTYPE GeometryFilter_4_NULL
 MACRO OUTPUT_INSTANCE_FTYPE not_selected
 Lookup GeometryFilter_4_RouterTable   ""  "not_selected"   fme_no_geom $(OUTPUT_NULL_FTYPE)
 # Create a FME_UUID_SAFE from the FME_UUID so we can use it for Tcl identifiers (FMEDESKTOP-11308)
-INCLUDE [ FME_CleanseFMEUUID {GeometryFilter_4_51255c6f_3c25_4844_b314_b2665be1331029} ]
+INCLUDE [ FME_CleanseFMEUUID {GeometryFilter_4_51255c6f_3c25_4844_b314_b2665be1331047} ]
 MACRO COLLECTION_HANDLING NOT_THIS_TIME
 MACRO INSTANCE_FILTERING *
 INCLUDE [    if 0 {       puts "MACRO COLLECTION_HANDLING *";       if <Unused> {          puts "MACRO INSTANCE_FILTERING NOT_THIS_TIME";       };    };    if {{$(OUTPUT_INSTANCE_FTYPE)} == "not_selected"} {       puts "MACRO INSTANCE_FILTERING NOT_THIS_TIME";    }; ]
@@ -26365,7 +26483,7 @@ MACRO OUTPUT_NULL_FTYPE GeometryFilter_5_NULL
 MACRO OUTPUT_INSTANCE_FTYPE not_selected
 Lookup GeometryFilter_5_RouterTable   ""  "not_selected"   fme_no_geom $(OUTPUT_NULL_FTYPE)
 # Create a FME_UUID_SAFE from the FME_UUID so we can use it for Tcl identifiers (FMEDESKTOP-11308)
-INCLUDE [ FME_CleanseFMEUUID {GeometryFilter_5_d0dfdc0a_9b44_4c05_b67e_6e0a67a0903a29} ]
+INCLUDE [ FME_CleanseFMEUUID {GeometryFilter_5_d0dfdc0a_9b44_4c05_b67e_6e0a67a0903a47} ]
 MACRO COLLECTION_HANDLING NOT_THIS_TIME
 MACRO INSTANCE_FILTERING *
 INCLUDE [    if 0 {       puts "MACRO COLLECTION_HANDLING *";       if <Unused> {          puts "MACRO INSTANCE_FILTERING NOT_THIS_TIME";       };    };    if {{$(OUTPUT_INSTANCE_FTYPE)} == "not_selected"} {       puts "MACRO INSTANCE_FILTERING NOT_THIS_TIME";    }; ]
@@ -26392,7 +26510,7 @@ MACRO OUTPUT_NULL_FTYPE GeometryFilter_6_NULL
 MACRO OUTPUT_INSTANCE_FTYPE not_selected
 Lookup GeometryFilter_6_RouterTable   ""  "not_selected"   fme_no_geom $(OUTPUT_NULL_FTYPE)
 # Create a FME_UUID_SAFE from the FME_UUID so we can use it for Tcl identifiers (FMEDESKTOP-11308)
-INCLUDE [ FME_CleanseFMEUUID {GeometryFilter_6_0cc49a1f_f984_4a41_b173_f5c24d2397ba30} ]
+INCLUDE [ FME_CleanseFMEUUID {GeometryFilter_6_0cc49a1f_f984_4a41_b173_f5c24d2397ba48} ]
 MACRO COLLECTION_HANDLING NOT_THIS_TIME
 MACRO INSTANCE_FILTERING *
 INCLUDE [    if 0 {       puts "MACRO COLLECTION_HANDLING *";       if <Unused> {          puts "MACRO INSTANCE_FILTERING NOT_THIS_TIME";       };    };    if {{$(OUTPUT_INSTANCE_FTYPE)} == "not_selected"} {       puts "MACRO INSTANCE_FILTERING NOT_THIS_TIME";    }; ]
@@ -26419,7 +26537,7 @@ MACRO OUTPUT_NULL_FTYPE GeometryFilter_7_NULL
 MACRO OUTPUT_INSTANCE_FTYPE not_selected
 Lookup GeometryFilter_7_RouterTable   ""  "not_selected"   fme_no_geom $(OUTPUT_NULL_FTYPE)
 # Create a FME_UUID_SAFE from the FME_UUID so we can use it for Tcl identifiers (FMEDESKTOP-11308)
-INCLUDE [ FME_CleanseFMEUUID {GeometryFilter_7_50d489ff_5dc9_4a2b_8441_0c4bf5afd6cc30} ]
+INCLUDE [ FME_CleanseFMEUUID {GeometryFilter_7_50d489ff_5dc9_4a2b_8441_0c4bf5afd6cc48} ]
 MACRO COLLECTION_HANDLING NOT_THIS_TIME
 MACRO INSTANCE_FILTERING *
 INCLUDE [    if 0 {       puts "MACRO COLLECTION_HANDLING *";       if <Unused> {          puts "MACRO INSTANCE_FILTERING NOT_THIS_TIME";       };    };    if {{$(OUTPUT_INSTANCE_FTYPE)} == "not_selected"} {       puts "MACRO INSTANCE_FILTERING NOT_THIS_TIME";    }; ]
@@ -26497,7 +26615,7 @@ MACRO OUTPUT_NULL_FTYPE GeometryFilter_8_NULL
 MACRO OUTPUT_INSTANCE_FTYPE not_selected
 Lookup GeometryFilter_8_RouterTable   ""  "not_selected"   fme_no_geom $(OUTPUT_NULL_FTYPE)
 # Create a FME_UUID_SAFE from the FME_UUID so we can use it for Tcl identifiers (FMEDESKTOP-11308)
-INCLUDE [ FME_CleanseFMEUUID {GeometryFilter_8_84183eba_3675_4ad9_b4ae_cc870a9988c436} ]
+INCLUDE [ FME_CleanseFMEUUID {GeometryFilter_8_84183eba_3675_4ad9_b4ae_cc870a9988c454} ]
 MACRO COLLECTION_HANDLING NOT_THIS_TIME
 MACRO INSTANCE_FILTERING *
 INCLUDE [    if 0 {       puts "MACRO COLLECTION_HANDLING *";       if <Unused> {          puts "MACRO INSTANCE_FILTERING NOT_THIS_TIME";       };    };    if {{$(OUTPUT_INSTANCE_FTYPE)} == "not_selected"} {       puts "MACRO INSTANCE_FILTERING NOT_THIS_TIME";    }; ]
@@ -26764,8 +26882,10 @@ FACTORY_DEF * TeeFactory   FACTORY_NAME "TestFilter_7 <lt>UNFILTERED<gt> Transfo
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Terminator_2 (Disabled) Nuker"   INPUT FEATURE_TYPE TestFilter_7_100km+
 # -------------------------------------------------------------------------
+FACTORY_DEF {*} SortFactory    FACTORY_NAME { Sorter_10 }    INPUT  FEATURE_TYPE NeighborFinder15m_UNMATCHED_BASE    INPUT  FEATURE_TYPE Junction_10_Output_0_st1ltWAMeSg=    SORT_ALPHA_AS_UTF8 { YES }    FLUSH_WHEN_GROUPS_CHANGE { <Unused> }    SORT_BY { STANOX NUMERIC ASCENDING TIPLOC ALPHA ASCENDING }    OUTPUT { SORTED FEATURE_TYPE Sorter_10_SORTED          }
+# -------------------------------------------------------------------------
 INCLUDE [    puts {DEFAULT_MACRO FeatureWriterDataset_FeatureWriter_2 @EvaluateExpression(FDIV,STRING_ENCODED,$(outputPath$encode),FeatureWriter_2)}; ]
-FACTORY_DEF {*} WriterFactory    FLUSH_WHEN_GROUPS_CHANGE { <Unused> }    FACTORY_NAME { FeatureWriter_2 }    WRITER_TYPE { CSV2 }    WRITER_DATASET { "$(FeatureWriterDataset_FeatureWriter_2)" }    WRITER_SETTINGS { "RUNTIME_MACROS,DATASET_GROUP<comma><comma>EXTENSION<comma>csv<comma>EXISTING_FILE_HANDLING<comma>Yes<comma>FIELDS_GROUP<comma><comma>DELIMITER<comma><lt>comma<gt><comma>WRITE_FIELD_NAMES<comma>firstrow<comma>ENCODING_GROUP<comma><comma>ENCODING<comma>UTF-8<comma>WRITE_BOM_FOR_UNICODE<comma>Yes<comma>ADVANCED_GROUP<comma>FME_DISCLOSURE_OPEN<comma>QUALIFY_FIELD_NAMES<comma>yes<comma>QUALIFY_FIELD_VALUES<comma>yes<comma>UNQUALIFIED_FIELD_VALUE_HANDLING<comma><lt>Unused<gt><comma>TREAT_EMBEDDED_FIELD_QUALIFIERS_AS_UNSAFE<comma>Yes<comma>FIELD_QUALIFIER_CHARACTER<comma><lt>quote<gt><comma>FIELD_QUALIFIER_ESCAPE_CHARACTER<comma><lt>quote<gt><comma>ROW_TERMINATION<comma>System<comma>WRITE_SCHEMA_FILE<comma>NO<comma>EXISTING_SCHEMA_FILE_HANDLING<comma><lt>Unused<gt><comma>COORDINATE_SYSTEM_GRANULARITY<comma>FEATURE_TYPE,METAFILE,CSV2" }    WRITER_METAFILE { "ATTRIBUTE_CASE,ANY,ATTRIBUTE_INVALID_CHARS,<quote>*<opencurly><closecurly><dollar>,ATTRIBUTE_LENGTH,255,ATTR_TYPE_MAP,string<comma>fme_buffer<comma>string<comma>fme_binarybuffer<comma>string<comma>fme_xml<comma>string<comma>fme_json<comma>varchar<openparen>width<closeparen><comma>fme_varchar<openparen>width<closeparen><comma>varchar<openparen>width<closeparen><comma>fme_varbinary<openparen>width<closeparen><comma>varchar<openparen>width<closeparen><comma>fme_char<openparen>width<closeparen><comma>varchar<openparen>width<closeparen><comma>fme_binary<openparen>width<closeparen><comma>datetime<comma>fme_datetime<comma>time<comma>fme_time<comma>date<comma>fme_date<comma>string<comma>fme_real64<comma>real64<comma>fme_real64<comma>x_coordinate<comma>fme_real64<comma>y_coordinate<comma>fme_real64<comma>z_coordinate<comma>fme_real64<comma>string<comma>fme_real32<comma>real32<comma>fme_real32<comma>string<comma>fme_int64<comma>int64<comma>fme_int64<comma>string<comma>fme_int32<comma>int32<comma>fme_int32<comma>string<comma>fme_int16<comma>int16<comma>fme_int16<comma>string<comma>fme_int8<comma>int8<comma>fme_int8<comma>string<comma>fme_uint64<comma>uint64<comma>fme_uint64<comma>string<comma>fme_uint32<comma>uint32<comma>fme_uint32<comma>string<comma>fme_uint16<comma>uint16<comma>fme_uint16<comma>string<comma>fme_uint8<comma>uint8<comma>fme_uint8<comma>string<comma>fme_boolean<comma>boolean<comma>fme_boolean<comma><quote>number<openparen>width<comma>decimal<closeparen><quote><comma><quote>fme_decimal<openparen>width<comma>decimal<closeparen><quote>,DEST_ILLEGAL_ATTR_LIST,,FEATURE_TYPE_CASE,ANY,FEATURE_TYPE_INVALID_CHARS,<solidus><quote>:?*<lt><gt>|,FEATURE_TYPE_LENGTH,0,FEATURE_TYPE_LENGTH_INCLUDES_PREFIX,false,FEATURE_TYPE_RESERVED_WORDS,,FORMAT_METAFILE,$(FME_HOME_ENCODED)metafile<backslash>CSV2.fmf,FORMAT_NAME,CSV2,GEOM_MAP,csv_feature_table<comma>fme_feature_table<comma>csv_none<comma>fme_no_geom<comma>csv_point<comma>fme_point<comma>csv_none<comma>fme_line<comma>csv_none<comma>fme_polygon<comma>csv_none<comma>fme_text<comma>csv_none<comma>fme_ellipse<comma>csv_none<comma>fme_arc<comma>csv_none<comma>fme_rectangle<comma>csv_none<comma>fme_rounded_rectangle<comma>fme_no_map<comma>fme_no_geom<comma>fme_no_map<comma>fme_no_map<comma>csv_none<comma>fme_collection<comma>csv_none<comma>fme_raster<comma>csv_none<comma>fme_surface<comma>csv_none<comma>fme_solid<comma>csv_none<comma>fme_point_cloud<comma>csv_none<comma>fme_voxel_grid,READER_ATTR_INDEX_TYPES,,READER_FORMAT_TYPE,DYNAMIC,READER_USES_DEF,yes,SOURCE,no,SUPPORTS_FEAT_TYPE_FANOUT,yes,SUPPORTS_MULTI_GEOM,yes,WORKBENCH_CANNED_SCHEMA,,WRITER,CSV2,WRITER_ATTR_INDEX_TYPES,,WRITER_DEFLINE_PARMS,<quote>GUI<space>NAMEDGROUP<space>csv_dataset_group<space>csv_existing_file_handling<space>Dataset<quote><comma><comma><quote>GUI<space>CHOICE<space>csv_existing_file_handling<space>Yes%No<space>Overwrite<space>Existing<space>File<quote><comma>Yes<comma><quote>GUI<space>NAMEDGROUP<space>csv_fields_group<space>csv_write_field_names<space>Fields<quote><comma><comma><quote>GUI<space>LOOKUP_CHOICE<space>csv_write_field_names<space>If<lt>space<gt>Writing<lt>space<gt>First<lt>space<gt>Row<comma>firstrow%Yes<comma>yes%No<comma>no<space>Write<space>Field<space>Names<space>Row<quote><comma>firstrow<comma><quote>GUI<space>NAMEDGROUP<space>csv_types_group<space>csv_date_output_format<space>Types<quote><comma><comma><quote>GUI<space>STRING_OR_LOOKUP_CHOICE_ENCODED<space>csv_date_output_format<space><quote><quote><backslash><quote><quote>FME<lt>space<gt><lt>openparen<gt>auto<lt>space<gt>format<lt>closeparen<gt><comma>FME<backslash><quote><quote>%<backslash><quote><quote>ISO<lt>space<gt><lt>openparen<gt>auto<lt>space<gt>format<lt>closeparen<gt><comma>ISO<backslash><quote><quote>%<backslash><quote><quote>%Y%m%d<lt>space<gt><lt>openparen<gt>FME<lt>space<gt>date<lt>closeparen<gt><comma>%Y%m%d<backslash><quote><quote>%<backslash><quote><quote>%H%M%S<lt>space<gt><lt>openparen<gt>FME<lt>space<gt>time<lt>closeparen<gt><comma>%H%M%S<backslash><quote><quote>%<backslash><quote><quote>%H%M%S%z<lt>space<gt><lt>openparen<gt>FME<lt>space<gt>time<lt>space<gt>with<lt>space<gt>offset<lt>closeparen<gt><comma>%H%M%S%z<backslash><quote><quote>%<backslash><quote><quote>%Y%m%d%H%M%S<lt>space<gt><lt>openparen<gt>FME<lt>space<gt>datetime<lt>closeparen<gt><comma>%Y%m%d%H%M%S<backslash><quote><quote>%<backslash><quote><quote>%Y%m%d%H%M%S%z<lt>space<gt><lt>openparen<gt>FME<lt>space<gt>datetime<lt>space<gt>with<lt>space<gt>offset<lt>closeparen<gt><comma>%Y%m%d%H%M%S%z<backslash><quote><quote>%<backslash><quote><quote>%Y-%m-%d<lt>space<gt><lt>openparen<gt>ISO<lt>space<gt>date<lt>closeparen<gt><comma>%Y-%m-%d<backslash><quote><quote>%<backslash><quote><quote>%H:%M:%S<lt>space<gt><lt>openparen<gt>ISO<lt>space<gt>time<lt>closeparen<gt><comma>%H:%M:%S<backslash><quote><quote>%<backslash><quote><quote>%H:%M:%S%Ez<lt>space<gt><lt>openparen<gt>ISO<lt>space<gt>time<lt>space<gt>with<lt>space<gt>offset<lt>closeparen<gt><comma>%H:%M:%S%Ez<backslash><quote><quote>%<backslash><quote><quote>%Y-%m-%dT%H:%M:%S<lt>space<gt><lt>openparen<gt>ISO<lt>space<gt>datetime<lt>closeparen<gt><comma>%Y-%m-%dT%H:%M:%S<backslash><quote><quote>%<backslash><quote><quote>%Y-%m-%dT%H:%M:%S%Ez<lt>space<gt><lt>openparen<gt>ISO<lt>space<gt>datetime<lt>space<gt>with<lt>space<gt>offset<lt>closeparen<gt><comma>%Y-%m-%dT%H:%M:%S%Ez<backslash><quote><quote>%<backslash><quote><quote>%Y-W%W-%u<lt>space<gt><lt>openparen<gt>ISO<lt>space<gt>week<lt>closeparen<gt><comma>%Y-W%W-%u<backslash><quote><quote>%<backslash><quote><quote>%Y-%j<lt>space<gt><lt>openparen<gt>ISO<lt>space<gt>ordinal<lt>space<gt>date<lt>closeparen<gt><comma>%Y-%j<backslash><quote><quote>%<backslash><quote><quote>%Y:%m:%d<lt>space<gt>%H:%M:%S<lt>space<gt><lt>openparen<gt>Exif<lt>space<gt>datetime<lt>closeparen<gt><comma>%Y:%m:%d%H:%M:%S<backslash><quote><quote>%<backslash><quote><quote>%d<solidus>%m<solidus>%Y<backslash><quote><quote>%<backslash><quote><quote>%d.%m.%Y<backslash><quote><quote>%<backslash><quote><quote>%B<lt>space<gt>%e<lt>comma<gt><lt>space<gt>%Y<backslash><quote><quote>%<backslash><quote><quote>%b-%e-%Y<backslash><quote><quote>%<backslash><quote><quote>%I:%M:%S%p<backslash><quote><quote>%<backslash><quote><quote>%s<lt>space<gt><lt>openparen<gt>Epoch<lt>space<gt>Time<lt>closeparen<gt><comma>%s<backslash><quote><quote>%<backslash><quote><quote>%Es<lt>space<gt><lt>openparen<gt>Unzoned<lt>space<gt>Epoch<lt>space<gt>Time<lt>closeparen<gt><comma>%Es<backslash><quote><quote><quote><quote><space>Date<space>Output<space>Format<quote><comma>FME,WRITER_DEF_LINE_TEMPLATE,<opencurly>FME_GEN_GROUP_NAME<closecurly><comma>csv_existing_file_handling<comma>Yes<comma>csv_write_field_names<comma>firstrow<comma>csv_date_output_format<comma>FME,WRITER_FORMAT_PARAMETER,ADVANCED_PARMS<comma><quote>CSV2_OUT_QUALIFY_FIELD_NAMES<space>CSV2_OUT_QUALIFY_FIELD_VALUES<space>CSV2_OUT_FIELD_QUALIFIER_CHARACTER<space>CSV2_OUT_FIELD_QUALIFIER_ESCAPE_CHARACTER<space>CSV2_OUT_ROW_TERMINATION<space>CSV2_OUT_WRITE_SCHEMA_FILE<space>CSV2_OUT_EXISTING_SCHEMA_FILE_HANDLING<quote><comma>DEFAULT_ATTR_TYPE<comma>string<comma>DATASET_NAME<comma><quote>csv<space>file<quote><comma>FEATURE_TYPE_NAME<comma><quote>CSV<space>File<quote><comma>FEATURE_TYPE_DEFAULT_NAME<comma>File1<comma>READER_DATASET_HINT<comma><quote>Select<space>the<space>CSV<space>file<openparen>s<closeparen><quote><comma>WRITER_DATASET_HINT<comma><quote>Specify<space>a<space>folder<space>for<space>the<space>CSV<space>file<quote><comma>ATTRIBUTE_READING<comma>DEFLINE,WRITER_FORMAT_TYPE,DYNAMIC,WRITER_HAS_DEFLINE_ATTRS,yes,WRITER_USES_DEF,yes" }    WRITER_FEATURE_TYPES { "<dollar><openparen>outputFile<closeparen>-stanox:Output,ftp_feature_type_name_exp,$(outputFile)-stanox,ftp_writer,CSV2,ftp_dynamic_schema,no,ftp_dynamic_feature_type_name_type,DYN_SCHEMA_PROP_AUTO,ftp_dynamic_geometry_type,DYN_SCHEMA_PROP_AUTO,ftp_dynamic_schema_def_name_type,DYN_SCHEMA_PROP_AUTO,ftp_dynamic_schema_sources,<lt>lt<gt>Unused<lt>gt<gt>,ftp_attribute_source,0,ftp_user_attributes,dataSource<comma>varchar<lt>openparen<gt>200<lt>closeparen<gt><comma>TIPLOC<comma>varchar<lt>openparen<gt>8<lt>closeparen<gt><comma>Description<comma>varchar<lt>openparen<gt>27<lt>closeparen<gt><comma>STANOX<comma>uint32<comma>CRS<comma>varchar<lt>openparen<gt>4<lt>closeparen<gt><comma>easting<comma>real64<comma>northing<comma>real64<comma>stop_lon<comma>real64<comma>stop_lat<comma>real64,ftp_user_attribute_values,<comma><comma><comma><comma><comma><comma><comma><comma>,ftp_format_attributes,fme_color,ftp_format_parameters,csv_dataset_group<comma><comma>csv_existing_file_handling<comma>Yes<comma>csv_fields_group<comma><comma>csv_write_field_names<comma>firstrow<comma>csv_types_group<comma><comma>csv_date_output_format<comma>ISO" }    WRITER_PARAMS { "ROW_TERMINATION,System,WRITE_FIELD_NAMES,firstrow,FIELD_QUALIFIER_CHARACTER,<lt>quote<gt>,DELIMITER,<lt>comma<gt>,FIELD_QUALIFIER_ESCAPE_CHARACTER,<lt>quote<gt>,WRITE_BOM_FOR_UNICODE,Yes,EXISTING_FILE_HANDLING,Yes,WRITE_SCHEMA_FILE,NO,QUALIFY_FIELD_VALUES,yes,TREAT_EMBEDDED_FIELD_QUALIFIERS_AS_UNSAFE,Yes,ADVANCED_GROUP,FME_DISCLOSURE_OPEN,COORDINATE_SYSTEM_GRANULARITY,FEATURE_TYPE,QUALIFY_FIELD_NAMES,yes,EXTENSION,csv,ENCODING,UTF-8" }    DATASET_ATTR { "_dataset" }    FEATURE_TYPE_LIST_ATTR { "_feature_types" }    TOTAL_FEATURES_WRITTEN_ATTR { "_total_features_written" }    OUTPUT_PORTS { "" }    INPUT Output FEATURE_TYPE Junction_10_Output_0_st1ltWAMeSg=  @FeatureType(ENCODED,@EvaluateExpression(FDIV,STRING_ENCODED,$(outputFile$encode)-stanox,FeatureWriter_2))    @SupplyAttributes(ENCODED,fme_template_feature_type,Output)    INPUT Output FEATURE_TYPE NeighborFinder15m_UNMATCHED_BASE  @FeatureType(ENCODED,@EvaluateExpression(FDIV,STRING_ENCODED,$(outputFile$encode)-stanox,FeatureWriter_2))    @SupplyAttributes(ENCODED,fme_template_feature_type,Output)    OUTPUT { SUMMARY FEATURE_TYPE FeatureWriter_2_SUMMARY        }
+FACTORY_DEF {*} WriterFactory    FLUSH_WHEN_GROUPS_CHANGE { <Unused> }    FACTORY_NAME { FeatureWriter_2 }    WRITER_TYPE { CSV2 }    WRITER_DATASET { "$(FeatureWriterDataset_FeatureWriter_2)" }    WRITER_SETTINGS { "RUNTIME_MACROS,DATASET_GROUP<comma><comma>EXTENSION<comma>csv<comma>EXISTING_FILE_HANDLING<comma>Yes<comma>FIELDS_GROUP<comma><comma>DELIMITER<comma><lt>comma<gt><comma>WRITE_FIELD_NAMES<comma>firstrow<comma>ENCODING_GROUP<comma><comma>ENCODING<comma>UTF-8<comma>WRITE_BOM_FOR_UNICODE<comma>Yes<comma>ADVANCED_GROUP<comma>FME_DISCLOSURE_OPEN<comma>QUALIFY_FIELD_NAMES<comma>yes<comma>QUALIFY_FIELD_VALUES<comma>yes<comma>UNQUALIFIED_FIELD_VALUE_HANDLING<comma><lt>Unused<gt><comma>TREAT_EMBEDDED_FIELD_QUALIFIERS_AS_UNSAFE<comma>Yes<comma>FIELD_QUALIFIER_CHARACTER<comma><lt>quote<gt><comma>FIELD_QUALIFIER_ESCAPE_CHARACTER<comma><lt>quote<gt><comma>ROW_TERMINATION<comma>System<comma>WRITE_SCHEMA_FILE<comma>NO<comma>EXISTING_SCHEMA_FILE_HANDLING<comma><lt>Unused<gt><comma>COORDINATE_SYSTEM_GRANULARITY<comma>FEATURE_TYPE,METAFILE,CSV2" }    WRITER_METAFILE { "ATTRIBUTE_CASE,ANY,ATTRIBUTE_INVALID_CHARS,<quote>*<opencurly><closecurly><dollar>,ATTRIBUTE_LENGTH,255,ATTR_TYPE_MAP,string<comma>fme_buffer<comma>string<comma>fme_binarybuffer<comma>string<comma>fme_xml<comma>string<comma>fme_json<comma>varchar<openparen>width<closeparen><comma>fme_varchar<openparen>width<closeparen><comma>varchar<openparen>width<closeparen><comma>fme_varbinary<openparen>width<closeparen><comma>varchar<openparen>width<closeparen><comma>fme_char<openparen>width<closeparen><comma>varchar<openparen>width<closeparen><comma>fme_binary<openparen>width<closeparen><comma>datetime<comma>fme_datetime<comma>time<comma>fme_time<comma>date<comma>fme_date<comma>string<comma>fme_real64<comma>real64<comma>fme_real64<comma>x_coordinate<comma>fme_real64<comma>y_coordinate<comma>fme_real64<comma>z_coordinate<comma>fme_real64<comma>string<comma>fme_real32<comma>real32<comma>fme_real32<comma>string<comma>fme_int64<comma>int64<comma>fme_int64<comma>string<comma>fme_int32<comma>int32<comma>fme_int32<comma>string<comma>fme_int16<comma>int16<comma>fme_int16<comma>string<comma>fme_int8<comma>int8<comma>fme_int8<comma>string<comma>fme_uint64<comma>uint64<comma>fme_uint64<comma>string<comma>fme_uint32<comma>uint32<comma>fme_uint32<comma>string<comma>fme_uint16<comma>uint16<comma>fme_uint16<comma>string<comma>fme_uint8<comma>uint8<comma>fme_uint8<comma>string<comma>fme_boolean<comma>boolean<comma>fme_boolean<comma><quote>number<openparen>width<comma>decimal<closeparen><quote><comma><quote>fme_decimal<openparen>width<comma>decimal<closeparen><quote>,DEST_ILLEGAL_ATTR_LIST,,FEATURE_TYPE_CASE,ANY,FEATURE_TYPE_INVALID_CHARS,<solidus><quote>:?*<lt><gt>|,FEATURE_TYPE_LENGTH,0,FEATURE_TYPE_LENGTH_INCLUDES_PREFIX,false,FEATURE_TYPE_RESERVED_WORDS,,FORMAT_METAFILE,$(FME_HOME_ENCODED)metafile<backslash>CSV2.fmf,FORMAT_NAME,CSV2,GEOM_MAP,csv_feature_table<comma>fme_feature_table<comma>csv_none<comma>fme_no_geom<comma>csv_point<comma>fme_point<comma>csv_none<comma>fme_line<comma>csv_none<comma>fme_polygon<comma>csv_none<comma>fme_text<comma>csv_none<comma>fme_ellipse<comma>csv_none<comma>fme_arc<comma>csv_none<comma>fme_rectangle<comma>csv_none<comma>fme_rounded_rectangle<comma>fme_no_map<comma>fme_no_geom<comma>fme_no_map<comma>fme_no_map<comma>csv_none<comma>fme_collection<comma>csv_none<comma>fme_raster<comma>csv_none<comma>fme_surface<comma>csv_none<comma>fme_solid<comma>csv_none<comma>fme_point_cloud<comma>csv_none<comma>fme_voxel_grid,READER_ATTR_INDEX_TYPES,,READER_FORMAT_TYPE,DYNAMIC,READER_USES_DEF,yes,SOURCE,no,SUPPORTS_FEAT_TYPE_FANOUT,yes,SUPPORTS_MULTI_GEOM,yes,WORKBENCH_CANNED_SCHEMA,,WRITER,CSV2,WRITER_ATTR_INDEX_TYPES,,WRITER_DEFLINE_PARMS,<quote>GUI<space>NAMEDGROUP<space>csv_dataset_group<space>csv_existing_file_handling<space>Dataset<quote><comma><comma><quote>GUI<space>CHOICE<space>csv_existing_file_handling<space>Yes%No<space>Overwrite<space>Existing<space>File<quote><comma>Yes<comma><quote>GUI<space>NAMEDGROUP<space>csv_fields_group<space>csv_write_field_names<space>Fields<quote><comma><comma><quote>GUI<space>LOOKUP_CHOICE<space>csv_write_field_names<space>If<lt>space<gt>Writing<lt>space<gt>First<lt>space<gt>Row<comma>firstrow%Yes<comma>yes%No<comma>no<space>Write<space>Field<space>Names<space>Row<quote><comma>firstrow<comma><quote>GUI<space>NAMEDGROUP<space>csv_types_group<space>csv_date_output_format<space>Types<quote><comma><comma><quote>GUI<space>STRING_OR_LOOKUP_CHOICE_ENCODED<space>csv_date_output_format<space><quote><quote><backslash><quote><quote>FME<lt>space<gt><lt>openparen<gt>auto<lt>space<gt>format<lt>closeparen<gt><comma>FME<backslash><quote><quote>%<backslash><quote><quote>ISO<lt>space<gt><lt>openparen<gt>auto<lt>space<gt>format<lt>closeparen<gt><comma>ISO<backslash><quote><quote>%<backslash><quote><quote>%Y%m%d<lt>space<gt><lt>openparen<gt>FME<lt>space<gt>date<lt>closeparen<gt><comma>%Y%m%d<backslash><quote><quote>%<backslash><quote><quote>%H%M%S<lt>space<gt><lt>openparen<gt>FME<lt>space<gt>time<lt>closeparen<gt><comma>%H%M%S<backslash><quote><quote>%<backslash><quote><quote>%H%M%S%z<lt>space<gt><lt>openparen<gt>FME<lt>space<gt>time<lt>space<gt>with<lt>space<gt>offset<lt>closeparen<gt><comma>%H%M%S%z<backslash><quote><quote>%<backslash><quote><quote>%Y%m%d%H%M%S<lt>space<gt><lt>openparen<gt>FME<lt>space<gt>datetime<lt>closeparen<gt><comma>%Y%m%d%H%M%S<backslash><quote><quote>%<backslash><quote><quote>%Y%m%d%H%M%S%z<lt>space<gt><lt>openparen<gt>FME<lt>space<gt>datetime<lt>space<gt>with<lt>space<gt>offset<lt>closeparen<gt><comma>%Y%m%d%H%M%S%z<backslash><quote><quote>%<backslash><quote><quote>%Y-%m-%d<lt>space<gt><lt>openparen<gt>ISO<lt>space<gt>date<lt>closeparen<gt><comma>%Y-%m-%d<backslash><quote><quote>%<backslash><quote><quote>%H:%M:%S<lt>space<gt><lt>openparen<gt>ISO<lt>space<gt>time<lt>closeparen<gt><comma>%H:%M:%S<backslash><quote><quote>%<backslash><quote><quote>%H:%M:%S%Ez<lt>space<gt><lt>openparen<gt>ISO<lt>space<gt>time<lt>space<gt>with<lt>space<gt>offset<lt>closeparen<gt><comma>%H:%M:%S%Ez<backslash><quote><quote>%<backslash><quote><quote>%Y-%m-%dT%H:%M:%S<lt>space<gt><lt>openparen<gt>ISO<lt>space<gt>datetime<lt>closeparen<gt><comma>%Y-%m-%dT%H:%M:%S<backslash><quote><quote>%<backslash><quote><quote>%Y-%m-%dT%H:%M:%S%Ez<lt>space<gt><lt>openparen<gt>ISO<lt>space<gt>datetime<lt>space<gt>with<lt>space<gt>offset<lt>closeparen<gt><comma>%Y-%m-%dT%H:%M:%S%Ez<backslash><quote><quote>%<backslash><quote><quote>%Y-W%W-%u<lt>space<gt><lt>openparen<gt>ISO<lt>space<gt>week<lt>closeparen<gt><comma>%Y-W%W-%u<backslash><quote><quote>%<backslash><quote><quote>%Y-%j<lt>space<gt><lt>openparen<gt>ISO<lt>space<gt>ordinal<lt>space<gt>date<lt>closeparen<gt><comma>%Y-%j<backslash><quote><quote>%<backslash><quote><quote>%Y:%m:%d<lt>space<gt>%H:%M:%S<lt>space<gt><lt>openparen<gt>Exif<lt>space<gt>datetime<lt>closeparen<gt><comma>%Y:%m:%d%H:%M:%S<backslash><quote><quote>%<backslash><quote><quote>%d<solidus>%m<solidus>%Y<backslash><quote><quote>%<backslash><quote><quote>%d.%m.%Y<backslash><quote><quote>%<backslash><quote><quote>%B<lt>space<gt>%e<lt>comma<gt><lt>space<gt>%Y<backslash><quote><quote>%<backslash><quote><quote>%b-%e-%Y<backslash><quote><quote>%<backslash><quote><quote>%I:%M:%S%p<backslash><quote><quote>%<backslash><quote><quote>%s<lt>space<gt><lt>openparen<gt>Epoch<lt>space<gt>Time<lt>closeparen<gt><comma>%s<backslash><quote><quote>%<backslash><quote><quote>%Es<lt>space<gt><lt>openparen<gt>Unzoned<lt>space<gt>Epoch<lt>space<gt>Time<lt>closeparen<gt><comma>%Es<backslash><quote><quote><quote><quote><space>Date<space>Output<space>Format<quote><comma>FME,WRITER_DEF_LINE_TEMPLATE,<opencurly>FME_GEN_GROUP_NAME<closecurly><comma>csv_existing_file_handling<comma>Yes<comma>csv_write_field_names<comma>firstrow<comma>csv_date_output_format<comma>FME,WRITER_FORMAT_PARAMETER,ADVANCED_PARMS<comma><quote>CSV2_OUT_QUALIFY_FIELD_NAMES<space>CSV2_OUT_QUALIFY_FIELD_VALUES<space>CSV2_OUT_FIELD_QUALIFIER_CHARACTER<space>CSV2_OUT_FIELD_QUALIFIER_ESCAPE_CHARACTER<space>CSV2_OUT_ROW_TERMINATION<space>CSV2_OUT_WRITE_SCHEMA_FILE<space>CSV2_OUT_EXISTING_SCHEMA_FILE_HANDLING<quote><comma>DEFAULT_ATTR_TYPE<comma>string<comma>DATASET_NAME<comma><quote>csv<space>file<quote><comma>FEATURE_TYPE_NAME<comma><quote>CSV<space>File<quote><comma>FEATURE_TYPE_DEFAULT_NAME<comma>File1<comma>READER_DATASET_HINT<comma><quote>Select<space>the<space>CSV<space>file<openparen>s<closeparen><quote><comma>WRITER_DATASET_HINT<comma><quote>Specify<space>a<space>folder<space>for<space>the<space>CSV<space>file<quote><comma>ATTRIBUTE_READING<comma>DEFLINE,WRITER_FORMAT_TYPE,DYNAMIC,WRITER_HAS_DEFLINE_ATTRS,yes,WRITER_USES_DEF,yes" }    WRITER_FEATURE_TYPES { "<dollar><openparen>outputFile<closeparen>-stanox:Output,ftp_feature_type_name_exp,$(outputFile)-stanox,ftp_writer,CSV2,ftp_dynamic_schema,no,ftp_dynamic_feature_type_name_type,DYN_SCHEMA_PROP_AUTO,ftp_dynamic_geometry_type,DYN_SCHEMA_PROP_AUTO,ftp_dynamic_schema_def_name_type,DYN_SCHEMA_PROP_AUTO,ftp_dynamic_schema_sources,<lt>lt<gt>Unused<lt>gt<gt>,ftp_attribute_source,1,ftp_user_attributes,STANOX<comma>varchar<lt>openparen<gt>200<lt>closeparen<gt><comma>TIPLOC<comma>varchar<lt>openparen<gt>16<lt>closeparen<gt><comma>CRS<comma>varchar<lt>openparen<gt>4<lt>closeparen<gt><comma>Description<comma>varchar<lt>openparen<gt>64<lt>closeparen<gt><comma>dataSource<comma>varchar<lt>openparen<gt>200<lt>closeparen<gt><comma>stop_lon<comma>real64<comma>stop_lat<comma>real64<comma>easting<comma>real64<comma>northing<comma>real64,ftp_user_attribute_values,<comma><comma><comma><comma><comma><comma><comma><comma>,ftp_format_attributes,fme_color,ftp_format_parameters,csv_dataset_group<comma><comma>csv_existing_file_handling<comma>Yes<comma>csv_fields_group<comma><comma>csv_write_field_names<comma>firstrow<comma>csv_types_group<comma><comma>csv_date_output_format<comma>ISO" }    WRITER_PARAMS { "QUALIFY_FIELD_NAMES,yes,WRITE_BOM_FOR_UNICODE,Yes,FIELD_QUALIFIER_ESCAPE_CHARACTER,<lt>quote<gt>,DELIMITER,<lt>comma<gt>,ADVANCED_GROUP,FME_DISCLOSURE_OPEN,WRITE_FIELD_NAMES,firstrow,FIELD_QUALIFIER_CHARACTER,<lt>quote<gt>,ROW_TERMINATION,System,ENCODING,UTF-8,QUALIFY_FIELD_VALUES,yes,EXISTING_FILE_HANDLING,Yes,COORDINATE_SYSTEM_GRANULARITY,FEATURE_TYPE,WRITE_SCHEMA_FILE,NO,EXTENSION,csv,TREAT_EMBEDDED_FIELD_QUALIFIERS_AS_UNSAFE,Yes" }    DATASET_ATTR { "_dataset" }    FEATURE_TYPE_LIST_ATTR { "_feature_types" }    TOTAL_FEATURES_WRITTEN_ATTR { "_total_features_written" }    OUTPUT_PORTS { "" }    INPUT Output FEATURE_TYPE Sorter_10_SORTED  @FeatureType(ENCODED,@EvaluateExpression(FDIV,STRING_ENCODED,$(outputFile$encode)-stanox,FeatureWriter_2))    @SupplyAttributes(ENCODED,fme_template_feature_type,Output)    OUTPUT { SUMMARY FEATURE_TYPE FeatureWriter_2_SUMMARY        }
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory   FACTORY_NAME "dumpRejects_2 (Disabled) Nuker"   INPUT FEATURE_TYPE NeighborFinder15m_<REJECTED>
 # -------------------------------------------------------------------------
@@ -26779,8 +26899,10 @@ FACTORY_DEF * TeeFactory   FACTORY_NAME "DuplicateFilter UNIQUE Splitter"   INPU
 # -------------------------------------------------------------------------
 FACTORY_DEF {*} AttrSetFactory    COMMAND_PARM_EVALUATION SINGLE_PASS    FACTORY_NAME { AttributeRenamer_7 }    INPUT  FEATURE_TYPE DuplicateFilter_UNIQUE_0_aSa6pU6KMMU= 	ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    MISSING_INPUT_ATTR_HANDLING RENAME_SET_DEFAULT REMOVE 	ATTR_ACTION { "CRS" "stop_code" "RENAME_SET_DEFAULT" "" }      ATTR_ACTION { "TIPLOC" "stop_id" "RENAME_SET_DEFAULT" "" }      ATTR_ACTION { "Description" "stop_name" "RENAME_SET_DEFAULT" "" }      ATTR_ACTION { "STANOX" "platform_code" "RENAME_SET_DEFAULT" "" }      ATTR_ACTION { "dataSource" "stop_url" "RENAME_SET_DEFAULT" "" }    OUTPUT { OUTPUT FEATURE_TYPE AttributeRenamer_7_OUTPUT        }
 # -------------------------------------------------------------------------
+FACTORY_DEF {*} SortFactory    FACTORY_NAME { Sorter_9 }    INPUT  FEATURE_TYPE AttributeRenamer_7_OUTPUT    SORT_ALPHA_AS_UTF8 { YES }    FLUSH_WHEN_GROUPS_CHANGE { <Unused> }    SORT_BY { stop_id ALPHA ASCENDING platform_code NUMERIC ASCENDING }    OUTPUT { SORTED FEATURE_TYPE Sorter_9_SORTED          }
+# -------------------------------------------------------------------------
 INCLUDE [    puts {DEFAULT_MACRO FeatureWriterDataset_FeatureWriter @EvaluateExpression(FDIV,STRING_ENCODED,$(outputPath$encode),FeatureWriter)}; ]
-FACTORY_DEF {*} WriterFactory    FLUSH_WHEN_GROUPS_CHANGE { <Unused> }    FACTORY_NAME { FeatureWriter }    WRITER_TYPE { CSV2 }    WRITER_DATASET { "$(FeatureWriterDataset_FeatureWriter)" }    WRITER_SETTINGS { "RUNTIME_MACROS,DATASET_GROUP<comma><comma>EXTENSION<comma>csv<comma>EXISTING_FILE_HANDLING<comma>Yes<comma>FIELDS_GROUP<comma><comma>DELIMITER<comma><lt>comma<gt><comma>WRITE_FIELD_NAMES<comma>firstrow<comma>ENCODING_GROUP<comma><comma>ENCODING<comma>UTF-8<comma>WRITE_BOM_FOR_UNICODE<comma>Yes<comma>ADVANCED_GROUP<comma>FME_DISCLOSURE_OPEN<comma>QUALIFY_FIELD_NAMES<comma>yes<comma>QUALIFY_FIELD_VALUES<comma>yes<comma>UNQUALIFIED_FIELD_VALUE_HANDLING<comma><lt>Unused<gt><comma>TREAT_EMBEDDED_FIELD_QUALIFIERS_AS_UNSAFE<comma>Yes<comma>FIELD_QUALIFIER_CHARACTER<comma><lt>quote<gt><comma>FIELD_QUALIFIER_ESCAPE_CHARACTER<comma><lt>quote<gt><comma>ROW_TERMINATION<comma>System<comma>WRITE_SCHEMA_FILE<comma>NO<comma>EXISTING_SCHEMA_FILE_HANDLING<comma><lt>Unused<gt><comma>COORDINATE_SYSTEM_GRANULARITY<comma>FEATURE_TYPE,METAFILE,CSV2" }    WRITER_METAFILE { "ATTRIBUTE_CASE,ANY,ATTRIBUTE_INVALID_CHARS,<quote>*<opencurly><closecurly><dollar>,ATTRIBUTE_LENGTH,255,ATTR_TYPE_MAP,string<comma>fme_buffer<comma>string<comma>fme_binarybuffer<comma>string<comma>fme_xml<comma>string<comma>fme_json<comma>varchar<openparen>width<closeparen><comma>fme_varchar<openparen>width<closeparen><comma>varchar<openparen>width<closeparen><comma>fme_varbinary<openparen>width<closeparen><comma>varchar<openparen>width<closeparen><comma>fme_char<openparen>width<closeparen><comma>varchar<openparen>width<closeparen><comma>fme_binary<openparen>width<closeparen><comma>datetime<comma>fme_datetime<comma>time<comma>fme_time<comma>date<comma>fme_date<comma>string<comma>fme_real64<comma>real64<comma>fme_real64<comma>x_coordinate<comma>fme_real64<comma>y_coordinate<comma>fme_real64<comma>z_coordinate<comma>fme_real64<comma>string<comma>fme_real32<comma>real32<comma>fme_real32<comma>string<comma>fme_int64<comma>int64<comma>fme_int64<comma>string<comma>fme_int32<comma>int32<comma>fme_int32<comma>string<comma>fme_int16<comma>int16<comma>fme_int16<comma>string<comma>fme_int8<comma>int8<comma>fme_int8<comma>string<comma>fme_uint64<comma>uint64<comma>fme_uint64<comma>string<comma>fme_uint32<comma>uint32<comma>fme_uint32<comma>string<comma>fme_uint16<comma>uint16<comma>fme_uint16<comma>string<comma>fme_uint8<comma>uint8<comma>fme_uint8<comma>string<comma>fme_boolean<comma>boolean<comma>fme_boolean<comma><quote>number<openparen>width<comma>decimal<closeparen><quote><comma><quote>fme_decimal<openparen>width<comma>decimal<closeparen><quote>,DEST_ILLEGAL_ATTR_LIST,,FEATURE_TYPE_CASE,ANY,FEATURE_TYPE_INVALID_CHARS,<solidus><quote>:?*<lt><gt>|,FEATURE_TYPE_LENGTH,0,FEATURE_TYPE_LENGTH_INCLUDES_PREFIX,false,FEATURE_TYPE_RESERVED_WORDS,,FORMAT_METAFILE,$(FME_HOME_ENCODED)metafile<backslash>CSV2.fmf,FORMAT_NAME,CSV2,GEOM_MAP,csv_feature_table<comma>fme_feature_table<comma>csv_none<comma>fme_no_geom<comma>csv_point<comma>fme_point<comma>csv_none<comma>fme_line<comma>csv_none<comma>fme_polygon<comma>csv_none<comma>fme_text<comma>csv_none<comma>fme_ellipse<comma>csv_none<comma>fme_arc<comma>csv_none<comma>fme_rectangle<comma>csv_none<comma>fme_rounded_rectangle<comma>fme_no_map<comma>fme_no_geom<comma>fme_no_map<comma>fme_no_map<comma>csv_none<comma>fme_collection<comma>csv_none<comma>fme_raster<comma>csv_none<comma>fme_surface<comma>csv_none<comma>fme_solid<comma>csv_none<comma>fme_point_cloud<comma>csv_none<comma>fme_voxel_grid,READER_ATTR_INDEX_TYPES,,READER_FORMAT_TYPE,DYNAMIC,READER_USES_DEF,yes,SOURCE,no,SUPPORTS_FEAT_TYPE_FANOUT,yes,SUPPORTS_MULTI_GEOM,yes,WORKBENCH_CANNED_SCHEMA,,WRITER,CSV2,WRITER_ATTR_INDEX_TYPES,,WRITER_DEFLINE_PARMS,<quote>GUI<space>NAMEDGROUP<space>csv_dataset_group<space>csv_existing_file_handling<space>Dataset<quote><comma><comma><quote>GUI<space>CHOICE<space>csv_existing_file_handling<space>Yes%No<space>Overwrite<space>Existing<space>File<quote><comma>Yes<comma><quote>GUI<space>NAMEDGROUP<space>csv_fields_group<space>csv_write_field_names<space>Fields<quote><comma><comma><quote>GUI<space>LOOKUP_CHOICE<space>csv_write_field_names<space>If<lt>space<gt>Writing<lt>space<gt>First<lt>space<gt>Row<comma>firstrow%Yes<comma>yes%No<comma>no<space>Write<space>Field<space>Names<space>Row<quote><comma>firstrow<comma><quote>GUI<space>NAMEDGROUP<space>csv_types_group<space>csv_date_output_format<space>Types<quote><comma><comma><quote>GUI<space>STRING_OR_LOOKUP_CHOICE_ENCODED<space>csv_date_output_format<space><quote><quote><backslash><quote><quote>FME<lt>space<gt><lt>openparen<gt>auto<lt>space<gt>format<lt>closeparen<gt><comma>FME<backslash><quote><quote>%<backslash><quote><quote>ISO<lt>space<gt><lt>openparen<gt>auto<lt>space<gt>format<lt>closeparen<gt><comma>ISO<backslash><quote><quote>%<backslash><quote><quote>%Y%m%d<lt>space<gt><lt>openparen<gt>FME<lt>space<gt>date<lt>closeparen<gt><comma>%Y%m%d<backslash><quote><quote>%<backslash><quote><quote>%H%M%S<lt>space<gt><lt>openparen<gt>FME<lt>space<gt>time<lt>closeparen<gt><comma>%H%M%S<backslash><quote><quote>%<backslash><quote><quote>%H%M%S%z<lt>space<gt><lt>openparen<gt>FME<lt>space<gt>time<lt>space<gt>with<lt>space<gt>offset<lt>closeparen<gt><comma>%H%M%S%z<backslash><quote><quote>%<backslash><quote><quote>%Y%m%d%H%M%S<lt>space<gt><lt>openparen<gt>FME<lt>space<gt>datetime<lt>closeparen<gt><comma>%Y%m%d%H%M%S<backslash><quote><quote>%<backslash><quote><quote>%Y%m%d%H%M%S%z<lt>space<gt><lt>openparen<gt>FME<lt>space<gt>datetime<lt>space<gt>with<lt>space<gt>offset<lt>closeparen<gt><comma>%Y%m%d%H%M%S%z<backslash><quote><quote>%<backslash><quote><quote>%Y-%m-%d<lt>space<gt><lt>openparen<gt>ISO<lt>space<gt>date<lt>closeparen<gt><comma>%Y-%m-%d<backslash><quote><quote>%<backslash><quote><quote>%H:%M:%S<lt>space<gt><lt>openparen<gt>ISO<lt>space<gt>time<lt>closeparen<gt><comma>%H:%M:%S<backslash><quote><quote>%<backslash><quote><quote>%H:%M:%S%Ez<lt>space<gt><lt>openparen<gt>ISO<lt>space<gt>time<lt>space<gt>with<lt>space<gt>offset<lt>closeparen<gt><comma>%H:%M:%S%Ez<backslash><quote><quote>%<backslash><quote><quote>%Y-%m-%dT%H:%M:%S<lt>space<gt><lt>openparen<gt>ISO<lt>space<gt>datetime<lt>closeparen<gt><comma>%Y-%m-%dT%H:%M:%S<backslash><quote><quote>%<backslash><quote><quote>%Y-%m-%dT%H:%M:%S%Ez<lt>space<gt><lt>openparen<gt>ISO<lt>space<gt>datetime<lt>space<gt>with<lt>space<gt>offset<lt>closeparen<gt><comma>%Y-%m-%dT%H:%M:%S%Ez<backslash><quote><quote>%<backslash><quote><quote>%Y-W%W-%u<lt>space<gt><lt>openparen<gt>ISO<lt>space<gt>week<lt>closeparen<gt><comma>%Y-W%W-%u<backslash><quote><quote>%<backslash><quote><quote>%Y-%j<lt>space<gt><lt>openparen<gt>ISO<lt>space<gt>ordinal<lt>space<gt>date<lt>closeparen<gt><comma>%Y-%j<backslash><quote><quote>%<backslash><quote><quote>%Y:%m:%d<lt>space<gt>%H:%M:%S<lt>space<gt><lt>openparen<gt>Exif<lt>space<gt>datetime<lt>closeparen<gt><comma>%Y:%m:%d%H:%M:%S<backslash><quote><quote>%<backslash><quote><quote>%d<solidus>%m<solidus>%Y<backslash><quote><quote>%<backslash><quote><quote>%d.%m.%Y<backslash><quote><quote>%<backslash><quote><quote>%B<lt>space<gt>%e<lt>comma<gt><lt>space<gt>%Y<backslash><quote><quote>%<backslash><quote><quote>%b-%e-%Y<backslash><quote><quote>%<backslash><quote><quote>%I:%M:%S%p<backslash><quote><quote>%<backslash><quote><quote>%s<lt>space<gt><lt>openparen<gt>Epoch<lt>space<gt>Time<lt>closeparen<gt><comma>%s<backslash><quote><quote>%<backslash><quote><quote>%Es<lt>space<gt><lt>openparen<gt>Unzoned<lt>space<gt>Epoch<lt>space<gt>Time<lt>closeparen<gt><comma>%Es<backslash><quote><quote><quote><quote><space>Date<space>Output<space>Format<quote><comma>FME,WRITER_DEF_LINE_TEMPLATE,<opencurly>FME_GEN_GROUP_NAME<closecurly><comma>csv_existing_file_handling<comma>Yes<comma>csv_write_field_names<comma>firstrow<comma>csv_date_output_format<comma>FME,WRITER_FORMAT_PARAMETER,ADVANCED_PARMS<comma><quote>CSV2_OUT_QUALIFY_FIELD_NAMES<space>CSV2_OUT_QUALIFY_FIELD_VALUES<space>CSV2_OUT_FIELD_QUALIFIER_CHARACTER<space>CSV2_OUT_FIELD_QUALIFIER_ESCAPE_CHARACTER<space>CSV2_OUT_ROW_TERMINATION<space>CSV2_OUT_WRITE_SCHEMA_FILE<space>CSV2_OUT_EXISTING_SCHEMA_FILE_HANDLING<quote><comma>DEFAULT_ATTR_TYPE<comma>string<comma>DATASET_NAME<comma><quote>csv<space>file<quote><comma>FEATURE_TYPE_NAME<comma><quote>CSV<space>File<quote><comma>FEATURE_TYPE_DEFAULT_NAME<comma>File1<comma>READER_DATASET_HINT<comma><quote>Select<space>the<space>CSV<space>file<openparen>s<closeparen><quote><comma>WRITER_DATASET_HINT<comma><quote>Specify<space>a<space>folder<space>for<space>the<space>CSV<space>file<quote><comma>ATTRIBUTE_READING<comma>DEFLINE,WRITER_FORMAT_TYPE,DYNAMIC,WRITER_HAS_DEFLINE_ATTRS,yes,WRITER_USES_DEF,yes" }    WRITER_FEATURE_TYPES { "<dollar><openparen>outputFile<closeparen>:Output,ftp_feature_type_name_exp,$(outputFile),ftp_writer,CSV2,ftp_dynamic_schema,no,ftp_dynamic_feature_type_name_type,DYN_SCHEMA_PROP_AUTO,ftp_dynamic_geometry_type,DYN_SCHEMA_PROP_AUTO,ftp_dynamic_schema_def_name_type,DYN_SCHEMA_PROP_AUTO,ftp_dynamic_schema_sources,<lt>lt<gt>Unused<lt>gt<gt>,ftp_attribute_source,0,ftp_user_attributes,stop_code<comma>varchar<lt>openparen<gt>4<lt>closeparen<gt><comma>stop_id<comma>varchar<lt>openparen<gt>8<lt>closeparen<gt><comma>stop_name<comma>varchar<lt>openparen<gt>27<lt>closeparen<gt><comma>platform_code<comma>uint32<comma>stop_url<comma>varchar<lt>openparen<gt>200<lt>closeparen<gt><comma>easting<comma>real64<comma>northing<comma>real64<comma>stop_lon<comma>real64<comma>stop_lat<comma>real64,ftp_user_attribute_values,<comma><comma><comma><comma><comma><comma><comma><comma>,ftp_format_attributes,fme_color,ftp_format_parameters,csv_dataset_group<comma><comma>csv_existing_file_handling<comma>Yes<comma>csv_fields_group<comma><comma>csv_write_field_names<comma>firstrow<comma>csv_types_group<comma><comma>csv_date_output_format<comma>ISO" }    WRITER_PARAMS { "TREAT_EMBEDDED_FIELD_QUALIFIERS_AS_UNSAFE,Yes,ENCODING,UTF-8,WRITE_FIELD_NAMES,firstrow,QUALIFY_FIELD_NAMES,yes,EXISTING_FILE_HANDLING,Yes,DELIMITER,<lt>comma<gt>,QUALIFY_FIELD_VALUES,yes,ROW_TERMINATION,System,WRITE_SCHEMA_FILE,NO,FIELD_QUALIFIER_ESCAPE_CHARACTER,<lt>quote<gt>,EXTENSION,csv,WRITE_BOM_FOR_UNICODE,Yes,COORDINATE_SYSTEM_GRANULARITY,FEATURE_TYPE,ADVANCED_GROUP,FME_DISCLOSURE_OPEN,FIELD_QUALIFIER_CHARACTER,<lt>quote<gt>" }    DATASET_ATTR { "_dataset" }    FEATURE_TYPE_LIST_ATTR { "_feature_types" }    TOTAL_FEATURES_WRITTEN_ATTR { "_total_features_written" }    OUTPUT_PORTS { "" }    INPUT Output FEATURE_TYPE AttributeRenamer_7_OUTPUT  @FeatureType(ENCODED,@EvaluateExpression(FDIV,STRING_ENCODED,$(outputFile$encode),FeatureWriter))    @SupplyAttributes(ENCODED,fme_template_feature_type,Output)    OUTPUT { SUMMARY FEATURE_TYPE FeatureWriter_SUMMARY        }
+FACTORY_DEF {*} WriterFactory    FLUSH_WHEN_GROUPS_CHANGE { <Unused> }    FACTORY_NAME { FeatureWriter }    WRITER_TYPE { CSV2 }    WRITER_DATASET { "$(FeatureWriterDataset_FeatureWriter)" }    WRITER_SETTINGS { "RUNTIME_MACROS,DATASET_GROUP<comma><comma>EXTENSION<comma>csv<comma>EXISTING_FILE_HANDLING<comma>Yes<comma>FIELDS_GROUP<comma><comma>DELIMITER<comma><lt>comma<gt><comma>WRITE_FIELD_NAMES<comma>firstrow<comma>ENCODING_GROUP<comma><comma>ENCODING<comma>UTF-8<comma>WRITE_BOM_FOR_UNICODE<comma>Yes<comma>ADVANCED_GROUP<comma>FME_DISCLOSURE_OPEN<comma>QUALIFY_FIELD_NAMES<comma>yes<comma>QUALIFY_FIELD_VALUES<comma>yes<comma>UNQUALIFIED_FIELD_VALUE_HANDLING<comma><lt>Unused<gt><comma>TREAT_EMBEDDED_FIELD_QUALIFIERS_AS_UNSAFE<comma>Yes<comma>FIELD_QUALIFIER_CHARACTER<comma><lt>quote<gt><comma>FIELD_QUALIFIER_ESCAPE_CHARACTER<comma><lt>quote<gt><comma>ROW_TERMINATION<comma>System<comma>WRITE_SCHEMA_FILE<comma>NO<comma>EXISTING_SCHEMA_FILE_HANDLING<comma><lt>Unused<gt><comma>COORDINATE_SYSTEM_GRANULARITY<comma>FEATURE_TYPE,METAFILE,CSV2" }    WRITER_METAFILE { "ATTRIBUTE_CASE,ANY,ATTRIBUTE_INVALID_CHARS,<quote>*<opencurly><closecurly><dollar>,ATTRIBUTE_LENGTH,255,ATTR_TYPE_MAP,string<comma>fme_buffer<comma>string<comma>fme_binarybuffer<comma>string<comma>fme_xml<comma>string<comma>fme_json<comma>varchar<openparen>width<closeparen><comma>fme_varchar<openparen>width<closeparen><comma>varchar<openparen>width<closeparen><comma>fme_varbinary<openparen>width<closeparen><comma>varchar<openparen>width<closeparen><comma>fme_char<openparen>width<closeparen><comma>varchar<openparen>width<closeparen><comma>fme_binary<openparen>width<closeparen><comma>datetime<comma>fme_datetime<comma>time<comma>fme_time<comma>date<comma>fme_date<comma>string<comma>fme_real64<comma>real64<comma>fme_real64<comma>x_coordinate<comma>fme_real64<comma>y_coordinate<comma>fme_real64<comma>z_coordinate<comma>fme_real64<comma>string<comma>fme_real32<comma>real32<comma>fme_real32<comma>string<comma>fme_int64<comma>int64<comma>fme_int64<comma>string<comma>fme_int32<comma>int32<comma>fme_int32<comma>string<comma>fme_int16<comma>int16<comma>fme_int16<comma>string<comma>fme_int8<comma>int8<comma>fme_int8<comma>string<comma>fme_uint64<comma>uint64<comma>fme_uint64<comma>string<comma>fme_uint32<comma>uint32<comma>fme_uint32<comma>string<comma>fme_uint16<comma>uint16<comma>fme_uint16<comma>string<comma>fme_uint8<comma>uint8<comma>fme_uint8<comma>string<comma>fme_boolean<comma>boolean<comma>fme_boolean<comma><quote>number<openparen>width<comma>decimal<closeparen><quote><comma><quote>fme_decimal<openparen>width<comma>decimal<closeparen><quote>,DEST_ILLEGAL_ATTR_LIST,,FEATURE_TYPE_CASE,ANY,FEATURE_TYPE_INVALID_CHARS,<solidus><quote>:?*<lt><gt>|,FEATURE_TYPE_LENGTH,0,FEATURE_TYPE_LENGTH_INCLUDES_PREFIX,false,FEATURE_TYPE_RESERVED_WORDS,,FORMAT_METAFILE,$(FME_HOME_ENCODED)metafile<backslash>CSV2.fmf,FORMAT_NAME,CSV2,GEOM_MAP,csv_feature_table<comma>fme_feature_table<comma>csv_none<comma>fme_no_geom<comma>csv_point<comma>fme_point<comma>csv_none<comma>fme_line<comma>csv_none<comma>fme_polygon<comma>csv_none<comma>fme_text<comma>csv_none<comma>fme_ellipse<comma>csv_none<comma>fme_arc<comma>csv_none<comma>fme_rectangle<comma>csv_none<comma>fme_rounded_rectangle<comma>fme_no_map<comma>fme_no_geom<comma>fme_no_map<comma>fme_no_map<comma>csv_none<comma>fme_collection<comma>csv_none<comma>fme_raster<comma>csv_none<comma>fme_surface<comma>csv_none<comma>fme_solid<comma>csv_none<comma>fme_point_cloud<comma>csv_none<comma>fme_voxel_grid,READER_ATTR_INDEX_TYPES,,READER_FORMAT_TYPE,DYNAMIC,READER_USES_DEF,yes,SOURCE,no,SUPPORTS_FEAT_TYPE_FANOUT,yes,SUPPORTS_MULTI_GEOM,yes,WORKBENCH_CANNED_SCHEMA,,WRITER,CSV2,WRITER_ATTR_INDEX_TYPES,,WRITER_DEFLINE_PARMS,<quote>GUI<space>NAMEDGROUP<space>csv_dataset_group<space>csv_existing_file_handling<space>Dataset<quote><comma><comma><quote>GUI<space>CHOICE<space>csv_existing_file_handling<space>Yes%No<space>Overwrite<space>Existing<space>File<quote><comma>Yes<comma><quote>GUI<space>NAMEDGROUP<space>csv_fields_group<space>csv_write_field_names<space>Fields<quote><comma><comma><quote>GUI<space>LOOKUP_CHOICE<space>csv_write_field_names<space>If<lt>space<gt>Writing<lt>space<gt>First<lt>space<gt>Row<comma>firstrow%Yes<comma>yes%No<comma>no<space>Write<space>Field<space>Names<space>Row<quote><comma>firstrow<comma><quote>GUI<space>NAMEDGROUP<space>csv_types_group<space>csv_date_output_format<space>Types<quote><comma><comma><quote>GUI<space>STRING_OR_LOOKUP_CHOICE_ENCODED<space>csv_date_output_format<space><quote><quote><backslash><quote><quote>FME<lt>space<gt><lt>openparen<gt>auto<lt>space<gt>format<lt>closeparen<gt><comma>FME<backslash><quote><quote>%<backslash><quote><quote>ISO<lt>space<gt><lt>openparen<gt>auto<lt>space<gt>format<lt>closeparen<gt><comma>ISO<backslash><quote><quote>%<backslash><quote><quote>%Y%m%d<lt>space<gt><lt>openparen<gt>FME<lt>space<gt>date<lt>closeparen<gt><comma>%Y%m%d<backslash><quote><quote>%<backslash><quote><quote>%H%M%S<lt>space<gt><lt>openparen<gt>FME<lt>space<gt>time<lt>closeparen<gt><comma>%H%M%S<backslash><quote><quote>%<backslash><quote><quote>%H%M%S%z<lt>space<gt><lt>openparen<gt>FME<lt>space<gt>time<lt>space<gt>with<lt>space<gt>offset<lt>closeparen<gt><comma>%H%M%S%z<backslash><quote><quote>%<backslash><quote><quote>%Y%m%d%H%M%S<lt>space<gt><lt>openparen<gt>FME<lt>space<gt>datetime<lt>closeparen<gt><comma>%Y%m%d%H%M%S<backslash><quote><quote>%<backslash><quote><quote>%Y%m%d%H%M%S%z<lt>space<gt><lt>openparen<gt>FME<lt>space<gt>datetime<lt>space<gt>with<lt>space<gt>offset<lt>closeparen<gt><comma>%Y%m%d%H%M%S%z<backslash><quote><quote>%<backslash><quote><quote>%Y-%m-%d<lt>space<gt><lt>openparen<gt>ISO<lt>space<gt>date<lt>closeparen<gt><comma>%Y-%m-%d<backslash><quote><quote>%<backslash><quote><quote>%H:%M:%S<lt>space<gt><lt>openparen<gt>ISO<lt>space<gt>time<lt>closeparen<gt><comma>%H:%M:%S<backslash><quote><quote>%<backslash><quote><quote>%H:%M:%S%Ez<lt>space<gt><lt>openparen<gt>ISO<lt>space<gt>time<lt>space<gt>with<lt>space<gt>offset<lt>closeparen<gt><comma>%H:%M:%S%Ez<backslash><quote><quote>%<backslash><quote><quote>%Y-%m-%dT%H:%M:%S<lt>space<gt><lt>openparen<gt>ISO<lt>space<gt>datetime<lt>closeparen<gt><comma>%Y-%m-%dT%H:%M:%S<backslash><quote><quote>%<backslash><quote><quote>%Y-%m-%dT%H:%M:%S%Ez<lt>space<gt><lt>openparen<gt>ISO<lt>space<gt>datetime<lt>space<gt>with<lt>space<gt>offset<lt>closeparen<gt><comma>%Y-%m-%dT%H:%M:%S%Ez<backslash><quote><quote>%<backslash><quote><quote>%Y-W%W-%u<lt>space<gt><lt>openparen<gt>ISO<lt>space<gt>week<lt>closeparen<gt><comma>%Y-W%W-%u<backslash><quote><quote>%<backslash><quote><quote>%Y-%j<lt>space<gt><lt>openparen<gt>ISO<lt>space<gt>ordinal<lt>space<gt>date<lt>closeparen<gt><comma>%Y-%j<backslash><quote><quote>%<backslash><quote><quote>%Y:%m:%d<lt>space<gt>%H:%M:%S<lt>space<gt><lt>openparen<gt>Exif<lt>space<gt>datetime<lt>closeparen<gt><comma>%Y:%m:%d%H:%M:%S<backslash><quote><quote>%<backslash><quote><quote>%d<solidus>%m<solidus>%Y<backslash><quote><quote>%<backslash><quote><quote>%d.%m.%Y<backslash><quote><quote>%<backslash><quote><quote>%B<lt>space<gt>%e<lt>comma<gt><lt>space<gt>%Y<backslash><quote><quote>%<backslash><quote><quote>%b-%e-%Y<backslash><quote><quote>%<backslash><quote><quote>%I:%M:%S%p<backslash><quote><quote>%<backslash><quote><quote>%s<lt>space<gt><lt>openparen<gt>Epoch<lt>space<gt>Time<lt>closeparen<gt><comma>%s<backslash><quote><quote>%<backslash><quote><quote>%Es<lt>space<gt><lt>openparen<gt>Unzoned<lt>space<gt>Epoch<lt>space<gt>Time<lt>closeparen<gt><comma>%Es<backslash><quote><quote><quote><quote><space>Date<space>Output<space>Format<quote><comma>FME,WRITER_DEF_LINE_TEMPLATE,<opencurly>FME_GEN_GROUP_NAME<closecurly><comma>csv_existing_file_handling<comma>Yes<comma>csv_write_field_names<comma>firstrow<comma>csv_date_output_format<comma>FME,WRITER_FORMAT_PARAMETER,ADVANCED_PARMS<comma><quote>CSV2_OUT_QUALIFY_FIELD_NAMES<space>CSV2_OUT_QUALIFY_FIELD_VALUES<space>CSV2_OUT_FIELD_QUALIFIER_CHARACTER<space>CSV2_OUT_FIELD_QUALIFIER_ESCAPE_CHARACTER<space>CSV2_OUT_ROW_TERMINATION<space>CSV2_OUT_WRITE_SCHEMA_FILE<space>CSV2_OUT_EXISTING_SCHEMA_FILE_HANDLING<quote><comma>DEFAULT_ATTR_TYPE<comma>string<comma>DATASET_NAME<comma><quote>csv<space>file<quote><comma>FEATURE_TYPE_NAME<comma><quote>CSV<space>File<quote><comma>FEATURE_TYPE_DEFAULT_NAME<comma>File1<comma>READER_DATASET_HINT<comma><quote>Select<space>the<space>CSV<space>file<openparen>s<closeparen><quote><comma>WRITER_DATASET_HINT<comma><quote>Specify<space>a<space>folder<space>for<space>the<space>CSV<space>file<quote><comma>ATTRIBUTE_READING<comma>DEFLINE,WRITER_FORMAT_TYPE,DYNAMIC,WRITER_HAS_DEFLINE_ATTRS,yes,WRITER_USES_DEF,yes" }    WRITER_FEATURE_TYPES { "<dollar><openparen>outputFile<closeparen>:Output,ftp_feature_type_name_exp,$(outputFile),ftp_writer,CSV2,ftp_dynamic_schema,no,ftp_dynamic_feature_type_name_type,DYN_SCHEMA_PROP_AUTO,ftp_dynamic_geometry_type,DYN_SCHEMA_PROP_AUTO,ftp_dynamic_schema_def_name_type,DYN_SCHEMA_PROP_AUTO,ftp_dynamic_schema_sources,<lt>lt<gt>Unused<lt>gt<gt>,ftp_attribute_source,1,ftp_user_attributes,stop_id<comma>varchar<lt>openparen<gt>16<lt>closeparen<gt><comma>stop_code<comma>varchar<lt>openparen<gt>4<lt>closeparen<gt><comma>stop_name<comma>varchar<lt>openparen<gt>64<lt>closeparen<gt><comma>platform_code<comma>varchar<lt>openparen<gt>200<lt>closeparen<gt><comma>stop_url<comma>varchar<lt>openparen<gt>200<lt>closeparen<gt><comma>stop_lon<comma>real64<comma>stop_lat<comma>real64<comma>easting<comma>real64<comma>northing<comma>real64,ftp_user_attribute_values,<comma><comma><comma><comma><comma><comma><comma><comma>,ftp_format_attributes,fme_color,ftp_format_parameters,csv_dataset_group<comma><comma>csv_existing_file_handling<comma>Yes<comma>csv_fields_group<comma><comma>csv_write_field_names<comma>firstrow<comma>csv_types_group<comma><comma>csv_date_output_format<comma>ISO" }    WRITER_PARAMS { "QUALIFY_FIELD_NAMES,yes,WRITE_BOM_FOR_UNICODE,Yes,FIELD_QUALIFIER_ESCAPE_CHARACTER,<lt>quote<gt>,DELIMITER,<lt>comma<gt>,ADVANCED_GROUP,FME_DISCLOSURE_OPEN,WRITE_FIELD_NAMES,firstrow,ENCODING,UTF-8,FIELD_QUALIFIER_CHARACTER,<lt>quote<gt>,ROW_TERMINATION,System,QUALIFY_FIELD_VALUES,yes,EXISTING_FILE_HANDLING,Yes,COORDINATE_SYSTEM_GRANULARITY,FEATURE_TYPE,WRITE_SCHEMA_FILE,NO,EXTENSION,csv,TREAT_EMBEDDED_FIELD_QUALIFIERS_AS_UNSAFE,Yes" }    DATASET_ATTR { "_dataset" }    FEATURE_TYPE_LIST_ATTR { "_feature_types" }    TOTAL_FEATURES_WRITTEN_ATTR { "_total_features_written" }    OUTPUT_PORTS { "" }    INPUT Output FEATURE_TYPE Sorter_9_SORTED  @FeatureType(ENCODED,@EvaluateExpression(FDIV,STRING_ENCODED,$(outputFile$encode),FeatureWriter))    @SupplyAttributes(ENCODED,fme_template_feature_type,Output)    OUTPUT { SUMMARY FEATURE_TYPE FeatureWriter_SUMMARY        }
 # -------------------------------------------------------------------------
 # Assumption is that the workspace temp dir has been already set and created.  See controldefs.cpp - ControlDefs::writeVisualizerTempDir
 DEFAULT_MACRO WORKSPACE_TEMP_DIR
