@@ -154,7 +154,6 @@ This file is a close approximation to a GTFS format stop location file, with som
 
 Some records will contain null geographies. These are almost exclusively BPLAN records where the indicated location was in the sea, so we retain the record by remove the known bad geometry.
 
-<<<<<<< HEAD
 "stop_id"					TIPLOC code
 "stop_code"					CRS code
 "stop_name"					Description / human friendly name
@@ -164,18 +163,6 @@ Some records will contain null geographies. These are almost exclusively BPLAN r
 "stop_lat"					Latitude (WGS84)
 "easting"					GB national grid easting (EPSG:27700)
 "northing"					GB national grid northing (EPSG:27700)
-
-=======
-"stop_code"			CRS code
-"stop_id"			TIPLOC code
-"stop_name"			Description / human friendly name
-"platform_code"			STANOX code
-"stop_url"			data source this record originated from (see list at top of this file)
-"easting"			GB national grid easting (EPSG:27700)
-"northing"			GB national grid northing (EPSG:27700)
-"stop_lon"			Longitude (WGS84)
-"stop_lat"			Latitude (WGS84)
->>>>>>> bc864de014fb4e0813a910e786dc30769336b11e
 
 
 CRS (co-ordinate referencing system)
