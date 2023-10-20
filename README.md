@@ -19,7 +19,7 @@ Rows:	Data source:	Url:	                            Licence:
 ------	------------   -----                                --------------------                                                          
 2685	NAPTAN 	    https://beta-naptan.dft.gov.uk/    	OGL3 https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
 
-495		ATOC	    https://data.atoc.org/how-to        Creative Commons England and Wales Public Licence
+493		ATOC	    https://data.atoc.org/how-to        Creative Commons England and Wales Public Licence
 
 15		TPS	      	https://publicdatafeeds.networkrail.co.uk/ntrod/SupportingFileAuthenticate?type=TPS
 														OGL3  https://www.networkrail.co.uk/who-we-are/transparency-and-ethics/transparency/open-data-feeds/network-rail-infrastructure-limited-data-feeds-licence

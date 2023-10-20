@@ -32,7 +32,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2021.2.5.0 (20220331 - Build 21816 - WIN64)"
-#!   LAST_SAVE_DATE="2023-10-20T18:29:22"
+#!   LAST_SAVE_DATE="2023-10-20T18:46:14"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -51,7 +51,7 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="-17.544 -1469.31"
+#!   VIEW_POSITION="-758.78 4267.59"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="57"
@@ -1562,6 +1562,7 @@
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Tiploc" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AtcoCode" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="NaptanCode" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="CommonName" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1573,13 +1574,12 @@
 #!     <XFORM_ATTR ATTR_NAME="StopType" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="ModeType" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="RailType" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Tiploc" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Crs" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="StopAreaRef" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AdministrativeAreaRef" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; dataSource SET_TO NAPTAN"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; dataSource SET_TO NAPTAN  Tiploc SET_TO &lt;at&gt;Trim&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;Tiploc&lt;closeparen&gt;&lt;closeparen&gt;"/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
@@ -1639,6 +1639,7 @@
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="TIPLOC" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Tiploc" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AtcoCode" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="NaptanCode" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="ShortCommonName" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1649,7 +1650,6 @@
 #!     <XFORM_ATTR ATTR_NAME="StopType" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="ModeType" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="RailType" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Tiploc" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Crs" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="StopAreaRef" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AdministrativeAreaRef" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1669,6 +1669,7 @@
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="TIPLOC" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Tiploc" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AtcoCode" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="NaptanCode" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="ShortCommonName" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1679,7 +1680,6 @@
 #!     <XFORM_ATTR ATTR_NAME="StopType" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="ModeType" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="RailType" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="Tiploc" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Crs" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="StopAreaRef" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AdministrativeAreaRef" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1704,6 +1704,7 @@
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="TIPLOC" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="Tiploc" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="AtcoCode" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="NaptanCode" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="ShortCommonName" IS_USER_CREATED="false" FEAT_INDEX="3" />
@@ -1714,7 +1715,6 @@
 #!     <XFORM_ATTR ATTR_NAME="StopType" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="ModeType" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="RailType" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="Tiploc" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="Crs" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="StopAreaRef" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="AdministrativeAreaRef" IS_USER_CREATED="false" FEAT_INDEX="3" />
@@ -1774,13 +1774,14 @@
 #!   POSITION="2874.3057986135414 2933.0316508293281"
 #!   BOUNDING_RECT="2874.3057986135414 2933.0316508293281 430 71"
 #!   ORDER="500000000000043"
-#!   PARMS_EDITED="false"
+#!   PARMS_EDITED="true"
 #!   ENABLED="true"
 #!   LAST_PARM_EDIT="21816"
 #! >
 #!     <OUTPUT_FEAT NAME="NULL"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Tiploc" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AtcoCode" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="NaptanCode" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="CommonName" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1792,13 +1793,13 @@
 #!     <XFORM_ATTR ATTR_NAME="StopType" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="ModeType" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="RailType" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Tiploc" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Crs" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="StopAreaRef" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AdministrativeAreaRef" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="OK"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Tiploc" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AtcoCode" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="NaptanCode" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="CommonName" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1810,7 +1811,6 @@
 #!     <XFORM_ATTR ATTR_NAME="StopType" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="ModeType" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="RailType" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="Tiploc" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Crs" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="StopAreaRef" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AdministrativeAreaRef" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -2023,9 +2023,9 @@
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="TIPLOC Code" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Station Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="CATE Interchange status" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="TIPLOC Code" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="CRS Reference Code" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="CRS Code" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Ordnance Survey Grid Ref East" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2036,7 +2036,7 @@
 #!     <XFORM_ATTR ATTR_NAME="Sub-sector code" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; dataSource SET_TO ATOC"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; dataSource SET_TO ATOC  TIPLOC&lt;space&gt;Code SET_TO &lt;at&gt;Trim&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;TIPLOC&lt;space&gt;Code&lt;closeparen&gt;&lt;closeparen&gt;"/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
@@ -2061,9 +2061,9 @@
 #!     <XFORM_ATTR ATTR_NAME="Ordnance Survey Grid Ref East" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Ordnance Survey Grid Ref North" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="TIPLOC Code" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Station Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="CATE Interchange status" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="TIPLOC Code" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="CRS Reference Code" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="CRS Code" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Estimate" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2097,9 +2097,9 @@
 #!     <XFORM_ATTR ATTR_NAME="Ordnance Survey Grid Ref East" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Ordnance Survey Grid Ref North" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="TIPLOC Code" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Station Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="CATE Interchange status" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="TIPLOC Code" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="CRS Reference Code" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="CRS Code" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Estimate" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2111,9 +2111,9 @@
 #!     <XFORM_ATTR ATTR_NAME="Ordnance Survey Grid Ref East" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Ordnance Survey Grid Ref North" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="TIPLOC Code" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Station Name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="CATE Interchange status" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="TIPLOC Code" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="CRS Reference Code" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="CRS Code" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Estimate" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -2150,9 +2150,9 @@
 #!     <XFORM_ATTR ATTR_NAME="Ordnance Survey Grid Ref East" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Ordnance Survey Grid Ref North" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="TIPLOC Code" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Station Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="CATE Interchange status" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="TIPLOC Code" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="CRS Reference Code" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="CRS Code" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Estimate" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2446,7 +2446,7 @@
 #!     <XFORM_ATTR ATTR_NAME="NORTHING" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; dataSource SET_TO openRailData  TIPLOC SET_TO &lt;at&gt;UpperCase&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;TIPLOC&lt;closeparen&gt;&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; dataSource SET_TO openRailData  TIPLOC SET_TO &lt;at&gt;Trim&lt;openparen&gt;&lt;at&gt;UpperCase&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;TIPLOC&lt;closeparen&gt;&lt;closeparen&gt;&lt;closeparen&gt;"/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
@@ -2737,7 +2737,7 @@
 #!     <XFORM_ATTR ATTR_NAME="stop_lat" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; dataSource SET_TO UK2GTFS  stop_code SET_TO &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;&lt;at&gt;Value&lt;openparen&gt;stop_code&lt;closeparen&gt;&apos;BOOL_OP;OR;COMPOSITE_TEST;1;CASE_SENSITIVE_TEST &lt;at&gt;Value&lt;openparen&gt;stop_code&lt;closeparen&gt; = NA&apos;FME_NULL_VALUE&apos;FME_NUM_CONDITIONS2___&quot;  stop_id SET_TO &lt;at&gt;UpperCase&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;stop_id&lt;closeparen&gt;&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; dataSource SET_TO UK2GTFS  stop_code SET_TO &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;&lt;at&gt;Value&lt;openparen&gt;stop_code&lt;closeparen&gt;&apos;BOOL_OP;OR;COMPOSITE_TEST;1;CASE_SENSITIVE_TEST &lt;at&gt;Value&lt;openparen&gt;stop_code&lt;closeparen&gt; = NA&apos;FME_NULL_VALUE&apos;FME_NUM_CONDITIONS2___&quot;  stop_id SET_TO &lt;at&gt;Trim&lt;openparen&gt;&lt;at&gt;UpperCase&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;stop_id&lt;closeparen&gt;&lt;closeparen&gt;&lt;closeparen&gt;"/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
@@ -3451,6 +3451,7 @@
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="TIPLOC" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Tiploc" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AtcoCode" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="NaptanCode" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="ShortCommonName" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -3461,7 +3462,6 @@
 #!     <XFORM_ATTR ATTR_NAME="StopType" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="ModeType" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="RailType" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Tiploc" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Crs" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="StopAreaRef" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AdministrativeAreaRef" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -3471,6 +3471,7 @@
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="TIPLOC" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Tiploc" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AtcoCode" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="NaptanCode" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="ShortCommonName" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -3481,7 +3482,6 @@
 #!     <XFORM_ATTR ATTR_NAME="StopType" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="ModeType" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="RailType" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="Tiploc" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Crs" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="StopAreaRef" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AdministrativeAreaRef" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -3510,6 +3510,7 @@
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="TIPLOC" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Tiploc" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AtcoCode" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="NaptanCode" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="ShortCommonName" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -3520,7 +3521,6 @@
 #!     <XFORM_ATTR ATTR_NAME="StopType" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="ModeType" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="RailType" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Tiploc" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Crs" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="StopAreaRef" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AdministrativeAreaRef" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -3540,6 +3540,7 @@
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="TIPLOC" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Tiploc" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AtcoCode" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="NaptanCode" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="ShortCommonName" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -3550,7 +3551,6 @@
 #!     <XFORM_ATTR ATTR_NAME="StopType" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="ModeType" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="RailType" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="Tiploc" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Crs" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="StopAreaRef" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AdministrativeAreaRef" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -3575,6 +3575,7 @@
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="TIPLOC" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="Tiploc" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="AtcoCode" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="NaptanCode" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="ShortCommonName" IS_USER_CREATED="false" FEAT_INDEX="3" />
@@ -3585,7 +3586,6 @@
 #!     <XFORM_ATTR ATTR_NAME="StopType" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="ModeType" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="RailType" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="Tiploc" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="Crs" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="StopAreaRef" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="AdministrativeAreaRef" IS_USER_CREATED="false" FEAT_INDEX="3" />
@@ -3630,6 +3630,7 @@
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="TIPLOC" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Tiploc" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AtcoCode" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="NaptanCode" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="ShortCommonName" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -3640,7 +3641,6 @@
 #!     <XFORM_ATTR ATTR_NAME="StopType" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="ModeType" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="RailType" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Tiploc" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Crs" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="StopAreaRef" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AdministrativeAreaRef" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -3680,6 +3680,7 @@
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="TIPLOC" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Tiploc" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AtcoCode" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="NaptanCode" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="CommonName" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -3691,7 +3692,6 @@
 #!     <XFORM_ATTR ATTR_NAME="StopType" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="ModeType" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="RailType" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Tiploc" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Crs" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="StopAreaRef" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AdministrativeAreaRef" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -4122,6 +4122,7 @@
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="TIPLOC" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Tiploc" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AtcoCode" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="NaptanCode" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="ShortCommonName" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -4132,7 +4133,6 @@
 #!     <XFORM_ATTR ATTR_NAME="StopType" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="ModeType" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="RailType" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Tiploc" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Crs" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="StopAreaRef" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AdministrativeAreaRef" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -7320,9 +7320,9 @@
 #!     <XFORM_ATTR ATTR_NAME="Ordnance Survey Grid Ref East" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Ordnance Survey Grid Ref North" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="TIPLOC Code" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Station Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="CATE Interchange status" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="TIPLOC Code" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="CRS Reference Code" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="CRS Code" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Estimate" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -7334,9 +7334,9 @@
 #!     <XFORM_ATTR ATTR_NAME="Ordnance Survey Grid Ref East" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Ordnance Survey Grid Ref North" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="TIPLOC Code" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Station Name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="CATE Interchange status" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="TIPLOC Code" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="CRS Reference Code" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="CRS Code" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Estimate" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -7348,9 +7348,9 @@
 #!     <XFORM_ATTR ATTR_NAME="Ordnance Survey Grid Ref East" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="Ordnance Survey Grid Ref North" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="dataSource" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="TIPLOC Code" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="Station Name" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="CATE Interchange status" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="TIPLOC Code" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="CRS Reference Code" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="CRS Code" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="Estimate" IS_USER_CREATED="false" FEAT_INDEX="2" />
@@ -15656,7 +15656,7 @@
 #!   POSITION="1712.2675604104406 3655.8457559884232"
 #!   BOUNDING_RECT="1712.2675604104406 3655.8457559884232 483.00106825772946 71"
 #!   ORDER="500000000000010"
-#!   PARMS_EDITED="false"
+#!   PARMS_EDITED="true"
 #!   ENABLED="true"
 #!   LAST_PARM_EDIT="21816"
 #! >
@@ -15669,7 +15669,7 @@
 #!     <XFORM_ATTR ATTR_NAME="TIPLOCDATA.NLCDESC" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; dataSource SET_TO CORPUS  TIPLOCDATA.3ALPHA SET_TO &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;&lt;at&gt;Value&lt;openparen&gt;TIPLOCDATA.3ALPHA&lt;closeparen&gt;&apos;BOOL_OP;OR;COMPOSITE_TEST;1;CASE_SENSITIVE_TEST &lt;at&gt;Value&lt;openparen&gt;TIPLOCDATA.3ALPHA&lt;closeparen&gt; = NA&apos;FME_NULL_VALUE&apos;FME_NUM_CONDITIONS2___&quot;  TIPLOCDATA.TIPLOC SET_TO &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;&lt;at&gt;Value&lt;openparen&gt;TIPLOCDATA.TIPLOC&lt;closeparen&gt;&apos;BOOL_OP;OR;COMPOSITE_TEST;1;CASE_SENSITIVE_TEST &lt;at&gt;Value&lt;openparen&gt;TIPLOCDATA.TIPLOC&lt;closeparen&gt; = NA&apos;FME_NULL_VALUE&apos;FME_NUM_CONDITIONS2___&quot;  TIPLOCDATA.STANOX SET_TO &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;&lt;at&gt;Value&lt;openparen&gt;TIPLOCDATA.STANOX&lt;closeparen&gt;&apos;BOOL_OP;OR;COMPOSITE_TEST;1;CASE_SENSITIVE_TEST &lt;at&gt;Value&lt;openparen&gt;TIPLOCDATA.STANOX&lt;closeparen&gt; = NA&apos;FME_NULL_VALUE&apos;FME_NUM_CONDITIONS2___&quot;  TIPLOCDATA.NLCDESC SET_TO &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;&lt;at&gt;Value&lt;openparen&gt;TIPLOCDATA.NLCDESC&lt;closeparen&gt;&apos;BOOL_OP;OR;COMPOSITE_TEST;1;CASE_SENSITIVE_TEST &lt;at&gt;Value&lt;openparen&gt;TIPLOCDATA.NLCDESC&lt;closeparen&gt; = NA&apos;FME_NULL_VALUE&apos;FME_NUM_CONDITIONS2___&quot;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; dataSource SET_TO CORPUS  TIPLOCDATA.3ALPHA SET_TO &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;&lt;at&gt;Trim&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;TIPLOCDATA.3ALPHA&lt;closeparen&gt;&lt;closeparen&gt;&apos;BOOL_OP;OR;COMPOSITE_TEST;1;CASE_SENSITIVE_TEST &lt;at&gt;Value&lt;openparen&gt;TIPLOCDATA.3ALPHA&lt;closeparen&gt; = NA&apos;FME_NULL_VALUE&apos;FME_NUM_CONDITIONS2___&quot;  TIPLOCDATA.TIPLOC SET_TO &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;&lt;at&gt;Trim&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;TIPLOCDATA.TIPLOC&lt;closeparen&gt;&lt;closeparen&gt;&apos;BOOL_OP;OR;COMPOSITE_TEST;1;CASE_SENSITIVE_TEST &lt;at&gt;Value&lt;openparen&gt;TIPLOCDATA.TIPLOC&lt;closeparen&gt; = NA&apos;FME_NULL_VALUE&apos;FME_NUM_CONDITIONS2___&quot;  TIPLOCDATA.STANOX SET_TO &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;&lt;at&gt;Trim&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;TIPLOCDATA.STANOX&lt;closeparen&gt;&lt;closeparen&gt;&apos;BOOL_OP;OR;COMPOSITE_TEST;1;CASE_SENSITIVE_TEST &lt;at&gt;Value&lt;openparen&gt;TIPLOCDATA.STANOX&lt;closeparen&gt; = NA&apos;FME_NULL_VALUE&apos;FME_NUM_CONDITIONS2___&quot;  TIPLOCDATA.NLCDESC SET_TO &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;&lt;at&gt;Trim&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;TIPLOCDATA.NLCDESC&lt;closeparen&gt;&lt;closeparen&gt;&apos;BOOL_OP;OR;COMPOSITE_TEST;1;CASE_SENSITIVE_TEST &lt;at&gt;Value&lt;openparen&gt;TIPLOCDATA.NLCDESC&lt;closeparen&gt; = NA&apos;FME_NULL_VALUE&apos;FME_NUM_CONDITIONS2___&quot;"/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
@@ -25317,7 +25317,7 @@ FACTORY_DEF {*} QueryFactory    FACTORY_NAME { CORPUS_2 }    INPUT  FEATURE_TYPE
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME CORPUS_2_<Rejected> INPUT FEATURE_TYPE CORPUS_2_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, CORPUS_2<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
-FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME { createSource_CORPUS_2 }    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE CORPUS_2_CSV    MULTI_FEATURE_MODE { NO }    NULL_ATTR_MODE { NO_OP }    ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ATTR_ACTION { "" "dataSource" "SET_TO" "CORPUS" }      ATTR_ACTION { "" "TIPLOCDATA.3ALPHA" "SET_TO" "FME_CONDITIONAL:DEFAULT_VALUE'<at>Value<openparen>TIPLOCDATA.3ALPHA<closeparen>'BOOL_OP;OR;COMPOSITE_TEST;1;CASE_SENSITIVE_TEST <at>Value<openparen>TIPLOCDATA.3ALPHA<closeparen> = NA'FME_NULL_VALUE'FME_NUM_CONDITIONS2___" }      ATTR_ACTION { "" "TIPLOCDATA.TIPLOC" "SET_TO" "FME_CONDITIONAL:DEFAULT_VALUE'<at>Value<openparen>TIPLOCDATA.TIPLOC<closeparen>'BOOL_OP;OR;COMPOSITE_TEST;1;CASE_SENSITIVE_TEST <at>Value<openparen>TIPLOCDATA.TIPLOC<closeparen> = NA'FME_NULL_VALUE'FME_NUM_CONDITIONS2___" }      ATTR_ACTION { "" "TIPLOCDATA.STANOX" "SET_TO" "FME_CONDITIONAL:DEFAULT_VALUE'<at>Value<openparen>TIPLOCDATA.STANOX<closeparen>'BOOL_OP;OR;COMPOSITE_TEST;1;CASE_SENSITIVE_TEST <at>Value<openparen>TIPLOCDATA.STANOX<closeparen> = NA'FME_NULL_VALUE'FME_NUM_CONDITIONS2___" }      ATTR_ACTION { "" "TIPLOCDATA.NLCDESC" "SET_TO" "FME_CONDITIONAL:DEFAULT_VALUE'<at>Value<openparen>TIPLOCDATA.NLCDESC<closeparen>'BOOL_OP;OR;COMPOSITE_TEST;1;CASE_SENSITIVE_TEST <at>Value<openparen>TIPLOCDATA.NLCDESC<closeparen> = NA'FME_NULL_VALUE'FME_NUM_CONDITIONS2___" }    OUTPUT { OUTPUT FEATURE_TYPE createSource_CORPUS_2_OUTPUT        }
+FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME { createSource_CORPUS_2 }    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE CORPUS_2_CSV    MULTI_FEATURE_MODE { NO }    NULL_ATTR_MODE { NO_OP }    ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ATTR_ACTION { "" "dataSource" "SET_TO" "CORPUS" }      ATTR_ACTION { "" "TIPLOCDATA.3ALPHA" "SET_TO" "FME_CONDITIONAL:DEFAULT_VALUE'<at>Trim<openparen><at>Value<openparen>TIPLOCDATA.3ALPHA<closeparen><closeparen>'BOOL_OP;OR;COMPOSITE_TEST;1;CASE_SENSITIVE_TEST <at>Value<openparen>TIPLOCDATA.3ALPHA<closeparen> = NA'FME_NULL_VALUE'FME_NUM_CONDITIONS2___" }      ATTR_ACTION { "" "TIPLOCDATA.TIPLOC" "SET_TO" "FME_CONDITIONAL:DEFAULT_VALUE'<at>Trim<openparen><at>Value<openparen>TIPLOCDATA.TIPLOC<closeparen><closeparen>'BOOL_OP;OR;COMPOSITE_TEST;1;CASE_SENSITIVE_TEST <at>Value<openparen>TIPLOCDATA.TIPLOC<closeparen> = NA'FME_NULL_VALUE'FME_NUM_CONDITIONS2___" }      ATTR_ACTION { "" "TIPLOCDATA.STANOX" "SET_TO" "FME_CONDITIONAL:DEFAULT_VALUE'<at>Trim<openparen><at>Value<openparen>TIPLOCDATA.STANOX<closeparen><closeparen>'BOOL_OP;OR;COMPOSITE_TEST;1;CASE_SENSITIVE_TEST <at>Value<openparen>TIPLOCDATA.STANOX<closeparen> = NA'FME_NULL_VALUE'FME_NUM_CONDITIONS2___" }      ATTR_ACTION { "" "TIPLOCDATA.NLCDESC" "SET_TO" "FME_CONDITIONAL:DEFAULT_VALUE'<at>Trim<openparen><at>Value<openparen>TIPLOCDATA.NLCDESC<closeparen><closeparen>'BOOL_OP;OR;COMPOSITE_TEST;1;CASE_SENSITIVE_TEST <at>Value<openparen>TIPLOCDATA.NLCDESC<closeparen> = NA'FME_NULL_VALUE'FME_NUM_CONDITIONS2___" }    OUTPUT { OUTPUT FEATURE_TYPE createSource_CORPUS_2_OUTPUT        }
 # -------------------------------------------------------------------------
 FACTORY_DEF {*} DuplicateRemoverFactory    FACTORY_NAME { DuplicateFilter_12 }    COMMAND_PARM_EVALUATION SINGLE_PASS    SUPPORTS_FEATURE_TABLES    INPUT  FEATURE_TYPE createSource_CORPUS_2_OUTPUT    KEY_ATTRIBUTES { TIPLOCDATA.STANOX TIPLOCDATA.TIPLOC }    INPUT_IS_ORDERED { NO }    PRESERVE_FEATURE_ORDER { PER_OUTPUT_PORT }    OUTPUT { UNIQUE FEATURE_TYPE DuplicateFilter_12_UNIQUE         }
 # -------------------------------------------------------------------------
@@ -25335,7 +25335,7 @@ FACTORY_DEF {*} QueryFactory    FACTORY_NAME { NaptanTIPLOC }    INPUT  FEATURE_
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME NaptanTIPLOC_<Rejected> INPUT FEATURE_TYPE NaptanTIPLOC_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, NaptanTIPLOC<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
-FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME { createSource_NAPTAN }    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE NaptanTIPLOC_CSV    MULTI_FEATURE_MODE { NO }    NULL_ATTR_MODE { NO_OP }    ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ATTR_ACTION { "" "dataSource" "SET_TO" "NAPTAN" }    OUTPUT { OUTPUT FEATURE_TYPE createSource_NAPTAN_OUTPUT        }
+FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME { createSource_NAPTAN }    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE NaptanTIPLOC_CSV    MULTI_FEATURE_MODE { NO }    NULL_ATTR_MODE { NO_OP }    ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ATTR_ACTION { "" "dataSource" "SET_TO" "NAPTAN" }      ATTR_ACTION { "" "Tiploc" "SET_TO" "<at>Trim<openparen><at>Value<openparen>Tiploc<closeparen><closeparen>" }    OUTPUT { OUTPUT FEATURE_TYPE createSource_NAPTAN_OUTPUT        }
 # -------------------------------------------------------------------------
 FACTORY_DEF {*} TeeFactory    FACTORY_NAME { nullTiploc }    INPUT  FEATURE_TYPE createSource_NAPTAN_OUTPUT    OUTPUT FEATURE_TYPE nullTiploc_TESTFILTERINPUTLINE_0
 FACTORY_DEF {*} TestFactory FACTORY_NAME nullTiploc_Condition_1 INPUT FEATURE_TYPE nullTiploc_TESTFILTERINPUTLINE_0 CASE_SENSITIVE_TEST { Tiploc ATTRIBUTE_VALUE_NULL "" ENCODED } CASE_SENSITIVE_TEST { Tiploc NOT_ATTRIBUTE_HAS_A_VALUE "" ENCODED } BOOLEAN_OPERATOR OR COMPOSITE_TEST_EXPR "1 OR 2" FEATURE_TABLE_SHIM_SUPPORT Yes PRESERVE_FEATURE_ORDER PER_OUTPUT_PORT OUTPUT PASSED FEATURE_TYPE nullTiploc_NULL OUTPUT FAILED FEATURE_TYPE nullTiploc_TESTFILTERINPUTLINE_1
@@ -25363,7 +25363,7 @@ FACTORY_DEF {*} QueryFactory    FACTORY_NAME { ATOC_msn_tiploc }    INPUT  FEATU
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME ATOC_msn_tiploc_<Rejected> INPUT FEATURE_TYPE ATOC_msn_tiploc_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, ATOC_msn_tiploc<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
-FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME { createSource_ATOC }    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE ATOC_msn_tiploc_CSV    MULTI_FEATURE_MODE { NO }    NULL_ATTR_MODE { NO_OP }    ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ATTR_ACTION { "" "dataSource" "SET_TO" "ATOC" }    OUTPUT { OUTPUT FEATURE_TYPE createSource_ATOC_OUTPUT        }
+FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME { createSource_ATOC }    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE ATOC_msn_tiploc_CSV    MULTI_FEATURE_MODE { NO }    NULL_ATTR_MODE { NO_OP }    ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ATTR_ACTION { "" "dataSource" "SET_TO" "ATOC" }      ATTR_ACTION { "" "TIPLOC<space>Code" "SET_TO" "<at>Trim<openparen><at>Value<openparen>TIPLOC<space>Code<closeparen><closeparen>" }    OUTPUT { OUTPUT FEATURE_TYPE createSource_ATOC_OUTPUT        }
 # -------------------------------------------------------------------------
 FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME { AttributeCreator }    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE createSource_ATOC_OUTPUT    MULTI_FEATURE_MODE { NO }    NULL_ATTR_MODE { NO_OP }    ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ATTR_ACTION { "" "Ordnance<space>Survey<space>Grid<space>Ref<space>East" "SET_TO" "FME_CONDITIONAL:DEFAULT_VALUE'<at>Evaluate<openparen>100*<openparen><at>Value<openparen>Ordnance<space>Survey<space>Grid<space>Ref<space>East<closeparen>-10000<closeparen><closeparen>'BOOL_OP;OR;COMPOSITE_TEST;1;NUM_TEST <at>Value<openparen>Ordnance<space>Survey<space>Grid<space>Ref<space>East<closeparen> <= 0'FME_NULL_VALUE'FME_NUM_CONDITIONS2___" }      ATTR_ACTION { "" "Ordnance<space>Survey<space>Grid<space>Ref<space>North" "SET_TO" "FME_CONDITIONAL:DEFAULT_VALUE'<at>Evaluate<openparen>100*<openparen><at>Value<openparen>Ordnance<space>Survey<space>Grid<space>Ref<space>North<closeparen>-60000<closeparen><closeparen>'BOOL_OP;OR;COMPOSITE_TEST;1;NUM_TEST <at>Value<openparen>Ordnance<space>Survey<space>Grid<space>Ref<space>North<closeparen> <= 0'FME_NULL_VALUE'BOOL_OP;OR;COMPOSITE_TEST;1;NUM_TEST <at>Value<openparen>Ordnance<space>Survey<space>Grid<space>Ref<space>North<closeparen> >= 69999'FME_NULL_VALUE'FME_NUM_CONDITIONS3___" }    OUTPUT { OUTPUT FEATURE_TYPE AttributeCreator_OUTPUT        }
 # -------------------------------------------------------------------------
@@ -25401,7 +25401,7 @@ MACRO OUTPUT_NULL_FTYPE GeometryFilter_2_NULL
 MACRO OUTPUT_INSTANCE_FTYPE not_selected
 Lookup GeometryFilter_2_RouterTable   ""  "not_selected"   fme_no_geom $(OUTPUT_NULL_FTYPE)
 # Create a FME_UUID_SAFE from the FME_UUID so we can use it for Tcl identifiers (FMEDESKTOP-11308)
-INCLUDE [ FME_CleanseFMEUUID {GeometryFilter_2_5cf397dd_177d_4b0e_b338_4f53574ff6482} ]
+INCLUDE [ FME_CleanseFMEUUID {GeometryFilter_2_5cf397dd_177d_4b0e_b338_4f53574ff6485} ]
 MACRO COLLECTION_HANDLING NOT_THIS_TIME
 MACRO INSTANCE_FILTERING *
 INCLUDE [    if 0 {       puts "MACRO COLLECTION_HANDLING *";       if <Unused> {          puts "MACRO INSTANCE_FILTERING NOT_THIS_TIME";       };    };    if {{$(OUTPUT_INSTANCE_FTYPE)} == "not_selected"} {       puts "MACRO INSTANCE_FILTERING NOT_THIS_TIME";    }; ]
@@ -25563,7 +25563,7 @@ FACTORY_DEF {*} QueryFactory    FACTORY_NAME { OpenRailDataTiploc }    INPUT  FE
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME OpenRailDataTiploc_<Rejected> INPUT FEATURE_TYPE OpenRailDataTiploc_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, OpenRailDataTiploc<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
-FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME { createSource_openRailData }    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE OpenRailDataTiploc_TIPLOC    MULTI_FEATURE_MODE { NO }    NULL_ATTR_MODE { NO_OP }    ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ATTR_ACTION { "" "dataSource" "SET_TO" "openRailData" }      ATTR_ACTION { "" "TIPLOC" "SET_TO" "<at>UpperCase<openparen><at>Value<openparen>TIPLOC<closeparen><closeparen>" }    OUTPUT { OUTPUT FEATURE_TYPE createSource_openRailData_OUTPUT        }
+FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME { createSource_openRailData }    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE OpenRailDataTiploc_TIPLOC    MULTI_FEATURE_MODE { NO }    NULL_ATTR_MODE { NO_OP }    ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ATTR_ACTION { "" "dataSource" "SET_TO" "openRailData" }      ATTR_ACTION { "" "TIPLOC" "SET_TO" "<at>Trim<openparen><at>UpperCase<openparen><at>Value<openparen>TIPLOC<closeparen><closeparen><closeparen>" }    OUTPUT { OUTPUT FEATURE_TYPE createSource_openRailData_OUTPUT        }
 # -------------------------------------------------------------------------
 FACTORY_DEF {*} TeeFactory    FACTORY_NAME { Reprojector }    INPUT  FEATURE_TYPE createSource_openRailData_OUTPUT    OUTPUT { FEATURE_TYPE Reprojector_REPROJECTED         @Reproject("","LL-WGS84",NearestNeighbor,PreserveCells,Reprojector,"COORD_SYS_WARNING",RASTER_TOLERANCE,0.0)          }
 # -------------------------------------------------------------------------
@@ -25866,7 +25866,7 @@ FACTORY_DEF {*} QueryFactory    FACTORY_NAME { UK2GTFS-tiploc }    INPUT  FEATUR
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME UK2GTFS-tiploc_<Rejected> INPUT FEATURE_TYPE UK2GTFS-tiploc_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, UK2GTFS-tiploc<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
-FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME { createSource_UK2GTFS }    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE UK2GTFS-tiploc_CSV    MULTI_FEATURE_MODE { NO }    NULL_ATTR_MODE { NO_OP }    ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ATTR_ACTION { "" "dataSource" "SET_TO" "UK2GTFS" }      ATTR_ACTION { "" "stop_code" "SET_TO" "FME_CONDITIONAL:DEFAULT_VALUE'<at>Value<openparen>stop_code<closeparen>'BOOL_OP;OR;COMPOSITE_TEST;1;CASE_SENSITIVE_TEST <at>Value<openparen>stop_code<closeparen> = NA'FME_NULL_VALUE'FME_NUM_CONDITIONS2___" }      ATTR_ACTION { "" "stop_id" "SET_TO" "<at>UpperCase<openparen><at>Value<openparen>stop_id<closeparen><closeparen>" }    OUTPUT { OUTPUT FEATURE_TYPE createSource_UK2GTFS_OUTPUT        }
+FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME { createSource_UK2GTFS }    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE UK2GTFS-tiploc_CSV    MULTI_FEATURE_MODE { NO }    NULL_ATTR_MODE { NO_OP }    ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ATTR_ACTION { "" "dataSource" "SET_TO" "UK2GTFS" }      ATTR_ACTION { "" "stop_code" "SET_TO" "FME_CONDITIONAL:DEFAULT_VALUE'<at>Value<openparen>stop_code<closeparen>'BOOL_OP;OR;COMPOSITE_TEST;1;CASE_SENSITIVE_TEST <at>Value<openparen>stop_code<closeparen> = NA'FME_NULL_VALUE'FME_NUM_CONDITIONS2___" }      ATTR_ACTION { "" "stop_id" "SET_TO" "<at>Trim<openparen><at>UpperCase<openparen><at>Value<openparen>stop_id<closeparen><closeparen><closeparen>" }    OUTPUT { OUTPUT FEATURE_TYPE createSource_UK2GTFS_OUTPUT        }
 # -------------------------------------------------------------------------
 FACTORY_DEF {*} AttrSetFactory    COMMAND_PARM_EVALUATION SINGLE_PASS    FACTORY_NAME { AttributeRenamer_6 }    INPUT  FEATURE_TYPE createSource_UK2GTFS_OUTPUT 	ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    MISSING_INPUT_ATTR_HANDLING RENAME_SET_DEFAULT REMOVE 	ATTR_ACTION { "stop_code" "CRS" "RENAME_SET_DEFAULT" "" }      ATTR_ACTION { "stop_name" "Description" "RENAME_SET_DEFAULT" "" }      ATTR_ACTION { "stop_id" "TIPLOC" "RENAME_SET_DEFAULT" "" }    OUTPUT { OUTPUT FEATURE_TYPE AttributeRenamer_6_OUTPUT        }
 # -------------------------------------------------------------------------
@@ -26409,7 +26409,7 @@ MACRO OUTPUT_NULL_FTYPE GeometryFilter_3_NULL
 MACRO OUTPUT_INSTANCE_FTYPE not_selected
 Lookup GeometryFilter_3_RouterTable   ""  "not_selected"   fme_no_geom $(OUTPUT_NULL_FTYPE)
 # Create a FME_UUID_SAFE from the FME_UUID so we can use it for Tcl identifiers (FMEDESKTOP-11308)
-INCLUDE [ FME_CleanseFMEUUID {GeometryFilter_3_377a8686_0965_4097_be36_fe5c58ccee8a2} ]
+INCLUDE [ FME_CleanseFMEUUID {GeometryFilter_3_377a8686_0965_4097_be36_fe5c58ccee8a5} ]
 MACRO COLLECTION_HANDLING NOT_THIS_TIME
 MACRO INSTANCE_FILTERING *
 INCLUDE [    if 0 {       puts "MACRO COLLECTION_HANDLING *";       if <Unused> {          puts "MACRO INSTANCE_FILTERING NOT_THIS_TIME";       };    };    if {{$(OUTPUT_INSTANCE_FTYPE)} == "not_selected"} {       puts "MACRO INSTANCE_FILTERING NOT_THIS_TIME";    }; ]
@@ -26456,7 +26456,7 @@ MACRO OUTPUT_NULL_FTYPE GeometryFilter_4_NULL
 MACRO OUTPUT_INSTANCE_FTYPE not_selected
 Lookup GeometryFilter_4_RouterTable   ""  "not_selected"   fme_no_geom $(OUTPUT_NULL_FTYPE)
 # Create a FME_UUID_SAFE from the FME_UUID so we can use it for Tcl identifiers (FMEDESKTOP-11308)
-INCLUDE [ FME_CleanseFMEUUID {GeometryFilter_4_f27ec15e_8dc9_4ec7_85ba_95c7e1d8a8533} ]
+INCLUDE [ FME_CleanseFMEUUID {GeometryFilter_4_f27ec15e_8dc9_4ec7_85ba_95c7e1d8a8537} ]
 MACRO COLLECTION_HANDLING NOT_THIS_TIME
 MACRO INSTANCE_FILTERING *
 INCLUDE [    if 0 {       puts "MACRO COLLECTION_HANDLING *";       if <Unused> {          puts "MACRO INSTANCE_FILTERING NOT_THIS_TIME";       };    };    if {{$(OUTPUT_INSTANCE_FTYPE)} == "not_selected"} {       puts "MACRO INSTANCE_FILTERING NOT_THIS_TIME";    }; ]
@@ -26483,7 +26483,7 @@ MACRO OUTPUT_NULL_FTYPE GeometryFilter_5_NULL
 MACRO OUTPUT_INSTANCE_FTYPE not_selected
 Lookup GeometryFilter_5_RouterTable   ""  "not_selected"   fme_no_geom $(OUTPUT_NULL_FTYPE)
 # Create a FME_UUID_SAFE from the FME_UUID so we can use it for Tcl identifiers (FMEDESKTOP-11308)
-INCLUDE [ FME_CleanseFMEUUID {GeometryFilter_5_3ebb0805_540f_4853_90f2_414a4f4966f23} ]
+INCLUDE [ FME_CleanseFMEUUID {GeometryFilter_5_3ebb0805_540f_4853_90f2_414a4f4966f27} ]
 MACRO COLLECTION_HANDLING NOT_THIS_TIME
 MACRO INSTANCE_FILTERING *
 INCLUDE [    if 0 {       puts "MACRO COLLECTION_HANDLING *";       if <Unused> {          puts "MACRO INSTANCE_FILTERING NOT_THIS_TIME";       };    };    if {{$(OUTPUT_INSTANCE_FTYPE)} == "not_selected"} {       puts "MACRO INSTANCE_FILTERING NOT_THIS_TIME";    }; ]
@@ -26510,7 +26510,7 @@ MACRO OUTPUT_NULL_FTYPE GeometryFilter_6_NULL
 MACRO OUTPUT_INSTANCE_FTYPE not_selected
 Lookup GeometryFilter_6_RouterTable   ""  "not_selected"   fme_no_geom $(OUTPUT_NULL_FTYPE)
 # Create a FME_UUID_SAFE from the FME_UUID so we can use it for Tcl identifiers (FMEDESKTOP-11308)
-INCLUDE [ FME_CleanseFMEUUID {GeometryFilter_6_27b88f1b_b5f0_42c1_92b3_250c0e7aeb103} ]
+INCLUDE [ FME_CleanseFMEUUID {GeometryFilter_6_27b88f1b_b5f0_42c1_92b3_250c0e7aeb107} ]
 MACRO COLLECTION_HANDLING NOT_THIS_TIME
 MACRO INSTANCE_FILTERING *
 INCLUDE [    if 0 {       puts "MACRO COLLECTION_HANDLING *";       if <Unused> {          puts "MACRO INSTANCE_FILTERING NOT_THIS_TIME";       };    };    if {{$(OUTPUT_INSTANCE_FTYPE)} == "not_selected"} {       puts "MACRO INSTANCE_FILTERING NOT_THIS_TIME";    }; ]
@@ -26537,7 +26537,7 @@ MACRO OUTPUT_NULL_FTYPE GeometryFilter_7_NULL
 MACRO OUTPUT_INSTANCE_FTYPE not_selected
 Lookup GeometryFilter_7_RouterTable   ""  "not_selected"   fme_no_geom $(OUTPUT_NULL_FTYPE)
 # Create a FME_UUID_SAFE from the FME_UUID so we can use it for Tcl identifiers (FMEDESKTOP-11308)
-INCLUDE [ FME_CleanseFMEUUID {GeometryFilter_7_d15add5d_15c3_4c62_85a1_bc411dcf2db53} ]
+INCLUDE [ FME_CleanseFMEUUID {GeometryFilter_7_d15add5d_15c3_4c62_85a1_bc411dcf2db57} ]
 MACRO COLLECTION_HANDLING NOT_THIS_TIME
 MACRO INSTANCE_FILTERING *
 INCLUDE [    if 0 {       puts "MACRO COLLECTION_HANDLING *";       if <Unused> {          puts "MACRO INSTANCE_FILTERING NOT_THIS_TIME";       };    };    if {{$(OUTPUT_INSTANCE_FTYPE)} == "not_selected"} {       puts "MACRO INSTANCE_FILTERING NOT_THIS_TIME";    }; ]
@@ -26615,7 +26615,7 @@ MACRO OUTPUT_NULL_FTYPE GeometryFilter_8_NULL
 MACRO OUTPUT_INSTANCE_FTYPE not_selected
 Lookup GeometryFilter_8_RouterTable   ""  "not_selected"   fme_no_geom $(OUTPUT_NULL_FTYPE)
 # Create a FME_UUID_SAFE from the FME_UUID so we can use it for Tcl identifiers (FMEDESKTOP-11308)
-INCLUDE [ FME_CleanseFMEUUID {GeometryFilter_8_3a2cb360_b187_4625_85fd_f47881559d6d3} ]
+INCLUDE [ FME_CleanseFMEUUID {GeometryFilter_8_3a2cb360_b187_4625_85fd_f47881559d6d7} ]
 MACRO COLLECTION_HANDLING NOT_THIS_TIME
 MACRO INSTANCE_FILTERING *
 INCLUDE [    if 0 {       puts "MACRO COLLECTION_HANDLING *";       if <Unused> {          puts "MACRO INSTANCE_FILTERING NOT_THIS_TIME";       };    };    if {{$(OUTPUT_INSTANCE_FTYPE)} == "not_selected"} {       puts "MACRO INSTANCE_FILTERING NOT_THIS_TIME";    }; ]
