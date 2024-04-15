@@ -21,7 +21,7 @@ The data has been tagged and is traceable through the cleansing process, so for 
 | 208  | [CORPUS](https://publicdatafeeds.networkrail.co.uk/ntrod/SupportingFileAuthenticate?type=CORPUS)        | [OGL3](https://www.networkrail.co.uk/who-we-are/transparency-and-ethics/transparency/open-data-feeds/network-rail-infrastructure-limited-data-feeds-licence) |
 | 5996 | [woodpecker](https://github.com/anisotropi4/woodpecker)                                                 | [Apache 2.0](https://github.com/anisotropi4/woodpecker/blob/main/LICENSE)                                                                                    |
 | 4075 | [GB Railway Data Ltd](https://railmap.azurewebsites.net/Downloads)                                      | [Creative Commons 4.0](http://creativecommons.org/licenses/by-sa/4.0/)                                                                                       |
-| 1070 | [Network Rail FOI2015-01334](https://www.whatdotheyknow.com/request/geographical_information_on_tipl)   | [OGL3](https://www.networkrail.co.uk/who-we-are/transparency-and-ethics/freedom-of-information-foi/) |
+| 1070 | [Network Rail FOI2015-01334](https://www.whatdotheyknow.com/request/geographical_information_on_tipl)   | [OGL3](https://www.networkrail.co.uk/who-we-are/transparency-and-ethics/freedom-of-information-foi/)                                                         |
 | 108  | [UK2GTFS](https://itsleeds.github.io/UK2GTFS-data/)                                                     | [AGPL-3.0](https://github.com/ITSLeeds/UK2GTFS-data/blob/main/LICENSE)                                                                                       |
 
 ## Cleansing process
@@ -66,7 +66,7 @@ The outline of cleansing process is (some detail has been omitted for clarity) :
    The Railmap data contains a large number of records that are not TIPLOCs, but are level crossing and junction locations - these can be distinguished by being 9 characters long starting 'ELOC' e.g. ELOC02161
 
 7. **Network Rail FOI2015-01334**: The following TIPLOCs are removed from the dataset as a result of manual cleansing:
-   GRTN,RBRTRPG,WROXHMR,GLNG26,CBOMDS,IVRNBLC,CHAT65,HITC672,IMNGLL7,KGMRUD1,ABRGS38,DRTW68,CRGNTPS,WLBCGBR,CARLNEC,HITC941,MRGMMID,NTHOPKJ,CRST423,WLWY182,LEED928,GRNGMRR,BLTCDRJ,BLTCWER,BESTGBR,BEST931,BESTRR,BESTHST,BEST918,SWNACFC,SWNAGE,SWNAHMC,SWNAHNH,SWNAMGF,SWNANDN,TESTSCR,HRGY419,ALRSFRD,GODALBN,LEAGSDG,SWNLMD,HIGHBYE,DONC108,CLCH033,CLCH072,HOTH343,BORN421,BORN419,BORN412,BORN414,ONIBURY,HIGHBYA,WHMP236,WHMP617,REDHLS
+   `GRTN`,`RBRTRPG`,`WROXHMR`,`GLNG26`,`CBOMDS`,`IVRNBLC`,`CHAT65`,`HITC672`,`IMNGLL7`,`KGMRUD1`,`ABRGS38`,`DRTW68`,`CRGNTPS`,`WLBCGBR`,`CARLNEC`,`HITC941`,`MRGMMID`,`NTHOPKJ`,`CRST423`,`WLWY182`,`LEED928`,`GRNGMRR`,`BLTCDRJ`,`BLTCWER`,`BESTGBR`,`BEST931`,`BESTRR`,`BESTHST`,`BEST918`,`SWNACFC`,`SWNAGE`,`SWNAHMC`,`SWNAHNH`,`SWNAMGF`,`SWNANDN`,`TESTSCR`,`HRGY419`,`ALRSFRD`,`GODALBN`,`LEAGSDG`,`SWNLMD`,`HIGHBYE`,`DONC108`,`CLCH033`,`CLCH072`,`HOTH343`,`BORN421`,`BORN419`,`BORN412`,`BORN414`,`ONIBURY`,`HIGHBYA`,`WHMP236`,`WHMP617`,`REDHLS`
 
    TIPLOCs at E286200 N931659 and E260885 N667397 are removed. These represent two clusters of TIPLOCs that had multiple identical values in this dataset.
 
@@ -84,7 +84,7 @@ The outline of cleansing process is (some detail has been omitted for clarity) :
     - Easting <=1 or Northing <=1 or Easting >=999999 or Northing >= 999999
     - OR Easting = 10000
     - OR Easting = 99999 and Northing = 99999
-    - OR PIACNZA,DNKIRK,GRNLUDR
+    - OR `PIACNZA`,`DNKIRK`,`GRNLUDR`
 
     The remaining records are clipped to GB mainland (+ 1km buffer), and geography removed from records falling into the sea.
 
